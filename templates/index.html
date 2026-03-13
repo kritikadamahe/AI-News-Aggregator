@@ -24,6 +24,15 @@
             </div>
             <p class="nav-tagline">Transform Information Into Insight</p>
         </div>
+        <!-- Relationship Tools in Navbar -->
+        <div id="navbar-relationship-tools" style="display: none; gap: 10px;">
+            <button class="btn btn-secondary" onclick="showRelatedArticles(currentArticleId)" title="Find articles related to this one">
+                <span style="margin-right: 4px;">🔗</span>Related
+            </button>
+            <button class="btn btn-secondary" onclick="renderRelationshipGraph()" title="View the article relationship network">
+                <span style="margin-right: 4px;">📊</span>Graph
+            </button>
+        </div>
     </nav>
 
     <main class="main-content">
@@ -439,6 +448,23 @@ Example: Copy and paste any news article from the web, and click 'Summarize' to 
                 <span class="btn-text listen-label">Listen</span>
             </button>
         </div>
+        
+        <!-- Relationship Feature Buttons -->
+        <div style="margin-top: 24px; padding-top: 16px; border-top: 2px solid rgba(212, 175, 55, 0.2);">
+            <div style="font-size: 0.9rem; color: var(--accent-gold); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">
+                ✨ Explore Relationships
+            </div>
+            <div class="action-buttons">
+                <button class="btn btn-secondary" onclick="showRelatedArticles(currentArticleId)" style="flex: 1; min-width: 120px;" title="Find articles related to this one">
+                    <span class="btn-icon">🔗</span>
+                    <span class="btn-text">Related</span>
+                </button>
+                <button class="btn btn-secondary" onclick="renderRelationshipGraph()" style="flex: 1; min-width: 120px;" title="View the article relationship network">
+                    <span class="btn-icon">📊</span>
+                    <span class="btn-text">Graph</span>
+                </button>
+            </div>
+        </div>
         <!-- TTS Controls (expandable) -->
         <div id="tts-controls-alt" class="tts-controls" style="display: none;">
             <div class="tts-controls-inner">
@@ -556,6 +582,20 @@ Example: Copy and paste any news article from the web, and click 'Summarize' to 
     <button class="clear-chat-btn" onclick="clearChatHistory()">
         ✕ Clear Chat
     </button>
+</div>
+
+<!-- Related Articles Panel (Sidebar) -->
+<div id="related-articles-panel" class="related-articles-panel">
+    <div id="related-articles-content" class="related-articles-content"></div>
+</div>
+
+<!-- Relationship Graph Panel -->
+<div id="graph-panel" class="graph-panel">
+    <div class="graph-panel-header">
+        <h3>Article Relationship Network</h3>
+        <button class="close-btn" onclick="closeGraphPanel()">✕</button>
+    </div>
+    <div id="graph-visualization" class="graph-visualization"></div>
 </div>
 
 <!-- Loading Overlay -->

@@ -202,6 +202,78 @@ class ArticleStorage(HybridStorage):
     def get_by_category(self, category: str) -> List[Dict]:
         """Get articles by category."""
         return self.search(category=category)
+    
+    # ============================================================================
+    # ENTITY & RELATIONSHIP METHODS (for relationship mapping feature)
+    # ============================================================================
+    
+    def update_article_entities(self, article_id: int, entities: List[Dict]) -> bool:
+        """
+        Store extracted entities for article.
+        
+        Args:
+            article_id: Article ID
+            entities: List of entity dicts from EntityExtractor
+        
+        Returns:
+            True if updated successfully
+        """
+        return self.update(article_id, {'entities': entities})
+    
+    def update_article_profile(self, article_id: int, profile: Dict) -> bool:
+        """
+        Store full article profile for relationship mapping.
+        
+        Args:
+            article_id: Article ID
+            profile: Profile dict with entities, key_phrases, sentiment, etc.
+        
+        Returns:
+            True if updated successfully
+        """
+        update_data = {
+            'entities': profile.get('entities', []),
+            'key_phrases': profile.get('key_phrases', []),
+            'sentiment': profile.get('sentiment', 0.5)
+        }
+        return self.update(article_id, update_data)
+    
+    def get_articles_by_entity(self, canonical_id: str) -> List[int]:
+        """
+        Find all articles mentioning this entity.
+        
+        Args:
+            canonical_id: Canonical entity ID (e.g., 'PERSON_abc123')
+        
+        Returns:
+            List of article IDs
+        """
+        matches = []
+        for article in self.read_all():
+            entities = article.get('entities', [])
+            if any(e.get('canonical_id') == canonical_id for e in entities):
+                matches.append(article.get('id'))
+        return matches
+    
+    def build_entity_index(self) -> Dict:
+        """
+        Build reverse index: canonical_id -> [article_ids].
+        
+        Returns:
+            Dict of entity_id -> list of article IDs
+        """
+        index = {}
+        for article in self.read_all():
+            entities = article.get('entities', [])
+            if entities:
+                for entity in entities:
+                    canonical_id = entity.get('canonical_id')
+                    if canonical_id:
+                        if canonical_id not in index:
+                            index[canonical_id] = []
+                        if article.get('id') not in index[canonical_id]:
+                            index[canonical_id].append(article.get('id'))
+        return index
 
 
 class ChatHistoryStorage(HybridStorage):

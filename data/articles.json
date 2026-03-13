@@ -112,12 +112,75 @@
     "content": "The Games continue on Saturday with some interesting matchups in various sports on deck",
     "source": "CBS Sports",
     "url": "https://www.cbssports.com/olympics/news/winter-olympics-2026-live-updates-day-15-results-highlights/live/",
-    "category": null,
+    "category": "sports",
     "summary": null,
     "content_hash": "18745e74365332f0dc5425536119d6db",
     "word_count": 14,
     "id": 10,
-    "created_at": "2026-02-22T22:29:05.682286"
+    "created_at": "2026-02-22T22:29:05.682286",
+    "classification_confidence": 0.49,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:42:03.613350",
+    "analysis_results": {
+      "overall_score": 8,
+      "rating": "green",
+      "breakdown": {
+        "passive_voice": {
+          "percentage": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "unattributed_claims": {
+          "count": 0,
+          "score": 0,
+          "examples": []
+        },
+        "hedging": {
+          "density": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "emotional_language": {
+          "fear_words": 0,
+          "anger_words": 0,
+          "urgency_words": 0,
+          "superlatives": 0,
+          "score": 0
+        },
+        "loaded_language": {
+          "negative_terms": 0,
+          "positive_terms": 0,
+          "one_sided": false,
+          "examples": []
+        },
+        "sentiment": {
+          "compound": 0.402,
+          "positive": 0.078,
+          "negative": 0.0,
+          "neutral": 0.922,
+          "extreme": false,
+          "score": 33.5
+        },
+        "emotion_profile": {
+          "fear": 0.0,
+          "anger": 0.33,
+          "joy": 0.33,
+          "sadness": 0.0,
+          "surprise": 0.33,
+          "score": 33.0
+        },
+        "missing_sources": {
+          "unattributed_quotes": 0,
+          "total_quotes": 0,
+          "score": 0,
+          "examples": []
+        }
+      },
+      "specific_warnings": [
+        "No significant manipulation patterns detected"
+      ],
+      "recommendation": "Article appears reliable - standard journalistic practices observed"
+    }
   },
   {
     "title": "How to watch 2026 NASCAR Atlanta: Weekend schedule, weather, start time, TV - Motorsport.com",
@@ -160,12 +223,75 @@
     "content": "No. 16 North Carolina travels to Syracuse for a Saturday rematch after UNC's win earlier this month.",
     "source": "On3.com",
     "url": "https://www.on3.com/teams/north-carolina-tar-heels/news/unc-syracuse-preview-tar-heels-face-road-rematch-orange/",
-    "category": null,
+    "category": "science",
     "summary": null,
     "content_hash": "8a10b48f1ccaefa9a7f265a6cdf671e8",
     "word_count": 17,
     "id": 14,
-    "created_at": "2026-02-22T22:29:05.699021"
+    "created_at": "2026-02-22T22:29:05.699021",
+    "classification_confidence": 0.18,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:13:45.799195",
+    "analysis_results": {
+      "overall_score": 18,
+      "rating": "green",
+      "breakdown": {
+        "passive_voice": {
+          "percentage": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "unattributed_claims": {
+          "count": 0,
+          "score": 0,
+          "examples": []
+        },
+        "hedging": {
+          "density": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "emotional_language": {
+          "fear_words": 0,
+          "anger_words": 0,
+          "urgency_words": 0,
+          "superlatives": 0,
+          "score": 0
+        },
+        "loaded_language": {
+          "negative_terms": 0,
+          "positive_terms": 0,
+          "one_sided": false,
+          "examples": []
+        },
+        "sentiment": {
+          "compound": 0.382,
+          "positive": 0.127,
+          "negative": 0.073,
+          "neutral": 0.8,
+          "extreme": false,
+          "score": 31.8
+        },
+        "emotion_profile": {
+          "fear": 0.0,
+          "anger": 1.0,
+          "joy": 0.0,
+          "sadness": 0.0,
+          "surprise": 0.0,
+          "score": 100
+        },
+        "missing_sources": {
+          "unattributed_quotes": 0,
+          "total_quotes": 0,
+          "score": 0,
+          "examples": []
+        }
+      },
+      "specific_warnings": [
+        "Fear+anger emotion dominance (100%) - emotional manipulation pattern"
+      ],
+      "recommendation": "Article appears reliable - standard journalistic practices observed"
+    }
   },
   {
     "title": "Drive to Survive brings F1 action to our screens - not our roads: Glenn Dwight",
@@ -448,12 +574,77 @@
     "content": "Lowe's posted more than 10% sales growth in the fourth quarter at a time when housing turnover and home improvement demand are slow.",
     "source": "CNBC",
     "url": "https://www.cnbc.com/2026/02/25/lowes-low-q4-2025-earnings.html",
-    "category": null,
+    "category": "business",
     "summary": null,
     "content_hash": "c07c515d61fe735c4c3a311f2b46c459",
     "word_count": 23,
     "id": 38,
-    "created_at": "2026-02-26T22:00:22.974739"
+    "created_at": "2026-02-26T22:00:22.974739",
+    "classification_confidence": 0.53,
+    "classification_patterns": [
+      "\"housing market\""
+    ],
+    "updated_at": "2026-03-14T02:42:05.023985",
+    "analysis_results": {
+      "overall_score": 14,
+      "rating": "green",
+      "breakdown": {
+        "passive_voice": {
+          "percentage": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "unattributed_claims": {
+          "count": 0,
+          "score": 0,
+          "examples": []
+        },
+        "hedging": {
+          "density": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "emotional_language": {
+          "fear_words": 0,
+          "anger_words": 0,
+          "urgency_words": 0,
+          "superlatives": 0,
+          "score": 0
+        },
+        "loaded_language": {
+          "negative_terms": 0,
+          "positive_terms": 0,
+          "one_sided": false,
+          "examples": []
+        },
+        "sentiment": {
+          "compound": 0.748,
+          "positive": 0.19,
+          "negative": 0.036,
+          "neutral": 0.774,
+          "extreme": true,
+          "score": 74.8
+        },
+        "emotion_profile": {
+          "fear": 0.29,
+          "anger": 0.14,
+          "joy": 0.0,
+          "sadness": 0.29,
+          "surprise": 0.29,
+          "score": 43.0
+        },
+        "missing_sources": {
+          "unattributed_quotes": 0,
+          "total_quotes": 0,
+          "score": 0,
+          "examples": []
+        }
+      },
+      "specific_warnings": [
+        "Extreme positive sentiment (score: 0.75) may indicate bias"
+      ],
+      "recommendation": "Article appears reliable - standard journalistic practices observed"
+    }
   },
   {
     "title": "Stock futures inch higher ahead of key earnings results from Nvidia: Live updates - CNBC",
@@ -490,9 +681,75 @@
     "word_count": 48,
     "id": 41,
     "created_at": "2026-02-28T18:56:39.573743",
-    "classification_confidence": 0.34,
-    "classification_patterns": [],
-    "updated_at": "2026-02-28T18:56:59.539018"
+    "classification_confidence": 0.58,
+    "classification_patterns": [
+      "\"ipl 2026\"",
+      "\"home matches\""
+    ],
+    "updated_at": "2026-03-14T01:55:00.206645",
+    "analysis_results": {
+      "overall_score": 26,
+      "rating": "green",
+      "breakdown": {
+        "passive_voice": {
+          "percentage": 33.3,
+          "score": 100,
+          "examples": [
+            "The delay in the announcement of the schedule is because of the assembly elections in Assam, Tamil Nadu and West Bengal Where will RCB's home matches in IPL 2026 be played?"
+          ]
+        },
+        "unattributed_claims": {
+          "count": 0,
+          "score": 0,
+          "examples": []
+        },
+        "hedging": {
+          "density": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "emotional_language": {
+          "fear_words": 0,
+          "anger_words": 0,
+          "urgency_words": 0,
+          "superlatives": 0,
+          "score": 0
+        },
+        "loaded_language": {
+          "negative_terms": 0,
+          "positive_terms": 0,
+          "one_sided": false,
+          "examples": []
+        },
+        "sentiment": {
+          "compound": 0.026,
+          "positive": 0.038,
+          "negative": 0.037,
+          "neutral": 0.925,
+          "extreme": false,
+          "score": 2.2
+        },
+        "emotion_profile": {
+          "fear": 0.75,
+          "anger": 0.0,
+          "joy": 0.0,
+          "sadness": 0.25,
+          "surprise": 0.0,
+          "score": 75.0
+        },
+        "missing_sources": {
+          "unattributed_quotes": 0,
+          "total_quotes": 0,
+          "score": 0,
+          "examples": []
+        }
+      },
+      "specific_warnings": [
+        "High passive voice (33%) hides who performed actions",
+        "Fear+anger emotion dominance (75%) - emotional manipulation pattern"
+      ],
+      "recommendation": "Article appears reliable - standard journalistic practices observed"
+    }
   },
   {
     "title": "Lando Norris\u2019 road to F1 2026: In pictures",
@@ -780,10 +1037,70 @@
     "created_at": "2026-02-28T20:11:48.641645",
     "classification_confidence": 0.51,
     "classification_patterns": [
-      "\"t20 world\"",
-      "\"world cup\""
+      "\"world cup\"",
+      "\"t20 world\""
     ],
-    "updated_at": "2026-02-28T20:11:48.795710"
+    "updated_at": "2026-03-14T02:13:54.265222",
+    "analysis_results": {
+      "overall_score": 16,
+      "rating": "green",
+      "breakdown": {
+        "passive_voice": {
+          "percentage": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "unattributed_claims": {
+          "count": 0,
+          "score": 0,
+          "examples": []
+        },
+        "hedging": {
+          "density": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "emotional_language": {
+          "fear_words": 0,
+          "anger_words": 0,
+          "urgency_words": 0,
+          "superlatives": 0,
+          "score": 0
+        },
+        "loaded_language": {
+          "negative_terms": 0,
+          "positive_terms": 0,
+          "one_sided": false,
+          "examples": []
+        },
+        "sentiment": {
+          "compound": 0.859,
+          "positive": 0.26,
+          "negative": 0.0,
+          "neutral": 0.74,
+          "extreme": true,
+          "score": 85.9
+        },
+        "emotion_profile": {
+          "fear": 0.5,
+          "anger": 0.0,
+          "joy": 0.0,
+          "sadness": 0.0,
+          "surprise": 0.5,
+          "score": 50.0
+        },
+        "missing_sources": {
+          "unattributed_quotes": 0,
+          "total_quotes": 0,
+          "score": 0,
+          "examples": []
+        }
+      },
+      "specific_warnings": [
+        "Extreme positive sentiment (score: 0.86) may indicate bias"
+      ],
+      "recommendation": "Article appears reliable - standard journalistic practices observed"
+    }
   },
   {
     "title": "ENG vs NZ Live Score, T20 World Cup 2026: Super 8 match live updates from Colombo",
@@ -1202,7 +1519,7 @@
     "classification_patterns": [
       "\"grand prix\""
     ],
-    "updated_at": "2026-03-14T00:10:38.707008"
+    "updated_at": "2026-03-14T02:36:43.237649"
   },
   {
     "title": "Reigning Formula 1 Champ Lando Norris Makes Hypocritical Claim About New Regulations",
@@ -1420,12 +1737,73 @@
     "summary": null,
     "content_hash": "4d48b9ca485e37c0df91bf959c1b4c32",
     "word_count": 24,
-    "analysis_results": null,
+    "analysis_results": {
+      "overall_score": 9,
+      "rating": "green",
+      "breakdown": {
+        "passive_voice": {
+          "percentage": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "unattributed_claims": {
+          "count": 0,
+          "score": 0,
+          "examples": []
+        },
+        "hedging": {
+          "density": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "emotional_language": {
+          "fear_words": 0,
+          "anger_words": 0,
+          "urgency_words": 0,
+          "superlatives": 0,
+          "score": 0
+        },
+        "loaded_language": {
+          "negative_terms": 1,
+          "positive_terms": 0,
+          "one_sided": false,
+          "examples": [
+            "\"puppet\" (instead of \"ally\") x1"
+          ]
+        },
+        "sentiment": {
+          "compound": -0.178,
+          "positive": 0.1,
+          "negative": 0.148,
+          "neutral": 0.752,
+          "extreme": false,
+          "score": 14.8
+        },
+        "emotion_profile": {
+          "fear": 0.5,
+          "anger": 0.0,
+          "joy": 0.0,
+          "sadness": 0.5,
+          "surprise": 0.0,
+          "score": 50.0
+        },
+        "missing_sources": {
+          "unattributed_quotes": 0,
+          "total_quotes": 0,
+          "score": 0,
+          "examples": []
+        }
+      },
+      "specific_warnings": [
+        "No significant manipulation patterns detected"
+      ],
+      "recommendation": "Article appears reliable - standard journalistic practices observed"
+    },
     "id": 78,
     "created_at": "2026-03-14T00:56:53.105409",
     "classification_confidence": 0.24,
     "classification_patterns": [],
-    "updated_at": "2026-03-14T00:56:53.533630",
+    "updated_at": "2026-03-14T02:13:53.694579",
     "fetched_via": "api"
   },
   {
@@ -1999,5 +2377,1096 @@
     "classification_confidence": 0.13,
     "classification_patterns": [],
     "updated_at": "2026-03-14T00:59:32.139514"
+  },
+  {
+    "title": "PIB Jammu organises Media Workshop on AI Impact Summit 2026; Conducts training session on Use of AI for Journalists",
+    "content": "STATE TIMES NEWS JAMMU: The Press Information Bureau (PIB), Jammu organised a media workshop \u2018varta\u2019 on the theme \u201cAI Impact Summit 2026\u201d at Press Club here on Thursday. The programme was aimed at building awareness and capacity among journalists on the growi\u2026",
+    "source": "Statetimes.in",
+    "url": "https://statetimes.in/pib-jammu-organises-media-workshop-on-ai-impact-summit-2026-conducts-training-session-on-use-of-ai-for-journalists/",
+    "category": "politics",
+    "summary": null,
+    "content_hash": "553b01d4b89807a941f1d9cc04df9bc8",
+    "word_count": 42,
+    "analysis_results": null,
+    "id": 112,
+    "created_at": "2026-03-14T01:16:54.618478",
+    "classification_confidence": 0.21,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T01:16:55.094624",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Angelic Intelligence: Why Virtue-Native AI Makes Guardrails Obsolete",
+    "content": "As artificial intelligence reshapes global industry, a Davos-recognized entrepreneur is advancing a provocative thesis: that ethics cannot be added to AI after the fact \u2014 it must be built in from the first line of code. As artificial intelligence reshapes glo\u2026",
+    "source": "GlobeNewswire",
+    "url": "https://www.globenewswire.com/news-release/2026/03/12/3255032/0/en/Angelic-Intelligence-Why-Virtue-Native-AI-Makes-Guardrails-Obsolete.html",
+    "category": "technology",
+    "summary": null,
+    "content_hash": "2011eba96b2aa709125f19007b0a674a",
+    "word_count": 41,
+    "analysis_results": null,
+    "id": 113,
+    "created_at": "2026-03-14T01:16:55.123479",
+    "classification_confidence": 0.73,
+    "classification_patterns": [
+      "\"artificial intelligence\""
+    ],
+    "updated_at": "2026-03-14T02:36:42.954782",
+    "fetched_via": "api"
+  },
+  {
+    "title": "How many MoUs actually turn into factories and jobs?",
+    "content": "India is becoming a magnet for investment, with global corporations pledging billions. Yet, a significant number of these commitments often remain unfulfilled, rarely materialising into tangible financial backing. This disconnect between lofty announcements a\u2026",
+    "source": "The Times of India",
+    "url": "https://economictimes.indiatimes.com/opinion/et-commentary/how-many-mous-actually-turn-into-factories-and-jobs/articleshow/129519607.cms",
+    "category": "business",
+    "summary": null,
+    "content_hash": "db841322a08535423428bd26d5f91ec2",
+    "word_count": 34,
+    "analysis_results": null,
+    "id": 114,
+    "created_at": "2026-03-14T01:16:55.335773",
+    "classification_confidence": 0.53,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T01:16:55.508085",
+    "fetched_via": "api"
+  },
+  {
+    "title": "OpenAI Partners with Building Trades Unions to Support AI Infrastructure Expansion",
+    "content": "Sam Altman's OpenAI announced a partnership with North America's Building Trades Unions (NABTU) on Wednesday as the AI company accelerates its data center construction efforts across the United States.\nThe post OpenAI Partners with Building Trades Unions to S\u2026",
+    "source": "Breitbart News",
+    "url": "https://www.breitbart.com/tech/2026/03/12/openai-partners-with-building-trades-unions-to-support-ai-infrastructure-expansion/",
+    "category": "technology",
+    "summary": null,
+    "content_hash": "83a456985590b5dd2475451c22204ca2",
+    "word_count": 39,
+    "analysis_results": null,
+    "id": 115,
+    "created_at": "2026-03-14T01:16:55.559629",
+    "classification_confidence": 0.43,
+    "classification_patterns": [
+      "openai support ai",
+      "openai announce partnership",
+      "openai announce"
+    ],
+    "updated_at": "2026-03-14T01:16:55.698508",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Slog AM: Senate Gives Its Final OK to Millionaires\u2019 Tax, High Winds in Washington, A Kristi Noem Ad Campaign Cost More Than \u2018Marty Supreme\u2019",
+    "content": "The Stranger's morning news roundup.\n \n by Micah Yip\n \n \n \n Millionaires\u2019 Tax $$$: After that 24-hour debate in the House this week, the Washington Senate gave the millionaires\u2019 tax its final stamp of approval and sent it to Gov. Bob Ferguson for signature. H\u2026",
+    "source": "TheStranger.com",
+    "url": "https://www.thestranger.com/slog-am/2026/03/12/80517552/slog-am-senate-gives-its-final-ok-to-millionaires-tax-high-winds-in-washington-a-kristi-noem-ad-campaign-cost-more-than-marty-supreme",
+    "category": "politics",
+    "summary": null,
+    "content_hash": "951ebe71cfcb15bed0b5ca1bf39060e3",
+    "word_count": 42,
+    "analysis_results": null,
+    "id": 116,
+    "created_at": "2026-03-14T01:16:55.724073",
+    "classification_confidence": 0.3,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T01:16:55.869850",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Forget basketball. Next week\u2019s Nvidia GTC is the real March Madness for AI",
+    "content": "As Jensen Huang prepares to take the stage, Nvidia is signaling its ambitions across the entire AI stack\u2014from chips and infrastructure to models and autonomous vehicles.",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/03/12/nvidia-gtc-preview-the-real-march-madness-jensen-huang/",
+    "category": "technology",
+    "summary": null,
+    "content_hash": "bc5b75f7958e07264388e3daf63950ee",
+    "word_count": 26,
+    "analysis_results": null,
+    "id": 117,
+    "created_at": "2026-03-14T01:16:55.901493",
+    "classification_confidence": 0.44,
+    "classification_patterns": [
+      "nvidia signal chip"
+    ],
+    "updated_at": "2026-03-14T01:16:56.018436",
+    "fetched_via": "api"
+  },
+  {
+    "title": "How to Electrify the Global South",
+    "content": "Rather than rely on incremental efforts or one-size-fits-all models, countries hoping to achieve rapid progress on electrification must integrate distributed and centralized systems, make the most of AI-enabled tools, and send credible signals that attract pr\u2026",
+    "source": "Project Syndicate",
+    "url": "https://www.project-syndicate.org/commentary/lessons-for-expanding-energy-access-in-emerging-economies-by-abba-aliyu-et-al-2026-03",
+    "category": "technology",
+    "summary": null,
+    "content_hash": "2ad0ebe4627cb34d0566254c32ba86be",
+    "word_count": 36,
+    "analysis_results": null,
+    "id": 118,
+    "created_at": "2026-03-14T01:16:56.052970",
+    "classification_confidence": 0.67,
+    "classification_patterns": [
+      "country integrate system"
+    ],
+    "updated_at": "2026-03-14T01:16:56.158268",
+    "fetched_via": "api"
+  },
+  {
+    "title": "IPO-bound Razorpay turns to AI to help businesses scale faster",
+    "content": "Agentic AI systems have been the darling of investors through 2025 for multiple reasons. The promise behind the technology is that it can adapt and learn on its own to the point that businesses can run several agents that talk to each other for processes that\u2026",
+    "source": "Livemint",
+    "url": "https://www.livemint.com/companies/razorpay-ai-agentic-commerce-payments-smes-11773319226022.html",
+    "category": "business",
+    "summary": null,
+    "content_hash": "f1efea472cbbade770437117f0e1d216",
+    "word_count": 46,
+    "analysis_results": null,
+    "id": 119,
+    "created_at": "2026-03-14T01:16:56.178974",
+    "classification_confidence": 0.31,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T01:16:56.312882",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Sam Altman admits AI is killing the labor-capital balance\u2014and says nobody knows what to do about it",
+    "content": "The OpenAI CEO tackled AI\u2019s growing PR crisis and said there's truth to the layoff fears. A \"painful adjustment\" for the labor market lies ahead.",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/03/12/sam-altman-ai-labor-capital-jobs-nobody-knows/",
+    "category": "technology",
+    "summary": null,
+    "content_hash": "3163abd6168868f769dbeae1aca70a3f",
+    "word_count": 25,
+    "analysis_results": null,
+    "id": 120,
+    "created_at": "2026-03-14T01:16:56.342210",
+    "classification_confidence": 0.38,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T01:16:56.473421"
+  },
+  {
+    "title": "India-Bound LPG Tanker Crosses Strait Of Hormuz Amid Iran Blockade: Sources",
+    "content": "An LPG tanker sailing to India has crossed the Strait of Hormuz amid the US-Iran war in the Middle East, sources said. The vessel passed the strait this afternoon without any incident. Another tanker will also sail for India soon, they said. The confirmation coincided with a comment by Iran's Ambassador to India, Mohammad Fathali, today that Tehran will provide safe passage to vessels bound for India through the Strait of Hormuz, citing longstanding friendship and shared interests between the two countries. \"Yes. Because India and Iran are friends. You can see in the future and I think that after two or three hours. Because we believe that. We believe that Iran and India are friends. We have common interests; we have a common fate,\" Fathali said to a question on the tanker movement. \"Suffering of the people of India is our suffering and vice versa. And for this reason, the government of India helps us, and we should help the government of India because we have a common fate and common interest,\" he said. India buys 50 per cent of its natural gas needs from the international market. Of this, it imports 20 per cent from Qatar. After Iran's missile attacks on Qatar's gas fields, the world's largest natural gas exporting company, QatarEnergy, stopped production. This has affected supply of natural gas to Asian regions. To deal with this growing challenge, India has guidelines for regulating the supply and use of natural gas in different sectors across the country. According to the new guidelines issued by the Ministry of Petroleum, the central government divided key sectors into four priority areas. Ever since the US-Iran war began over two weeks ago, large oil tankers have remained stranded as Iran announced it would enforce a blockade of the strait. Its narrowness, at around 50 km, and shallow waters, at no more than 60 metres deep, make it vulnerable to being sealed off militarily. The Centre yesterday shared a stable picture of India's energy situation. More than 70 per cent of India's crude imports are now moving through routes outside the Strait of Hormuz. The crude situation is \"normal,\" a top official said. At an inter-ministerial briefing, Sujata Sharma, Joint Secretary (Marketing and Oil Refinery) at the Ministry of Petroleum and Natural Gas, offered what the government is calling a stable picture. India is the world's fourth-largest refiner, Sharma said, and cited that fact as the government's primary cushion. \"This is giving us comfort in making products available,\" she said. LPG production has been ramped up by 28 per cent. LPG cylinder bookings had spiked due to panic-buying, officials said. They said there is no LPG crisis and asked the public not to panic-buy. The war in the Middle East escalated following the killing of 86 Iran's Supreme Leader, Ayatollah Ali Khamenei, in joint military strikes by the US and Israel, after which Iran, in its retaliation, targeted Israeli and US assets in several Gulf countries and Israel, causing disruption in the waterway and affecting international energy markets and global economic stability. TrackLatest NewsLive on NDTV.com and getnewsupdates fromIndiaand around theworld",
+    "source": "www.ndtv.com",
+    "url": "https://www.ndtv.com/india-news/iran-war-latest-news-india-bound-lpg-tanker-crosses-strait-of-hormuz-amid-iran-blockade-sources-11212283",
+    "category": "politics",
+    "summary": null,
+    "content_hash": "7c191c534a30dbd8dfd83e163e17dfba",
+    "word_count": 519,
+    "analysis_results": {
+      "overall_score": 16,
+      "rating": "green",
+      "breakdown": {
+        "passive_voice": {
+          "percentage": 6.1,
+          "score": 20.2,
+          "examples": [
+            "Ever since the US-Iran war began over two weeks ago, large oil tankers have remained stranded as Iran announced it would enforce a blockade of the strait.",
+            "LPG production has been ramped up by 28 per cent."
+          ]
+        },
+        "unattributed_claims": {
+          "count": 0,
+          "score": 0,
+          "examples": []
+        },
+        "hedging": {
+          "density": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "emotional_language": {
+          "fear_words": 3,
+          "anger_words": 0,
+          "urgency_words": 0,
+          "superlatives": 2,
+          "score": 0
+        },
+        "loaded_language": {
+          "negative_terms": 0,
+          "positive_terms": 0,
+          "one_sided": false,
+          "examples": []
+        },
+        "sentiment": {
+          "compound": 0.071,
+          "positive": 0.105,
+          "negative": 0.091,
+          "neutral": 0.804,
+          "extreme": false,
+          "score": 5.9
+        },
+        "emotion_profile": {
+          "fear": 0.52,
+          "anger": 0.05,
+          "joy": 0.09,
+          "sadness": 0.23,
+          "surprise": 0.11,
+          "score": 57.0
+        },
+        "missing_sources": {
+          "unattributed_quotes": 1,
+          "total_quotes": 4,
+          "score": 25.0,
+          "examples": [
+            "Unattributed quote: \"This is giving us comfort in making products available,\""
+          ]
+        }
+      },
+      "specific_warnings": [
+        "Fear+anger emotion dominance (57%) - emotional manipulation pattern",
+        "1 quote(s) without identified speakers"
+      ],
+      "recommendation": "Article appears reliable - standard journalistic practices observed"
+    },
+    "id": 121,
+    "created_at": "2026-03-14T01:47:13.759464",
+    "classification_confidence": 0.39,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T01:48:18.061098"
+  },
+  {
+    "title": "Untitled Article",
+    "content": "Advertisement\r\nimg\r\nLive TV \r\n\r\nLatestIndia \r\nIndia\r\nAll India News\r\nIndia Global\r\nDiaspora\r\nSouth\r\nLatest\r\nimg\r\n\"Missiles, Drones Flying Over Us\": LPG-Laden Indian Tanker Stuck Near Hormuz\r\nimg\r\nGangster Groom Arrested From Mandap, Bride Begs Cops To Let Wedding Be Over\r\nimg\r\nGlobal Supply Chain Disruptions Highlight Need For Resilient Infrastructure: Karan Adani\r\nimg\r\nWhile Bhopal Waits In Line, The LPG Black Market Cashes In\r\nimg\r\nThe Process To Impeach Poll Body Chief And How Opposition Is Prepared\r\nWorldVideosOpinionCities \r\nMetros\r\nBengaluru\r\nChennai\r\nDelhi\r\nMumbai\r\nOther Cities\r\nAhmedabad\r\nAllahabad\r\nAmritsar\r\nBhopal\r\nBhubaneshwar\r\nChandigarh\r\nGhaziabad\r\nGoa\r\nGurgaon\r\nGuwahati\r\nHyderabad\r\nJaipur\r\nKanpur\r\nKolkata\r\nLucknow\r\nNoida\r\nPatna\r\nPune\r\nSrinagar\r\nThiruvananthapuram\r\nBeepsEducation \r\nEducation\r\nExams\r\nSchool\r\nCampus\r\nStudy Abroad\r\nWeb Stories\r\nLatest\r\nimg\r\nSchool Assembly News (March 14): Top National, World And Sports Headlines\r\nimg\r\nAwaiting CBSE Class 10 Result 2026? Know When To Expect It, How To Check\r\nimg\r\nCBSE Class 12 Economics Board Exam 2026: Check Tips From Educators\r\nimg\r\nJEE Main 2026 Session 2: Registration Window Closes Tonight, Check Details\r\nimg\r\nBSEB Class 12 Result 2026: Check Release Date, List Of Official Websites\r\nCricket\r\nWeather\r\nLive blogs\r\nYoutube\r\nPodcast\r\nAuto\r\nLifestyle\r\nEntertainment\r\nOffbeat\r\nWeb Stories\r\nScience\r\nTrends\r\nPhotos\r\nFeature\r\nPeople\r\nTV Schedule\r\nOur Network\r\nNDTV\r\n\u0939\u093f\u0928\u094d\u0926\u0940\r\nDavos\r\nWorld\r\nProfit\r\nSports\r\nGood Times\r\nMovies\r\nFood\r\nEducation\r\nLifestyle\r\nHealth\r\nTech\r\nGames\r\nShopping\r\nRajasthan\r\nMPCG\r\nMarathi\r\nGet App for Better Experience\r\nGet it on\r\nGoogle Play\r\nDownload on the\r\nApp Store\r\nFollow us on\r\nIndia-Bound LPG Tanker Crosses Strait Of Hormuz Amid Iran Blockade: Sources\r\nSettingsChange Font SizeAAFocus on Story\r\n\r\nEdition\r\nINDIA\r\nINDIA\r\nWorld\r\nWorld\r\nSearch for News, Photos and Videos\r\nSearch herechoose your destinationHindiMarathiMPCGRajasthanNews Updates\r\nLive TV\r\nIndia\r\n\r\nBeeps\r\nLatest\r\nVideo\r\nPodcast\r\nLifestyle\r\nNews Updates\r\nElections\r\nProfit\r\nMovies\r\nCricket\r\nCities\r\nGood Times\r\nFeatured\r\nNotifications\r\nOpinion\r\nWeb Stories\r\nTrends\r\nFeature\r\nOffbeat\r\nScience\r\nPeople\r\nSouth\r\nEducation\r\nTech\r\nFood\r\nSports\r\nHealth\r\nPhotos\r\nTV Schedule\r\nToolbox\r\nFollow Us On\r\nFacebook\r\nTwitter\r\nInstagram\r\nLinkedIn\r\nYouTube\r\nTrending Links \r\nIran-Israel War\r\nNDTV Creators' Manch\r\nIPL Schedule 2026\r\nNews\r\nIndia News\r\nIndia-Bound LPG Tanker Crosses Strait Of Hormuz Amid Iran Blockade: Sources\r\nIndia-Bound LPG Tanker Crosses Strait Of Hormuz Amid Iran Blockade: SourcesThe confirmation coincided with a comment by Iran's Ambassador to India, Mohammad Fathali, today that Tehran will provide safe passage to vessels bound for India through the Strait of Hormuz\r\nEdited by:\r\nDebanish Achom\r\nIndia News\r\nMar 13, 2026 22:17 pm IST\r\nPublished On\r\nMar 13, 2026 21:48 pm IST\r\nLast Updated On\r\nMar 13, 2026 22:17 pm IST\r\nRead Time:\r\n3 mins\r\n\r\nShare\r\nTwitterWhatsAppFacebookRedditEmail\r\n\r\nThe Strait of Hormuz is a critical shipping lane\r\n\r\nShow\r\nQuick ReadSummary is AI-generated, newsroom-reviewed\r\nDid our AI summary help?\r\nLet us know.\r\nSwitch To Beeps Mode\r\nNew Delhi:\r\nAn LPG tanker sailing to India has crossed the Strait of Hormuz amid the US-Iran war in the Middle East, sources said. The vessel passed the strait this afternoon without any incident.\r\n\r\nAnother tanker will also sail for India soon, they said.\r\n\r\nThe confirmation coincided with a comment by Iran's Ambassador to India, Mohammad Fathali, today that Tehran will provide safe passage to vessels bound for India through the Strait of Hormuz, citing longstanding friendship and shared interests between the two countries.\r\n\r\n\"Yes. Because India and Iran are friends. You can see in the future and I think that after two or three hours. Because we believe that. We believe that Iran and India are friends. We have common interests; we have a common fate,\" Fathali said to a question on the tanker movement.\r\n\r\n\"Suffering of the people of India is our suffering and vice versa. And for this reason, the government of India helps us, and we should help the government of India because we have a common fate and common interest,\" he said.\r\n\r\nLatest and Breaking News on NDTV\r\nIndia buys 50 per cent of its natural gas needs from the international market. Of this, it imports 20 per cent from Qatar. After Iran's missile attacks on Qatar's gas fields, the world's largest natural gas exporting company, QatarEnergy, stopped production. This has affected supply of natural gas to Asian regions.\r\n\r\nTo deal with this growing challenge, India has guidelines for regulating the supply and use of natural gas in different sectors across the country. According to the new guidelines issued by the Ministry of Petroleum, the central government divided key sectors into four priority areas.\r\n\r\nEver since the US-Iran war began over two weeks ago, large oil tankers have remained stranded as Iran announced it would enforce a blockade of the strait. Its narrowness, at around 50 km, and shallow waters, at no more than 60 metres deep, make it vulnerable to being sealed off militarily.\r\n\r\nLatest and Breaking News on NDTV\r\nThe Centre yesterday shared a stable picture of India's energy situation. More than 70 per cent of India's crude imports are now moving through routes outside the Strait of Hormuz. The crude situation is \"normal,\" a top official said.\r\n\r\nAt an inter-ministerial briefing, Sujata Sharma, Joint Secretary (Marketing and Oil Refinery) at the Ministry of Petroleum and Natural Gas, offered what the government is calling a stable picture.\r\n\r\nIndia is the world's fourth-largest refiner, Sharma said, and cited that fact as the government's primary cushion. \"This is giving us comfort in making products available,\" she said.\r\n\r\nLPG production has been ramped up by 28 per cent. LPG cylinder bookings had spiked due to panic-buying, officials said. They said there is no LPG crisis and asked the public not to panic-buy.\r\n\r\nThe war in the Middle East escalated following the killing of 86 Iran's Supreme Leader, Ayatollah Ali Khamenei, in joint military strikes by the US and Israel, after which Iran, in its retaliation, targeted Israeli and US assets in several Gulf countries and Israel, causing disruption in the waterway and affecting international energy markets and global economic stability.\r\n\r\n\r\nRelated News\"Missiles, Drones Flying Over Us\": LPG-Laden Indian Tanker Stuck Near HormuzGlobal Supply Chain Disruptions Highlight Need For Resilient Infrastructure: Karan AdaniHow Import Dependency Is Testing India's Energy ResilienceTrending NewsThe Saudi Money Pakistan Was Celebrating Is Quickly Becoming A War BurdenBeijing Preparing For Conflict? Thousands Of Boats Mass In East China SeaIran Unveils Vast 'Kamikaze Fleet' In Underground 'Missile City'BCCI's 1st Reaction To SRH-Owned Team Buying Pakistan Star Abrar AhmedDubai Introduces Tougher Oversight Law Amid Rising Middle East Tensions\r\nICC Chairman Jay Shah's Unnoticed Act With New Zealand Players After T20 World Cup Final Loss Earns Praise\r\nDiscover\r\n\"Pakistan Players Were Shivering\": Shahid Afridi Shares Unheard 2011 World Cup Story\r\nDiscover\r\nCar Novels\r\nNever Put Eggs In The Refrigerator. Here's Why...\r\nRead More\r\nSkip\r\nWatch: Anand Deverakonda's \"Chaotic\" Dance Video With Vijay And Rashmika Goes Viral\r\nDiscover\r\nVijay Finally Breaks Silence Amid Cheating Allegations And Divorce Row: \"Not Worth Bothering About\"\r\nDiscover\r\nAdvertisement\r\nAdvertisement\r\nWhat \u201cAmazon-like\u201d means in B2B\u2014and how KSB applies it\r\nksb.com\r\n|\r\nSponsored\r\n  by Taboola\r\nDon't Miss\r\nIconic Tower by Lodha Group | 25:75 Payment\r\nLodha Group\r\n|\r\nSponsored Links\r\nIndians over 65 are switching from hearing aids to this new device.\r\nHearing Aids\r\n|\r\nSponsored Links\r\nLearn The Most Successful Intraday Strategy in Just 2 Hr.\r\nTradeWise\r\n|\r\nSponsored Links\r\nMountain Gear for Extreme Conditions\r\nTrek Kit India\r\n|\r\nSponsored Links\r\nVidyaMandir: Turn \u20b93 Cr Into \u20b950L Monthly Returns\r\nVidyamandir\r\n|\r\nSponsored Links\r\nIf A Cat Bites Their Owner Heres What It Really Means\r\nGloriousa\r\n|\r\nSponsored Links\r\nAll-new Kia Seltos: Everything\u2019s new. Same bold attitude. Starting at \u20b910.99L.\r\nKia India\r\n|\r\nSponsored Links\r\nbecome a  millionaire \r\nwealthci\r\n|\r\nSponsored Links\r\nPrivate Chat About Rashmika Mandanna's Breakup Leaked Days After Wedding, Actress Threatens Legal Action\r\nNDTV\r\nAlways Put a Plastic Bottle on Your Tires when Parked, Here's Why\r\nCleverst\r\n|\r\nSponsored Links\r\nVideo | Kumbh Mela Fame Monalisa Bhosle Defends Interfaith Marriage With Actor Farman Khan\r\nNDTV\r\nRemember Him Wait Till You See Him Now\r\nDaily Sport X\r\n|\r\nSponsored Links\r\nAgra Woman Kills Self, Blames Cop: \"4 Years Live-In, Now He's Marrying Another\"\r\nNDTV\r\nLife cover for self-employed\r\nICICI Pru IPS Super\r\n|\r\nSponsored Links\r\nAdvertisement\r\nQuick Links\r\nLatest News\r\nPNR Status\r\nEducation News\r\nBusiness News\r\nSports News\r\nIran-Israel War LIVE Updates\r\nUS Jet Crash\r\nDelhi Fire Incident\r\nAdvertisement\r\nNDTV NewsFollow us on\r\nAbout Us\r\nAdvertise\r\nEPG Services\r\nChannels\r\nDisclaimer\r\nFeedback\r\nInvestors\r\nRedressals\r\nPrivacy Policy\r\nTerms & Conditions\r\nPartner Content\r\nArchives\r\nNDTV Group Sites\r\nNews\r\nHindi\r\nBusiness\r\nMovies\r\nCricket\r\nFood\r\nTech\r\nEducation\r\nHealth\r\nLifestyle\r\nMPCG\r\nRajasthan\r\nMarathi\r\nThis website follows the DNPA Code of Ethics\r\n\u00a9 Copyright NDTV Convergence Limited 2026. All rights reserved.\r\nNDTV News\r\nEdition\r\nINDIA\r\nINDIA\r\nWorld\r\nWorld\r\nSearch for News, Photos and Videoschoose your destinationHindiMarathiMPCGRajasthanNews Updates\r\nLive TV\r\nIndia\r\nSpotlight\r\nBeeps\r\nLatest\r\nVideo\r\nPodcast\r\nLifestyle\r\nElections\r\nProfit\r\nMovies\r\nCricket\r\nCities\r\nFeatured\r\nGood Times\r\nNotifications\r\nOpinion\r\nWeb Stories\r\nTrends\r\nFeature\r\nMore Links\r\nOffbeat\r\nScience\r\nPeople\r\nSouth\r\nEducation\r\nTech\r\nFood\r\nSports\r\nHealth\r\nPhotos\r\nTV Schedule\r\nToolbox\r\nFollow Us On\r\nFacebook\r\nTwitter\r\nInstagram\r\nLinkedin\r\nYoutube\r\nWhatsapp\r\nThreads\r\nSnapchat\r\nListen to the latest songs, only on JioSaavn.com\r\nadvertisementadvertisementadvertisement",
+    "source": "Pasted Text",
+    "url": null,
+    "category": "politics",
+    "summary": "Topic:\nIndia-Bound LPG Tanker Crosses Strait of Hormuz Amid Iran Blockade: Sources\n\nKey Points:\n1. An LPG tanker sailing to India has crossed the Strait of Hormuz amid the US-Iran war in the Middle East, sources said.\n2. The vessel passed the strait this afternoon without any incident.\n3. Another tanker will also sail for India soon, according to sources.\n4. Iran's Ambassador to India, Mohammad Fathali, confirmed that Tehran will provide safe passage to vessels bound for India through the Strait of Hormuz.\n5. The confirmation coincided with a comment by Fathali that Iran and India have a longstanding friendship and shared interests.\n\nConclusion:\nThe crossing of the LPG tanker through the Strait of Hormuz amid the ongoing US-Iran war is a significant development. The confirmation of safe passage by Iran's Ambassador to India suggests that India's energy needs will be met despite the ongoing tensions in the region. However, the situation remains volatile, and any further escalation could impact global energy markets and economic stability.",
+    "content_hash": "acb89a30cb09a0378b3c9b7c640b764f",
+    "word_count": 1477,
+    "analysis_results": {
+      "overall_score": 28,
+      "rating": "green",
+      "breakdown": {
+        "passive_voice": {
+          "percentage": 3.4,
+          "score": 11.5,
+          "examples": [
+            "Ever since the US-Iran war began over two weeks ago, large oil tankers have remained stranded as Iran announced it would enforce a blockade of the strait.",
+            "LPG production has been ramped up by 28 per cent."
+          ]
+        },
+        "unattributed_claims": {
+          "count": 0,
+          "score": 0,
+          "examples": []
+        },
+        "hedging": {
+          "density": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "emotional_language": {
+          "fear_words": 4,
+          "anger_words": 0,
+          "urgency_words": 3,
+          "superlatives": 6,
+          "score": 34
+        },
+        "loaded_language": {
+          "negative_terms": 0,
+          "positive_terms": 0,
+          "one_sided": false,
+          "examples": []
+        },
+        "sentiment": {
+          "compound": 0.983,
+          "positive": 0.088,
+          "negative": 0.042,
+          "neutral": 0.869,
+          "extreme": true,
+          "score": 98.3
+        },
+        "emotion_profile": {
+          "fear": 0.48,
+          "anger": 0.08,
+          "joy": 0.14,
+          "sadness": 0.12,
+          "surprise": 0.18,
+          "score": 56.0
+        },
+        "missing_sources": {
+          "unattributed_quotes": 2,
+          "total_quotes": 11,
+          "score": 18.2,
+          "examples": [
+            "Unattributed quote: \"This is giving us comfort in making products available,\"",
+            "Unattributed quote: \"Not Worth Bothering About\""
+          ]
+        }
+      },
+      "specific_warnings": [
+        "Excessive superlatives (6 found) - exaggeration pattern",
+        "Extreme positive sentiment (score: 0.98) may indicate bias",
+        "Fear+anger emotion dominance (56%) - emotional manipulation pattern",
+        "2 quote(s) without identified speakers"
+      ],
+      "recommendation": "Article appears reliable - standard journalistic practices observed"
+    },
+    "id": 122,
+    "created_at": "2026-03-14T01:56:30.114074",
+    "classification_confidence": 0.26,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:26:24.368887"
+  },
+  {
+    "title": "Sources: Hollywood writer working on \u2018Days of Thunder\u2019 sequel",
+    "content": "A Hollywood film writer has been meeting with some NASCAR teams and drivers to help develop a plot for a \u201cDays of Thunder\u201d sequel, according to people familiar with the matter.",
+    "source": "Sportsbusinessjournal.com",
+    "url": "https://www.sportsbusinessjournal.com/Articles/2026/03/12/sources-hollywood-writer-dispatched-to-nascar-races-to-help-form-days-of-thunder-sequel/",
+    "category": "entertainment",
+    "summary": null,
+    "content_hash": "6982475509ef1f47ce4827128906677f",
+    "word_count": 31,
+    "analysis_results": null,
+    "id": 123,
+    "created_at": "2026-03-14T02:10:54.249874",
+    "classification_confidence": 0.49,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:10:55.459085"
+  },
+  {
+    "title": "20 years ago: Nico Rosberg scores points from 21st on F1 debut",
+    "content": "It has been two decades since world champion Nico Rosberg began his Formula 1 career with Williams in convincing fashion",
+    "source": "Motorsport.com",
+    "url": "https://www.motorsport.com/f1/news/20-years-ago-nico-rosberg-scores-points-from-21st-on-f1-debut/10804268/",
+    "category": "sports",
+    "summary": null,
+    "content_hash": "8d0a2e034f05b3ed64dab45460db0ecb",
+    "word_count": 20,
+    "analysis_results": null,
+    "id": 124,
+    "created_at": "2026-03-14T02:10:55.514007",
+    "classification_confidence": 0.41,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:10:55.963758"
+  },
+  {
+    "title": "What It\u2019s Like at the Most Exclusive Resort in the United States",
+    "content": "Camp Sarika at Amangiri is destination unto itself among the red-rock mesas and canyons of southwestern Utah.",
+    "source": "Robb Report",
+    "url": "http://robbreport.com/travel/resorts/review-camp-sarika-amangiri-utah-1237674916/",
+    "category": "politics",
+    "summary": null,
+    "content_hash": "0a79b8d5c2bad4249470d1882963bec0",
+    "word_count": 17,
+    "analysis_results": null,
+    "id": 125,
+    "created_at": "2026-03-14T02:10:56.023160",
+    "classification_confidence": 0.39,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:10:56.339909"
+  },
+  {
+    "title": "SEE: Ferrari to unveil 'Macarena' wing at Chinese GP",
+    "content": "Scuderia Ferrari will trial an innovative 'flip-flop' rear wing at the Chinese Grand Prix, with Lewis Hamilton saying the upgrade could boost performance on Shanghai's high-speed circuit.",
+    "source": "Rediff.com",
+    "url": "https://www.rediff.com/sports/report/ferrari-to-trial-macarena-wing-in-shanghai-practice-f1/20260312.htm",
+    "category": "sports",
+    "summary": null,
+    "content_hash": "d4208ed9f167e76b4501baec4c5543e9",
+    "word_count": 27,
+    "analysis_results": {
+      "overall_score": 29,
+      "rating": "green",
+      "breakdown": {
+        "passive_voice": {
+          "percentage": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "unattributed_claims": {
+          "count": 0,
+          "score": 0,
+          "examples": []
+        },
+        "hedging": {
+          "density": 2.8,
+          "score": 100,
+          "examples": [
+            "could"
+          ]
+        },
+        "emotional_language": {
+          "fear_words": 0,
+          "anger_words": 0,
+          "urgency_words": 0,
+          "superlatives": 0,
+          "score": 0
+        },
+        "loaded_language": {
+          "negative_terms": 0,
+          "positive_terms": 0,
+          "one_sided": false,
+          "examples": []
+        },
+        "sentiment": {
+          "compound": 0.823,
+          "positive": 0.207,
+          "negative": 0.0,
+          "neutral": 0.793,
+          "extreme": true,
+          "score": 82.2
+        },
+        "emotion_profile": {
+          "fear": 0.5,
+          "anger": 0.25,
+          "joy": 0.0,
+          "sadness": 0.0,
+          "surprise": 0.25,
+          "score": 75.0
+        },
+        "missing_sources": {
+          "unattributed_quotes": 0,
+          "total_quotes": 0,
+          "score": 0,
+          "examples": []
+        }
+      },
+      "specific_warnings": [
+        "High hedging density (2.8 per 100 words) - uncertain language pattern",
+        "Extreme positive sentiment (score: 0.82) may indicate bias",
+        "Fear+anger emotion dominance (75%) - emotional manipulation pattern"
+      ],
+      "recommendation": "Article appears reliable - standard journalistic practices observed"
+    },
+    "id": 126,
+    "created_at": "2026-03-14T02:10:56.448742",
+    "classification_confidence": 0.19,
+    "classification_patterns": [
+      "\"grand prix\""
+    ],
+    "updated_at": "2026-03-14T02:44:44.968191",
+    "fetched_via": "api"
+  },
+  {
+    "title": "City heats up: Pune Zoo rolls out summer measures to protect animals",
+    "content": "Coolers, sprinklers, electrolyte supplements, and water-rich diets introduced as temperatures rise.",
+    "source": "The Indian Express",
+    "url": "https://indianexpress.com/article/cities/pune/city-heats-up-pune-zoo-rolls-out-summer-measures-to-protect-animals-10578155/",
+    "category": "technology",
+    "summary": null,
+    "content_hash": "2fb9ac2188d3d5bc68fc44f966c3e4fa",
+    "word_count": 11,
+    "analysis_results": null,
+    "id": 127,
+    "created_at": "2026-03-14T02:14:54.422973",
+    "classification_confidence": 0.27,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:14:57.779858",
+    "fetched_via": "api"
+  },
+  {
+    "title": "LPG shortage shuts Mumbai restaurants as 20% kitchens run out of cooking gas",
+    "content": "Mumbai's eateries face a severe commercial LPG cylinder shortage, forcing many to shut or drastically cut menus. Industry bodies warn that up to 60% of establishments could close if the crisis, linked to West Asia war disruptions and a government directive pr\u2026",
+    "source": "The Times of India",
+    "url": "https://economictimes.indiatimes.com/industry/services/hotels-/-restaurants/lpg-shortage-shuts-mumbai-restaurants-as-20-kitchens-run-out-of-cooking-gas/articleshow/129444114.cms",
+    "category": "politics",
+    "summary": null,
+    "content_hash": "476639503764f44ccf132ca28256a18e",
+    "word_count": 42,
+    "analysis_results": null,
+    "id": 128,
+    "created_at": "2026-03-14T02:14:57.871413",
+    "classification_confidence": 0.14,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:14:59.264151",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Middle East tensions force IndiGo Delhi\u2013Manchester flight to make U-turn mid-air",
+    "content": "An IndiGo flight from Delhi to Manchester returned to Delhi shortly after takeoff. This happened due to sudden airspace restrictions. These restrictions are linked to the evolving situation in West Asia. IndiGo is working with authorities to resume the journe\u2026",
+    "source": "The Times of India",
+    "url": "https://timesofindia.indiatimes.com/india/middle-east-tensions-force-indigo-delhimanchester-flight-to-make-u-turn-mid-air/articleshow/129327379.cms",
+    "category": "politics",
+    "summary": null,
+    "content_hash": "e766242b675b4b4224716d40f6ba091e",
+    "word_count": 40,
+    "analysis_results": null,
+    "id": 129,
+    "created_at": "2026-03-14T02:14:59.409688",
+    "classification_confidence": 0.7,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:15:00.051156",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Indian Army DG EME reviews tech innovations, operational readiness in Rajasthan's desert",
+    "content": "Director General of EME, Lt Gen Rajiv K. Sahni, reviewed the operational and technical preparedness of EME units in Rajasthan's desert sector. He commended their self-reliance in developing UAS/CUAS capabilities and innovative use of additive manufacturing. T\u2026",
+    "source": "The Times of India",
+    "url": "https://timesofindia.indiatimes.com/city/jaipur/indian-army-dg-eme-reviews-tech-innovations-operational-readiness-in-rajasthans-desert/articleshow/129327625.cms",
+    "category": "technology",
+    "summary": null,
+    "content_hash": "73749f0461aa4c78095bbbae4879da25",
+    "word_count": 37,
+    "analysis_results": null,
+    "id": 130,
+    "created_at": "2026-03-14T02:15:00.159359",
+    "classification_confidence": 0.28,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:15:00.669678",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Indian women are chasing the corner office, but will corporate India open the door?",
+    "content": "A new workforce analysis by Apna.co suggests Indian women are increasingly targeting leadership and skill-intensive roles rather than entry-level positions. Applications for senior management, compliance and technical jobs have surged, with strong growth from\u2026",
+    "source": "The Times of India",
+    "url": "https://timesofindia.indiatimes.com/education/careers/news/indian-women-are-chasing-the-corner-office-but-will-corporate-india-open-the-door/articleshow/129327346.cms",
+    "category": "sports",
+    "summary": null,
+    "content_hash": "f18e58c7b744a7a04c372ab7a1003271",
+    "word_count": 34,
+    "analysis_results": null,
+    "id": 131,
+    "created_at": "2026-03-14T02:15:00.765185",
+    "classification_confidence": 0.34,
+    "classification_patterns": [
+      "woman chase corner"
+    ],
+    "updated_at": "2026-03-14T02:15:01.937710",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Living to 100 is becoming a reality in India: Experts explain why healthy ageing after 50 depends on lifestyle, nutrition and preventive care",
+    "content": "As India's senior population enjoys extended lifespans filled with vitality, those over 50 are now setting their sights on thriving well into their 80s and beyond. This exciting trend calls for an engaged attitude toward health, emphasizing regular physical a\u2026",
+    "source": "The Times of India",
+    "url": "https://timesofindia.indiatimes.com/etimes/wellness/living-to-100-is-becoming-a-reality-in-india-experts-explain-why-healthy-ageing-after-50-depends-on-lifestyle-nutrition-and-preventive-care/articleshow/129327130.cms",
+    "category": "health",
+    "summary": null,
+    "content_hash": "4bc6ef3bc821d310d75f1f3d50bb755c",
+    "word_count": 40,
+    "analysis_results": null,
+    "id": 132,
+    "created_at": "2026-03-14T02:15:01.995782",
+    "classification_confidence": 0.64,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:15:02.362522",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Technical glitches, e-KYC hurdles: Ladki Bahins race against time to keep payouts coming",
+    "content": "Thousands of women are struggling to access payouts from the Mukhyamantri Majhi Ladki Bahin Yojana due to technical glitches and e-KYC issues. Despite being champions of the scheme, many, like Lata Khade and Tai Waghmode, face financial hardship as payouts ar\u2026",
+    "source": "The Times of India",
+    "url": "https://timesofindia.indiatimes.com/city/pune/technical-glitches-e-kyc-hurdles-ladki-bahins-race-against-time-to-keep-payouts-coming/articleshow/129327044.cms",
+    "category": "sports",
+    "summary": null,
+    "content_hash": "d3c589478b0791fba47e67341245a35d",
+    "word_count": 41,
+    "analysis_results": null,
+    "id": 133,
+    "created_at": "2026-03-14T02:15:02.436119",
+    "classification_confidence": 0.34,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:15:02.791932",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Learning basic German gives 6 blind students sense of triumph",
+    "content": "Six visually impaired students at Pune University achieved independence and confidence by completing a German language certificate course. Utilizing the accessible Swalekhan Test platform for exams, they wrote independently for the first time. This initiative\u2026",
+    "source": "The Times of India",
+    "url": "https://timesofindia.indiatimes.com/city/pune/learning-basic-german-gives-six-blind-students-sense-of-triumph/articleshow/129309994.cms",
+    "category": "sports",
+    "summary": null,
+    "content_hash": "e7dd429a7a943d466bb39d797c9b9245",
+    "word_count": 35,
+    "analysis_results": null,
+    "id": 134,
+    "created_at": "2026-03-14T02:15:02.858311",
+    "classification_confidence": 0.28,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:15:03.027958",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Rs 1.4 lakh salary in Delhi: Man reveals how he saves half his income",
+    "content": "A Reddit user from Assam relocated to Delhi and discovered living expenses were surprisingly affordable.  He earns \u20b91.4 lakh monthly and anticipated high costs.  However, he found a comfortable one-bedroom apartment for \u20b922,000-\u20b925,000.  Efficient Delhi Metro\u2026",
+    "source": "The Times of India",
+    "url": "https://economictimes.indiatimes.com/magazines/panache/rs-1-4-lakh-salary-in-delhi-man-reveals-how-he-saves-half-his-income/articleshow/129265019.cms",
+    "category": "business",
+    "summary": null,
+    "content_hash": "85ea2cd5a8468f5935167759ae293ebe",
+    "word_count": 36,
+    "analysis_results": {
+      "overall_score": 14,
+      "rating": "green",
+      "breakdown": {
+        "passive_voice": {
+          "percentage": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "unattributed_claims": {
+          "count": 0,
+          "score": 0,
+          "examples": []
+        },
+        "hedging": {
+          "density": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "emotional_language": {
+          "fear_words": 0,
+          "anger_words": 0,
+          "urgency_words": 0,
+          "superlatives": 0,
+          "score": 0
+        },
+        "loaded_language": {
+          "negative_terms": 0,
+          "positive_terms": 0,
+          "one_sided": false,
+          "examples": []
+        },
+        "sentiment": {
+          "compound": 0.807,
+          "positive": 0.156,
+          "negative": 0.0,
+          "neutral": 0.844,
+          "extreme": true,
+          "score": 80.7
+        },
+        "emotion_profile": {
+          "fear": 0.38,
+          "anger": 0.0,
+          "joy": 0.25,
+          "sadness": 0.0,
+          "surprise": 0.38,
+          "score": 38.0
+        },
+        "missing_sources": {
+          "unattributed_quotes": 0,
+          "total_quotes": 0,
+          "score": 0,
+          "examples": []
+        }
+      },
+      "specific_warnings": [
+        "Extreme positive sentiment (score: 0.81) may indicate bias"
+      ],
+      "recommendation": "Article appears reliable - standard journalistic practices observed"
+    },
+    "id": 135,
+    "created_at": "2026-03-14T02:15:03.061225",
+    "classification_confidence": 0.39,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:15:55.250997",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Karan Aujla announces new Mumbai concert after 'worst concert' row with free entry for March 3 fans; Check prices for new buyers, more",
+    "content": "Following criticism of his Mumbai concert, Punjabi artist Karan Aujla is offering a free additional show to fans who attended the March 3 event. New tickets for this \"Mumbai 2.0\" concert go on sale March 8. Original ticket holders receive complimentary access\u2026",
+    "source": "The Times of India",
+    "url": "https://economictimes.indiatimes.com/news/new-updates/karan-aujla-announces-new-mumbai-concert-after-worst-concert-row-with-free-entry-for-march-3-fans-check-prices-for-new-buyers-more/articleshow/129162683.cms",
+    "category": "entertainment",
+    "summary": null,
+    "content_hash": "f92dec7cc3e15208d045ea5122f58290",
+    "word_count": 42,
+    "analysis_results": null,
+    "id": 136,
+    "created_at": "2026-03-14T02:15:03.302937",
+    "classification_confidence": 0.33,
+    "classification_patterns": [
+      "artist offer show"
+    ],
+    "updated_at": "2026-03-14T02:15:03.500565",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Electrifying industrial heat as a path to India\u2019s thermal independence",
+    "content": "As the conflict between the United States and Iran intensifies, the Strait of Hormuz has become increasingly volatile; with India importing nearly half of its natural gas, the crisis signals the urgency of accelerating the electrification of industrial heat",
+    "source": "The Hindu",
+    "url": "https://www.thehindu.com/sci-tech/science/electrifying-industrial-heat-as-a-path-to-indias-thermal-independence/article70736629.ece",
+    "category": "politics",
+    "summary": null,
+    "content_hash": "1f1adf9f152dd493ba805dc545c6a53b",
+    "word_count": 39,
+    "analysis_results": null,
+    "id": 137,
+    "created_at": "2026-03-14T02:15:03.553825",
+    "classification_confidence": 0.72,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:15:03.721575",
+    "fetched_via": "rss"
+  },
+  {
+    "title": "LPG crisis: why it is important for India to electrify industrial heat",
+    "content": "Concentrated solar thermal offers a renewable source of heat that also does not depend on the grid",
+    "source": "The Hindu",
+    "url": "https://www.thehindu.com/sci-tech/energy-and-environment/lpg-crisis-india-needs-electrify-heat-solar-thermal-independence/article70731490.ece",
+    "category": "science",
+    "summary": null,
+    "content_hash": "5012e0f2f0a2e8b806f166e991b927d1",
+    "word_count": 17,
+    "analysis_results": null,
+    "id": 138,
+    "created_at": "2026-03-14T02:15:03.765798",
+    "classification_confidence": 0.34,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:15:03.914444",
+    "fetched_via": "rss"
+  },
+  {
+    "title": "What is cheaper to cook with, LPG or induction?",
+    "content": "A gas flame is more inefficient because it loses nearly 60% of its heat to the surrounding air, but that is not the full picture",
+    "source": "The Hindu",
+    "url": "https://www.thehindu.com/sci-tech/science/what-is-cheaper-to-cook-with-lpg-or-induction/article70727929.ece",
+    "category": "sports",
+    "summary": null,
+    "content_hash": "05d70af40b7efd1df96bb24babceb0f9",
+    "word_count": 25,
+    "analysis_results": null,
+    "id": 139,
+    "created_at": "2026-03-14T02:15:03.954261",
+    "classification_confidence": 0.6,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:15:04.140687",
+    "fetched_via": "rss"
+  },
+  {
+    "title": "Fact check: Is Travis Hunter paying $150K monthly to wife Leanna Lenee?",
+    "content": "Travis Hunter, the Jacksonville Jaguars star player, and his wife, Leanna Lenee, have been married for less than a year and have already found themselves involved in a scandalous debate after rumors of the star player being cheated on by his newly wed wife sparked chaos. Amid this, a clip of Travis Hunter allegedly saying he has to pay her a massive amount monthly to her has sparked chaos.",
+    "source": "Times of India",
+    "url": "https://timesofindia.indiatimes.com/sports/nfl/news/fact-check-is-travis-hunter-actually-paying-150000-monthly-to-his-wife-leanna-lenee-after-her-alleged-infidelity/articleshow/129525395.cms",
+    "category": "sports",
+    "summary": null,
+    "content_hash": "8d1135aa89d2e8caed0d62967859b712",
+    "word_count": 69,
+    "analysis_results": null,
+    "id": 140,
+    "created_at": "2026-03-14T02:15:04.200375",
+    "classification_confidence": 0.27,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:15:04.450932",
+    "fetched_via": "rss"
+  },
+  {
+    "title": "Piastri focused on future after crushing crash at home F1 grand prix",
+    "content": "Just days removed from one of the most crushing moments in his Formula 1 career, Oscar Piastri says he is only focused on the future.",
+    "source": "ABC News (AU)",
+    "url": "https://www.abc.net.au/news/2026-03-13/oscar-piastri-moving-on-from-melbourne-f1-crash/106449780",
+    "category": "sports",
+    "summary": null,
+    "content_hash": "2b584e88b966e3603dd307ea891c83da",
+    "word_count": 25,
+    "analysis_results": {
+      "overall_score": 19,
+      "rating": "green",
+      "breakdown": {
+        "passive_voice": {
+          "percentage": 50.0,
+          "score": 100,
+          "examples": [
+            "Just days removed from one of the most crushing moments in his Formula 1 career, Oscar Piastri says he is only focused on the future."
+          ]
+        },
+        "unattributed_claims": {
+          "count": 0,
+          "score": 0,
+          "examples": []
+        },
+        "hedging": {
+          "density": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "emotional_language": {
+          "fear_words": 0,
+          "anger_words": 0,
+          "urgency_words": 0,
+          "superlatives": 1,
+          "score": 0
+        },
+        "loaded_language": {
+          "negative_terms": 0,
+          "positive_terms": 0,
+          "one_sided": false,
+          "examples": []
+        },
+        "sentiment": {
+          "compound": 0.128,
+          "positive": 0.179,
+          "negative": 0.168,
+          "neutral": 0.654,
+          "extreme": false,
+          "score": 10.7
+        },
+        "emotion_profile": {
+          "fear": 0.2,
+          "anger": 0.0,
+          "joy": 0.2,
+          "sadness": 0.2,
+          "surprise": 0.4,
+          "score": 20.0
+        },
+        "missing_sources": {
+          "unattributed_quotes": 0,
+          "total_quotes": 0,
+          "score": 0,
+          "examples": []
+        }
+      },
+      "specific_warnings": [
+        "High passive voice (50%) hides who performed actions"
+      ],
+      "recommendation": "Article appears reliable - standard journalistic practices observed"
+    },
+    "id": 141,
+    "created_at": "2026-03-14T02:36:40.429843",
+    "classification_confidence": 0.46,
+    "classification_patterns": [
+      "\"grand prix\""
+    ],
+    "updated_at": "2026-03-14T02:44:43.810252",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Half-Scale McLaren F1 Display Model at No Reserve",
+    "content": "This 1:2 scale model is said to have been built for the seller in South America and constructed in the style of a contemporary Formula One race car. It wears a livery reminiscent of the one used when Ayrton Senna secured the World Drivers\u2019 Championship title \u2026",
+    "source": "Bringatrailer.com",
+    "url": "https://bringatrailer.com/listing/display-model-25/",
+    "category": "sports",
+    "summary": null,
+    "content_hash": "864ca385cbb84433cc692f8b2d5af5ac",
+    "word_count": 47,
+    "analysis_results": null,
+    "id": 142,
+    "created_at": "2026-03-14T02:36:41.554246",
+    "classification_confidence": 0.34,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:36:42.018630"
+  },
+  {
+    "title": "Where to watch the 2026 Oscars in Canada",
+    "content": "The 2026 Oscars have finally arrived. The 98th Academy Award Ceremony will be held live at the Dolby Theatre in Los Angeles, California, on Sunday, March 15, 2026. Comedian Conan O\u2019Brien will host the Oscars for a second straight time, after making his Oscars\u2026",
+    "source": "MobileSyrup",
+    "url": "https://mobilesyrup.com/2026/03/12/where-to-watch-the-2026-oscars-in-canada/",
+    "category": "entertainment",
+    "summary": null,
+    "content_hash": "f3dca5ff89a48638b5de490eaa8207f8",
+    "word_count": 44,
+    "analysis_results": null,
+    "id": 143,
+    "created_at": "2026-03-14T02:36:42.074913",
+    "classification_confidence": 0.37,
+    "classification_patterns": [
+      "\"award ceremony\"",
+      "\"academy award\""
+    ],
+    "updated_at": "2026-03-14T02:36:42.611232"
+  },
+  {
+    "title": "Mercedes pushes to change F1 start procedures again but Ferrari opposes",
+    "content": "While some Formula 1 teams have managed to find the right balance to make quick starts, others, including Mercedes, are struggling and want the regulations revised. For the moment, there is no supermajority, so it will remain unchanged",
+    "source": "Motorsport.com",
+    "url": "https://www.motorsport.com/f1/news/mercedes-pushes-to-change-f1-start-procedures-again-but-ferrari-opposes/10804461/",
+    "category": "sports",
+    "summary": null,
+    "content_hash": "cf6c94c6d6ed44ddde500ca20319c8a9",
+    "word_count": 38,
+    "analysis_results": null,
+    "id": 144,
+    "created_at": "2026-03-14T02:44:43.885956",
+    "classification_confidence": 0.31,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:44:44.264776",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Chinese Grand Prix: FIA Drivers Press Conference",
+    "content": "Today's press conference with Pierre Gasly, Esteban Ocon, Fernando Alonso, Max Verstappen, Alex Albon and Gabriel Bortoleto.",
+    "source": "pitpass.com",
+    "url": "https://www.pitpass.com/82214/Chinese-Grand-Prix-FIA-Drivers-Press-Conference",
+    "category": "sports",
+    "summary": null,
+    "content_hash": "b4ee6ba8a2b69865eb60727dac11a586",
+    "word_count": 17,
+    "analysis_results": {
+      "overall_score": 14,
+      "rating": "green",
+      "breakdown": {
+        "passive_voice": {
+          "percentage": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "unattributed_claims": {
+          "count": 0,
+          "score": 0,
+          "examples": []
+        },
+        "hedging": {
+          "density": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "emotional_language": {
+          "fear_words": 0,
+          "anger_words": 0,
+          "urgency_words": 0,
+          "superlatives": 0,
+          "score": 0
+        },
+        "loaded_language": {
+          "negative_terms": 0,
+          "positive_terms": 0,
+          "one_sided": false,
+          "examples": []
+        },
+        "sentiment": {
+          "compound": 0.459,
+          "positive": 0.115,
+          "negative": 0.0,
+          "neutral": 0.885,
+          "extreme": false,
+          "score": 38.2
+        },
+        "emotion_profile": {
+          "fear": 0.67,
+          "anger": 0.0,
+          "joy": 0.0,
+          "sadness": 0.0,
+          "surprise": 0.33,
+          "score": 67.0
+        },
+        "missing_sources": {
+          "unattributed_quotes": 0,
+          "total_quotes": 0,
+          "score": 0,
+          "examples": []
+        }
+      },
+      "specific_warnings": [
+        "Fear+anger emotion dominance (67%) - emotional manipulation pattern"
+      ],
+      "recommendation": "Article appears reliable - standard journalistic practices observed"
+    },
+    "id": 145,
+    "created_at": "2026-03-14T02:44:44.321752",
+    "classification_confidence": 0.13,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:45:28.030641",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Major start-line shunt inevitable unless engine rules changed, drivers say",
+    "content": "BEIJING, March 12 : A massive start-line crash seems inevitable this season unless Formula One's new engine regulations are tweaked, several drivers said ahead of the Chinese Grand Prix, with some teams' power units now seeing cars pull away far faster than o\u2026",
+    "source": "CNA",
+    "url": "https://www.channelnewsasia.com/sport/major-start-line-shunt-inevitable-unless-engine-rules-changed-drivers-say-5989151",
+    "category": "sports",
+    "summary": null,
+    "content_hash": "59e814a9a615e813cc576e865fd76eb9",
+    "word_count": 43,
+    "analysis_results": null,
+    "id": 146,
+    "created_at": "2026-03-14T02:44:45.034307",
+    "classification_confidence": 0.56,
+    "classification_patterns": [
+      "\"grand prix\""
+    ],
+    "updated_at": "2026-03-14T02:44:45.431719",
+    "fetched_via": "api"
+  },
+  {
+    "title": "New F1 regulations take bravery out of the sport, drivers say",
+    "content": "SHANGHAI, March 12 : The new Formula One engine and chassis regulations for the 2026 season have taken some of the bravery out of the sport, several drivers said ahead of this weekend's Chinese Grand Prix, as teams grapple with the biggest rules overhaul in d\u2026",
+    "source": "CNA",
+    "url": "https://www.channelnewsasia.com/sport/new-f1-regulations-take-bravery-out-sport-drivers-say-5989071",
+    "category": "sports",
+    "summary": null,
+    "content_hash": "5953ed0b1dc4dd6029143b70bf6bc6e3",
+    "word_count": 46,
+    "analysis_results": null,
+    "id": 147,
+    "created_at": "2026-03-14T02:44:45.482582",
+    "classification_confidence": 0.65,
+    "classification_patterns": [
+      "\"grand prix\""
+    ],
+    "updated_at": "2026-03-14T02:44:45.674554",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Fernando Alonso and Aston Martin in \u2018survival mode\u2019 at Chinese Grand Prix",
+    "content": "Aston Martin\u2019s struggles will likely continue at this weekend\u2019s Chinese Grand Prix",
+    "source": "SB Nation",
+    "url": "https://www.sbnation.com/formula-one/1106063/fernando-alonso-f1-aston-martin-chinese-grand-prix",
+    "category": "sports",
+    "summary": null,
+    "content_hash": "fff7647b050087d2f62a1c89c0a7eb7e",
+    "word_count": 12,
+    "analysis_results": null,
+    "id": 148,
+    "created_at": "2026-03-14T02:44:45.713780",
+    "classification_confidence": 0.35,
+    "classification_patterns": [
+      "\"grand prix\""
+    ],
+    "updated_at": "2026-03-14T02:44:45.858177",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Ferrari pokes fun at Charles Leclerc\u2019s \"Mario Kart\" comparison in viral F1 video",
+    "content": "Ferrari amused fans by turning Charles Leclerc\u2019s viral \"Mario Kart\" comparison into a joke video as debate over Formula 1\u2019s new regulations continue",
+    "source": "Motorsport.com",
+    "url": "https://www.motorsport.com/f1/news/ferrari-pokes-fun-at-charles-leclercs-mario-kart-comparison-in-viral-f1-video/10804345/",
+    "category": "sports",
+    "summary": null,
+    "content_hash": "a2f25c59daddc11e58c31ad485b5dad9",
+    "word_count": 23,
+    "analysis_results": null,
+    "id": 149,
+    "created_at": "2026-03-14T02:44:45.920423",
+    "classification_confidence": 0.15,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:44:46.172131",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Ferrari using innovative \u2018flip-flop\u2019 wing at Chinese Grand Prix",
+    "content": "Lewis Hamilton and Ferrari are trying something different at the Chinese Grand Prix",
+    "source": "SB Nation",
+    "url": "https://www.sbnation.com/formula-one/1106060/ferrari-f1-news-chinese-grand-prix",
+    "category": "entertainment",
+    "summary": null,
+    "content_hash": "79b5fc58953b20c0b63cd284488cc72f",
+    "word_count": 13,
+    "analysis_results": null,
+    "id": 150,
+    "created_at": "2026-03-14T02:44:46.221408",
+    "classification_confidence": 0.18,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:44:46.390771",
+    "fetched_via": "api"
+  },
+  {
+    "title": "India eases rules to allow Chinese investments to enter, sets ownership limits",
+    "content": "The Union Cabinet amended the Press Note 3 issued in 2020 that had said all investments from countries sharing a land border with India would need Indian government approval first",
+    "source": "The Hindu",
+    "url": "https://www.thehindu.com/business/Economy/government-eases-fdi-norms-for-china-other-countries-sharing-land-border-with-india-sources/article70726047.ece",
+    "category": "business",
+    "summary": null,
+    "content_hash": "75beed04d5f83a01969ecfe5d88123ce",
+    "word_count": 30,
+    "analysis_results": null,
+    "id": 151,
+    "created_at": "2026-03-14T02:44:46.451718",
+    "classification_confidence": 0.29,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:44:46.618287",
+    "fetched_via": "rss"
+  },
+  {
+    "title": "'They are not fishing': Thousands of Chinese boats form unusual patterns near Taiwan",
+    "content": "Thousands of Chinese fishing boats formed unusual geometric patterns in the East China Sea, raising questions about potential military or strategic mobilization. Experts suggest these large-scale, coordinated gatherings, unlike normal fishing, may indicate preparations for crisis scenarios involving Taiwan or Japan.",
+    "source": "Times of India",
+    "url": "https://timesofindia.indiatimes.com/defence/international/they-are-not-fishing-thousands-of-chinese-boats-form-unusual-patterns-near-taiwan-what-it-could-mean/articleshow/129547797.cms",
+    "category": "politics",
+    "summary": null,
+    "content_hash": "cbeba03bd23896d1fdfe515d4348481a",
+    "word_count": 41,
+    "analysis_results": null,
+    "id": 152,
+    "created_at": "2026-03-14T02:44:46.655509",
+    "classification_confidence": 0.55,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T02:44:46.786205",
+    "fetched_via": "rss"
   }
 ]

@@ -706,6 +706,8 @@ def search_articles():
 from services.fetch_news import NewsAPIFetcher, URLScraper, YouTubeTranscriptExtractor, fetch_news_comprehensive
 from services.article_classifier import classify_article
 from services.misinformation_detector import analyze_article as detect_misinformation
+from services.entity_extractor import EntityExtractor
+from services.relationship_mapper import RelationshipMapper
 
 @app.route("/fetch-news", methods=["POST"])
 def fetch_news():
@@ -1215,6 +1217,149 @@ def test_api():
     return jsonify(results)
 
 
+# ============================================================================
+# ROUTES - ARTICLE RELATIONSHIP MAPPING (Feature: Related Articles)
+# ============================================================================
+
+@app.route('/related/<int:article_id>', methods=['GET'])
+def get_related_articles(article_id):
+    """
+    Get articles related to specified article.
+    Uses entity extraction and semantic similarity.
+    """
+    try:
+        mapper = RelationshipMapper(articles_storage)
+        related = mapper.find_related_articles(article_id, min_score=60, max_results=5)
+        
+        # Enrich with article details
+        results = []
+        for rel in related:
+            article = articles_storage.get_by_id(rel['related_id'])
+            if article:
+                results.append({
+                    'relationship': {
+                        'score': rel['score'],
+                        'reason': rel['reason'],
+                        'shared_entities': rel['shared_entities'],
+                        'shared_phrases': rel['shared_phrases'][:3],  # Top 3 phrases
+                        'breakdown': rel['breakdown']
+                    },
+                    'article': {
+                        'id': article['id'],
+                        'title': article.get('title', '')[:80],
+                        'source': article.get('source', 'Unknown'),
+                        'summary': article.get('summary', '')[:200] if article.get('summary') else article.get('content', '')[:200],
+                        'published_at': article.get('published_at', ''),
+                        'category': article.get('category', 'general')
+                    }
+                })
+        
+        return jsonify({
+            'success': True,
+            'article_id': article_id,
+            'related_count': len(results),
+            'related': results
+        })
+    
+    except Exception as e:
+        print(f"[Related Articles] Error: {str(e)}")
+        return jsonify({
+            'success': False,
+            'error': str(e),
+            'related_count': 0,
+            'related': []
+        }), 500
+
+
+@app.route('/relationship-graph', methods=['GET'])
+def get_relationship_graph():
+    """
+    Get complete relationship graph for visualization.
+    Returns nodes (articles) and edges (relationships).
+    """
+    try:
+        mapper = RelationshipMapper(articles_storage)
+        graph = mapper.build_relationship_graph()
+        
+        return jsonify({
+            'success': True,
+            'nodes': graph.get('nodes', []),
+            'edges': graph.get('edges', []),
+            'node_count': len(graph.get('nodes', [])),
+            'edge_count': len(graph.get('edges', []))
+        })
+    
+    except Exception as e:
+        print(f"[Relationship Graph] Error: {str(e)}")
+        return jsonify({
+            'success': False,
+            'error': str(e),
+            'nodes': [],
+            'edges': [],
+            'node_count': 0,
+            'edge_count': 0
+        }), 500
+
+
+@app.route('/entity/<entity_id>', methods=['GET'])
+def get_entity_articles(entity_id):
+    """
+    Get all articles about specific entity.
+    
+    Args:
+        entity_id: Canonical entity ID (e.g., 'PERSON_abc123')
+    
+    Returns:
+        List of articles mentioning this entity
+    """
+    try:
+        article_ids = articles_storage.get_articles_by_entity(entity_id)
+        articles = [articles_storage.get_by_id(aid) for aid in article_ids if articles_storage.get_by_id(aid)]
+        
+        # Get entity details from entities in articles
+        entity_info = None
+        for article in articles:
+            entities = article.get('entities', [])
+            for e in entities:
+                if e.get('canonical_id') == entity_id:
+                    entity_info = {
+                        'text': e.get('text', ''),
+                        'type': e.get('type', ''),
+                        'canonical_id': entity_id
+                    }
+                    break
+            if entity_info:
+                break
+        
+        return jsonify({
+            'success': True,
+            'entity': entity_info,
+            'article_count': len(articles),
+            'articles': [
+                {
+                    'id': a['id'],
+                    'title': a.get('title', '')[:80],
+                    'source': a.get('source', 'Unknown'),
+                    'published_at': a.get('published_at', ''),
+                    'category': a.get('category', 'general')
+                }
+                for a in articles
+            ]
+        })
+    
+    except Exception as e:
+        print(f"[Entity Articles] Error: {str(e)}")
+        return jsonify({
+            'success': False,
+            'error': str(e),
+            'entity': None,
+            'article_count': 0,
+            'articles': []
+        }), 500
+
+
+# ============================================================================
+# RUN APPLICATION
 # ============================================================================
 
 if __name__ == "__main__":

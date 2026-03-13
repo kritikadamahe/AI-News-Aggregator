@@ -1748,5 +1748,1295 @@
     "num_flashcards": 5,
     "id": 21,
     "created_at": "2026-03-14T00:30:14.629508"
+  },
+  {
+    "article_id": 121,
+    "mcqs": [
+      {
+        "question": "What is the main topic discussed in the article?",
+        "options": [
+          "A) US-Iran war",
+          "B) LPG tanker sailing to India",
+          "C) India's energy situation",
+          "D) Iran's Ambassador to India"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article primarily discusses the LPG tanker sailing to India through the Strait of Hormuz."
+      },
+      {
+        "question": "What is the significance of the Strait of Hormuz?",
+        "options": [
+          "A) It is a major oil-producing region",
+          "B) It is a narrow and shallow waterway",
+          "C) It is a major natural gas exporting region",
+          "D) It is a major oil refining region"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that the Strait of Hormuz is narrow (around 50 km) and shallow (no more than 60 metres deep), making it vulnerable to being sealed off militarily."
+      },
+      {
+        "question": "What is the impact of Iran's missile attacks on Qatar's gas fields?",
+        "options": [
+          "A) It increased supply of natural gas to Asian regions",
+          "B) It decreased supply of natural gas to Asian regions",
+          "C) It had no impact on supply of natural gas to Asian regions",
+          "D) It increased production of natural gas in Qatar"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that Iran's missile attacks on Qatar's gas fields led to QatarEnergy stopping production, affecting supply of natural gas to Asian regions."
+      },
+      {
+        "question": "What percentage of India's crude imports are now moving through routes outside the Strait of Hormuz?",
+        "options": [
+          "A) Less than 50%",
+          "B) 50-60%",
+          "C) 70-80%",
+          "D) More than 80%"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article states that more than 70 per cent of India's crude imports are now moving through routes outside the Strait of Hormuz."
+      },
+      {
+        "question": "What is the primary cushion for India's energy situation, according to Sujata Sharma?",
+        "options": [
+          "A) Its large oil reserves",
+          "B) Its large natural gas reserves",
+          "C) Its status as the world's fourth-largest refiner",
+          "D) Its large oil refining capacity"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article states that Sujata Sharma cited India's status as the world's fourth-largest refiner as the government's primary cushion for its energy situation."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the Strait of Hormuz?",
+        "back": "A narrow waterway connecting the Persian Gulf to the Gulf of Oman, approximately 50 km wide and with shallow waters of no more than 60 meters deep."
+      },
+      {
+        "front": "What is LPG?",
+        "back": "Liquefied Petroleum Gas, a type of fuel used for cooking and heating, composed of a mixture of propane and butane."
+      },
+      {
+        "front": "What is the significance of the Strait of Hormuz in global trade?",
+        "back": "The Strait of Hormuz is a critical waterway for international oil trade, with over 20% of the world's oil passing through it, making it a strategic location for global energy security."
+      },
+      {
+        "front": "What is the impact of Iran's missile attacks on Qatar's gas fields?",
+        "back": "The attacks led to a halt in production by QatarEnergy, the world's largest natural gas exporting company, affecting the supply of natural gas to Asian regions, including India."
+      },
+      {
+        "front": "What is the current situation with crude imports in India?",
+        "back": "More than 70% of India's crude imports are now moving through routes outside the Strait of Hormuz, with the government describing the crude situation as 'normal'."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 22,
+    "created_at": "2026-03-14T01:47:38.959676"
+  },
+  {
+    "article_id": 41,
+    "mcqs": [
+      {
+        "question": "What is the reason for the delay in the announcement of the schedule?",
+        "options": [
+          "A) Economic crisis",
+          "B) Assembly elections in Assam, Tamil Nadu and West Bengal",
+          "C) Cricket tournament scheduling conflict",
+          "D) Technical issues"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that the delay is due to the assembly elections in Assam, Tamil Nadu, and West Bengal."
+      },
+      {
+        "question": "Where will RCB's home matches in IPL 2026 be played?",
+        "options": [
+          "A) Mumbai",
+          "B) Chinnaswamy Stadium",
+          "C) Eden Gardens",
+          "D) Wankhede Stadium"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions that Chinnaswamy Stadium gets the go-ahead to host IPL and international cricket, implying it will host RCB's home matches."
+      },
+      {
+        "question": "Who is the news editor at ESPNcricinfo?",
+        "options": [
+          "A) Nagraj Gollapudi",
+          "B) John Smith",
+          "C) Jane Doe",
+          "D) Bob Johnson"
+        ],
+        "correct_answer": "A",
+        "explanation": "The article mentions Nagraj Gollapudi as the news editor at ESPNcricinfo."
+      },
+      {
+        "question": "What type of elections are mentioned in the article?",
+        "options": [
+          "A) State elections",
+          "B) National elections",
+          "C) Local elections",
+          "D) International elections"
+        ],
+        "correct_answer": "A",
+        "explanation": "The article specifically mentions assembly elections in Assam, Tamil Nadu, and West Bengal."
+      },
+      {
+        "question": "Who gets the go-ahead to host IPL and international cricket?",
+        "options": [
+          "A) RCB",
+          "B) Chinnaswamy Stadium",
+          "C) Eden Gardens",
+          "D) Wankhede Stadium"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that Chinnaswamy Stadium gets the go-ahead to host IPL and international cricket."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the reason for the delay in the announcement of the schedule?",
+        "back": "The delay is due to the assembly elections in Assam, Tamil Nadu, and West Bengal."
+      },
+      {
+        "front": "Where will RCB's home matches in IPL 2026 be played?",
+        "back": "Chinnaswamy Stadium has been given the go-ahead to host IPL and international cricket matches."
+      },
+      {
+        "front": "What is Chinnaswamy Stadium?",
+        "back": "Chinnaswamy Stadium is a cricket stadium in Bangalore, India, that will host IPL and international cricket matches."
+      },
+      {
+        "front": "Who is Nagraj Gollapudi?",
+        "back": "Nagraj Gollapudi is the news editor at ESPNcricinfo."
+      },
+      {
+        "front": "What is IPL?",
+        "back": "IPL stands for Indian Premier League, a professional Twenty20 cricket league in India."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 23,
+    "created_at": "2026-03-14T01:54:40.998691"
+  },
+  {
+    "article_id": 122,
+    "mcqs": [
+      {
+        "question": "What is the main topic discussed in the article?",
+        "options": [
+          "A) Politics",
+          "B) Business",
+          "C) Education",
+          "D) International News"
+        ],
+        "correct_answer": "D",
+        "explanation": "The article discusses various news topics, including international news about the LPG tanker crossing the Strait of Hormuz."
+      },
+      {
+        "question": "What is the name of the news source mentioned in the article?",
+        "options": [
+          "A) NDTV",
+          "B) CNN",
+          "C) BBC",
+          "D) Al Jazeera"
+        ],
+        "correct_answer": "A",
+        "explanation": "The article mentions NDTV as the news source."
+      },
+      {
+        "question": "What is the topic of the article 'Global Supply Chain Disruptions Highlight Need For Resilient Infrastructure: Karan Adani'?",
+        "options": [
+          "A) Business",
+          "B) Politics",
+          "C) Education",
+          "D) Supply Chain Disruptions"
+        ],
+        "correct_answer": "D",
+        "explanation": "The article discusses supply chain disruptions and the need for resilient infrastructure."
+      },
+      {
+        "question": "What is the name of the person arrested from the mandap?",
+        "options": [
+          "A) Karan Adani",
+          "B) Gangster Groom",
+          "C) LPG-Laden Indian Tanker",
+          "D) Bride"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions a gangster groom who was arrested from the mandap."
+      },
+      {
+        "question": "What is the topic of the article 'Awaiting CBSE Class 10 Result 2026? Know When To Expect It, How To Check'?",
+        "options": [
+          "A) Business",
+          "B) Politics",
+          "C) Education",
+          "D) Sports"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article discusses the CBSE Class 10 result and how to check it."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is LPG?",
+        "back": "LPG stands for Liquefied Petroleum Gas, a type of fuel used for cooking, heating, and powering vehicles."
+      },
+      {
+        "front": "What is the Strait of Hormuz?",
+        "back": "The Strait of Hormuz is a narrow waterway connecting the Persian Gulf to the Gulf of Oman, separating Iran and Oman."
+      },
+      {
+        "front": "What is an LPG tanker?",
+        "back": "An LPG tanker is a type of ship designed to transport liquefied petroleum gas, a flammable and explosive fuel."
+      },
+      {
+        "front": "What is an impeachment?",
+        "back": "An impeachment is the process of removing a public official from office, often due to misconduct or wrongdoing."
+      },
+      {
+        "front": "What is the CBSE?",
+        "back": "The CBSE stands for Central Board of Secondary Education, an Indian government agency responsible for setting and administering school exams."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 24,
+    "created_at": "2026-03-14T01:56:53.757568"
+  },
+  {
+    "article_id": 122,
+    "mcqs": [
+      {
+        "question": "What is the main topic discussed in the article?",
+        "options": [
+          "A) India's economy",
+          "B) LPG tanker stuck near Hormuz",
+          "C) Iran-Israel war",
+          "D) CBSE exam results"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions an LPG-laden Indian tanker stuck near the Strait of Hormuz."
+      },
+      {
+        "question": "What is the Strait of Hormuz?",
+        "options": [
+          "A) A mountain range in India",
+          "B) A strait in the Middle East",
+          "C) A river in Africa",
+          "D) A lake in Asia"
+        ],
+        "correct_answer": "B",
+        "explanation": "The Strait of Hormuz is a narrow waterway in the Middle East, mentioned in the article as the location of an LPG tanker."
+      },
+      {
+        "question": "What is the reason for the LPG tanker being stuck?",
+        "options": [
+          "A) Technical issues",
+          "B) Iran blockade",
+          "C) Weather conditions",
+          "D) Mechanical failure"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions that the LPG tanker is stuck due to an Iran blockade."
+      },
+      {
+        "question": "What is the name of the news channel mentioned in the article?",
+        "options": [
+          "A) CNN",
+          "B) NDTV",
+          "C) BBC",
+          "D) Al Jazeera"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions 'NDTV' as the news channel."
+      },
+      {
+        "question": "What is the significance of the LPG tanker crossing the Strait of Hormuz?",
+        "options": [
+          "A) It's a routine operation",
+          "B) It's a sign of improved relations between India and Iran",
+          "C) It's a sign of increased tensions between India and Iran",
+          "D) It's a sign of global economic instability"
+        ],
+        "correct_answer": "D",
+        "explanation": "The article implies that the LPG tanker crossing the Strait of Hormuz amidst an Iran blockade is a sign of global economic instability."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is LPG?",
+        "back": "LPG stands for Liquefied Petroleum Gas, a type of fuel used for cooking and heating."
+      },
+      {
+        "front": "What is the Strait of Hormuz?",
+        "back": "The Strait of Hormuz is a narrow waterway connecting the Persian Gulf to the Gulf of Oman, strategically important for international shipping and trade."
+      },
+      {
+        "front": "What is the Iran blockade?",
+        "back": "The Iran blockade refers to the economic sanctions and restrictions imposed on Iran by other countries, affecting its trade and economy."
+      },
+      {
+        "front": "What is the CBSE?",
+        "back": "The Central Board of Secondary Education (CBSE) is a national-level board of education in India, responsible for conducting exams and setting curriculum for schools."
+      },
+      {
+        "front": "What is the JEE Main?",
+        "back": "The Joint Entrance Examination (JEE) Main is a national-level entrance exam in India for admission to undergraduate engineering programs in top colleges."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 25,
+    "created_at": "2026-03-14T02:04:22.721825"
+  },
+  {
+    "article_id": 122,
+    "mcqs": [
+      {
+        "question": "What is the main topic discussed in the article?",
+        "options": [
+          "A) India-Bound LPG Tanker",
+          "B) Iran Blockade",
+          "C) Global Supply Chain Disruptions",
+          "D) Impeachment of Poll Body Chief"
+        ],
+        "correct_answer": "A",
+        "explanation": "The article primarily focuses on the India-bound LPG tanker crossing the Strait of Hormuz amid the Iran blockade."
+      },
+      {
+        "question": "Where is the India-bound LPG tanker currently located?",
+        "options": [
+          "A) Strait of Hormuz",
+          "B) Indian Ocean",
+          "C) Arabian Sea",
+          "D) Persian Gulf"
+        ],
+        "correct_answer": "A",
+        "explanation": "According to the article, the LPG tanker is currently crossing the Strait of Hormuz."
+      },
+      {
+        "question": "What is the significance of the LPG tanker's journey?",
+        "options": [
+          "A) To supply oil to India",
+          "B) To transport goods to Iran",
+          "C) To test the Iran blockade",
+          "D) To demonstrate military power"
+        ],
+        "correct_answer": "A",
+        "explanation": "The article mentions that the LPG tanker is India-bound, indicating that its primary purpose is to supply oil to India."
+      },
+      {
+        "question": "What is the current situation with the Iran blockade?",
+        "options": [
+          "A) Iran has lifted the blockade",
+          "B) The blockade is still in effect",
+          "C) India has imposed a blockade on Iran",
+          "D) The blockade is being negotiated"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that the LPG tanker is crossing the Strait of Hormuz amid the Iran blockade, indicating that the blockade is still in effect."
+      },
+      {
+        "question": "What is the relevance of the Global Supply Chain Disruptions in the article?",
+        "options": [
+          "A) It is the main topic of the article",
+          "B) It is a related news story",
+          "C) It is not mentioned in the article",
+          "D) It is a separate news section"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions Global Supply Chain Disruptions in a separate news section, but it is not the main topic of the article."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is LPG?",
+        "back": "LPG stands for Liquefied Petroleum Gas, a type of fuel used for cooking and heating. It is a mixture of propane and butane gases."
+      },
+      {
+        "front": "What is the Strait of Hormuz?",
+        "back": "The Strait of Hormuz is a narrow waterway that connects the Persian Gulf to the Gulf of Oman, separating the UAE and Iran. It is a critical shipping route for oil and gas exports."
+      },
+      {
+        "front": "What is the significance of the Iran-Iraq conflict?",
+        "back": "The Iran-Iraq conflict, including the Iran-Israel war, has led to disruptions in global supply chains, including the blockade of the Strait of Hormuz, which affects the transportation of oil and gas."
+      },
+      {
+        "front": "What is the LPG black market?",
+        "back": "The LPG black market refers to the illegal trade of liquefied petroleum gas, where it is sold at inflated prices, often in areas where it is scarce or rationed, such as in Bhopal."
+      },
+      {
+        "front": "What is the CBSE Class 10 result?",
+        "back": "The CBSE Class 10 result is the outcome of the Central Board of Secondary Education's Class 10 examination, which is a crucial milestone for students in India, and the result is typically released in the summer of the same year."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 26,
+    "created_at": "2026-03-14T02:08:25.718557"
+  },
+  {
+    "article_id": 126,
+    "mcqs": [
+      {
+        "question": "Where will Scuderia Ferrari trial the 'flip-flop' rear wing?",
+        "options": [
+          "A) British Grand Prix",
+          "B) Chinese Grand Prix",
+          "C) Italian Grand Prix",
+          "D) Spanish Grand Prix"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions that the trial will take place at the Chinese Grand Prix."
+      },
+      {
+        "question": "Who said the upgrade could boost performance on Shanghai's high-speed circuit?",
+        "options": [
+          "A) Sebastian Vettel",
+          "B) Lewis Hamilton",
+          "C) Charles Leclerc",
+          "D) Fernando Alonso"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article quotes Lewis Hamilton as saying the upgrade could boost performance."
+      },
+      {
+        "question": "What is the name of the innovative rear wing being trialed?",
+        "options": [
+          "A) 'Speedster' wing",
+          "B) 'Flip-flop' wing",
+          "C) 'Turbo' wing",
+          "D) 'Ramp' wing"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article specifically mentions the 'flip-flop' rear wing."
+      },
+      {
+        "question": "What is the main purpose of the 'flip-flop' rear wing?",
+        "options": [
+          "A) To reduce drag",
+          "B) To boost performance on high-speed circuits",
+          "C) To improve handling",
+          "D) To increase fuel efficiency"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article suggests that the upgrade could boost performance on Shanghai's high-speed circuit."
+      },
+      {
+        "question": "Which driver is associated with the quote about the upgrade?",
+        "options": [
+          "A) Sebastian Vettel",
+          "B) Lewis Hamilton",
+          "C) Charles Leclerc",
+          "D) Fernando Alonso"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article quotes Lewis Hamilton as saying the upgrade could boost performance."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is a 'flip-flop' rear wing?",
+        "back": "A rear wing design that can change its angle of attack, potentially improving downforce and drag characteristics."
+      },
+      {
+        "front": "What is the purpose of the 'flip-flop' rear wing?",
+        "back": "To potentially boost performance on high-speed circuits like Shanghai's, by adjusting the wing's angle to optimize downforce and drag."
+      },
+      {
+        "front": "Who is testing the 'flip-flop' rear wing?",
+        "back": "Scuderia Ferrari, with the goal of gaining a competitive advantage on the Chinese Grand Prix circuit."
+      },
+      {
+        "front": "What is the significance of the Chinese Grand Prix circuit for the 'flip-flop' rear wing?",
+        "back": "It is a high-speed circuit, making it an ideal testbed for the 'flip-flop' rear wing's potential performance benefits."
+      },
+      {
+        "front": "What is Lewis Hamilton's opinion on the 'flip-flop' rear wing?",
+        "back": "He believes it could boost performance, but no further details are provided in the article."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 27,
+    "created_at": "2026-03-14T02:11:41.087948"
+  },
+  {
+    "article_id": 14,
+    "mcqs": [
+      {
+        "question": "What team is traveling to Syracuse for a rematch?",
+        "options": [
+          "A) Syracuse",
+          "B) North Carolina",
+          "C) Duke",
+          "D) Virginia"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions that No. 16 North Carolina travels to Syracuse, indicating that North Carolina is the team traveling."
+      },
+      {
+        "question": "What event is the rematch for?",
+        "options": [
+          "A) ACC Championship",
+          "B) NCAA Tournament",
+          "C) Regular season game",
+          "D) Conference opener"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article does not specify the event, but mentions a 'Saturday rematch', implying that it is a regular season game."
+      },
+      {
+        "question": "When did North Carolina win earlier this month?",
+        "options": [
+          "A) Last week",
+          "B) Earlier this month",
+          "C) Last year",
+          "D) Two years ago"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article directly states that UNC's win was 'earlier this month'."
+      },
+      {
+        "question": "What is the ranking of North Carolina mentioned in the article?",
+        "options": [
+          "A) No. 1",
+          "B) No. 16",
+          "C) No. 5",
+          "D) No. 10"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions that No. 16 North Carolina travels to Syracuse, indicating that North Carolina is ranked No. 16."
+      },
+      {
+        "question": "Where is the rematch taking place?",
+        "options": [
+          "A) Chapel Hill",
+          "B) Syracuse",
+          "C) Durham",
+          "D) Charlottesville"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that North Carolina travels to Syracuse for a rematch, indicating that the rematch is taking place in Syracuse."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is a rematch?",
+        "back": "A rematch is a second game or contest between the same two teams, often after a previous game or match."
+      },
+      {
+        "front": "What is the significance of a rematch in sports?",
+        "back": "A rematch provides an opportunity for a team to avenge a previous loss or to settle a score, often with a chance to change the outcome of the previous game."
+      },
+      {
+        "front": "What is the purpose of a rematch in the context of the article?",
+        "back": "The purpose of the rematch is to allow the teams to compete again and potentially change the outcome of the previous game, which UNC won earlier this month."
+      },
+      {
+        "front": "What is the name of the team traveling to Syracuse?",
+        "back": "The team traveling to Syracuse is the University of North Carolina (UNC) team, specifically No. 16 North Carolina."
+      },
+      {
+        "front": "What is the location of the rematch?",
+        "back": "The rematch will take place in Syracuse, which is the home location of the opposing team."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 28,
+    "created_at": "2026-03-14T02:13:38.456408"
+  },
+  {
+    "article_id": 78,
+    "mcqs": [
+      {
+        "question": "Who held the first press conference since the start of the war with Iran?",
+        "options": [
+          "A) Iranian Supreme Leader",
+          "B) PM Netanyahu",
+          "C) IRGC Commander",
+          "D) US President"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article specifically states that PM Netanyahu held the press conference."
+      },
+      {
+        "question": "What is the new supreme leader of Iran referred to as by PM Netanyahu?",
+        "options": [
+          "A) A strong leader",
+          "B) A puppet of the IRGC",
+          "C) A moderate",
+          "D) A reformist"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article quotes PM Netanyahu as calling the new supreme leader a 'puppet' of the IRGC."
+      },
+      {
+        "question": "What is the IRGC?",
+        "options": [
+          "A) Iranian Revolutionary Guard Corps",
+          "B) Iranian Reformist Government Committee",
+          "C) Iranian Radical Government Council",
+          "D) Iranian Radical Guard Corps"
+        ],
+        "correct_answer": "A",
+        "explanation": "The article mentions the IRGC as an organization, and the full name is commonly known as the Iranian Revolutionary Guard Corps."
+      },
+      {
+        "question": "What is the nature of the relationship between the new supreme leader and the IRGC?",
+        "options": [
+          "A) Independent",
+          "B) Puppet",
+          "C) Adversarial",
+          "D) Neutral"
+        ],
+        "correct_answer": "B",
+        "explanation": "PM Netanyahu's statement implies that the new supreme leader is controlled by the IRGC."
+      },
+      {
+        "question": "When did the war with Iran start?",
+        "options": [
+          "A) At the time of the press conference",
+          "B) Prior to the press conference",
+          "C) After the press conference",
+          "D) The article does not specify"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that the press conference was held 'since the start of the war with Iran', implying that the war began before the conference."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the IRGC?",
+        "back": "The IRGC, or Islamic Revolutionary Guard Corps, is a branch of the Iranian military that is responsible for protecting the country's Islamic system and supporting its foreign policy goals."
+      },
+      {
+        "front": "Who is the new supreme leader of Iran?",
+        "back": "The article does not specify the name of the new supreme leader, but mentions that PM Netanyahu refers to them as a 'puppet' of the IRGC."
+      },
+      {
+        "front": "What is the significance of PM Netanyahu's press conference?",
+        "back": "PM Netanyahu's press conference is significant because it is his first since the start of the war with Iran, indicating a shift in his public stance or a desire to address the situation directly with the press."
+      },
+      {
+        "front": "What is the term 'puppet' used to describe in the article?",
+        "back": "The term 'puppet' is used to describe the new supreme leader of Iran, implying that they are under the control or influence of the IRGC."
+      },
+      {
+        "front": "What is the current conflict between Iran and another country?",
+        "back": "The article mentions a 'war' between Iran and another country, but does not specify the country's name. Based on the context, it appears to be a conflict between Iran and Israel, given PM Netanyahu's involvement."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 29,
+    "created_at": "2026-03-14T02:13:46.640851"
+  },
+  {
+    "article_id": 59,
+    "mcqs": [
+      {
+        "question": "What is the main topic discussed?",
+        "options": [
+          "A) The Super Eights group standings",
+          "B) The Black Caps' chances of finishing top",
+          "C) The Black Caps' performance in the tournament",
+          "D) The Super Eights group schedule"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions that the Black Caps can finish top of their Super Eights group with a win, indicating that the main topic is their chances of finishing top."
+      },
+      {
+        "question": "Which group are the Black Caps competing in?",
+        "options": [
+          "A) Group A",
+          "B) Super Eights group",
+          "C) Group B",
+          "D) Group C"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article specifically mentions the 'Super Eights group', indicating that this is the group the Black Caps are competing in."
+      },
+      {
+        "question": "What is required for the Black Caps to finish top of their group?",
+        "options": [
+          "A) A draw",
+          "B) A win",
+          "C) A loss",
+          "D) A tie"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that the Black Caps can finish top of their Super Eights group with a win, indicating that a win is the required outcome."
+      },
+      {
+        "question": "What is the name of the team being discussed?",
+        "options": [
+          "A) The White Ferns",
+          "B) The Black Caps",
+          "C) The Kiwis",
+          "D) The All Blacks"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article specifically mentions the 'Black Caps', indicating that this is the team being discussed."
+      },
+      {
+        "question": "What is the significance of finishing top of the group?",
+        "options": [
+          "A) They will be eliminated from the tournament",
+          "B) They will have a bye in the next round",
+          "C) They will have a chance to progress in the tournament",
+          "D) They will be awarded a trophy"
+        ],
+        "correct_answer": "C",
+        "explanation": "Finishing top of the group typically means that a team will have a better chance to progress in the tournament, as they will likely avoid playing stronger teams in the next round."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the Super Eights group?",
+        "back": "A stage in the tournament, where teams compete in a round-robin format to determine the top teams that advance to the next round."
+      },
+      {
+        "front": "What is the goal of the Black Caps?",
+        "back": "To win their match and potentially finish top of their Super Eights group."
+      },
+      {
+        "front": "What is the significance of finishing top of the Super Eights group?",
+        "back": "It allows the team to advance to the next round with a favorable position, potentially giving them an advantage in the tournament."
+      },
+      {
+        "front": "What is the tournament format mentioned in the article?",
+        "back": "A round-robin format, where teams compete against each other in a series of matches."
+      },
+      {
+        "front": "What is the outcome that the Black Caps are aiming for?",
+        "back": "A win in their match, which would secure their position at the top of the Super Eights group."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 30,
+    "created_at": "2026-03-14T02:13:48.308025"
+  },
+  {
+    "article_id": 135,
+    "mcqs": [
+      {
+        "question": "What is the Reddit user's monthly income?",
+        "options": [
+          "A) \u20b91 lakh",
+          "B) \u20b91.2 lakh",
+          "C) \u20b91.4 lakh",
+          "D) \u20b91.6 lakh"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article states the Reddit user earns \u20b91.4 lakh monthly."
+      },
+      {
+        "question": "What was the Reddit user's initial expectation about living expenses in Delhi?",
+        "options": [
+          "A) Affordable",
+          "B) High",
+          "C) Moderate",
+          "D) Low"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states the Reddit user anticipated high costs in Delhi."
+      },
+      {
+        "question": "How much did the Reddit user pay for a one-bedroom apartment in Delhi?",
+        "options": [
+          "A) \u20b915,000-\u20b920,000",
+          "B) \u20b920,000-\u20b925,000",
+          "C) \u20b925,000-\u20b930,000",
+          "D) \u20b930,000-\u20b935,000"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states the Reddit user found a comfortable one-bedroom apartment for \u20b922,000-\u20b925,000."
+      },
+      {
+        "question": "What mode of transportation is mentioned in the article?",
+        "options": [
+          "A) Delhi Metro",
+          "B) Local buses",
+          "C) Taxis",
+          "D) Auto-rickshaws"
+        ],
+        "correct_answer": "A",
+        "explanation": "The article mentions the Delhi Metro as an efficient mode of transportation."
+      },
+      {
+        "question": "Where did the Reddit user relocate from?",
+        "options": [
+          "A) Delhi",
+          "B) Assam",
+          "C) Mumbai",
+          "D) Kolkata"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states the Reddit user relocated to Delhi from Assam."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the Delhi Metro?",
+        "back": "The Delhi Metro is a rapid transit system in Delhi, India, known for its efficiency and affordability."
+      },
+      {
+        "front": "What is the approximate cost of a one-bedroom apartment in Delhi?",
+        "back": "The cost of a one-bedroom apartment in Delhi ranges from \u20b922,000 to \u20b925,000."
+      },
+      {
+        "front": "What is the monthly income of the Reddit user from Assam?",
+        "back": "The Reddit user from Assam earns \u20b91.4 lakh (\u20b9140,000) monthly."
+      },
+      {
+        "front": "What were the Reddit user's initial expectations about living expenses in Delhi?",
+        "back": "The Reddit user initially anticipated high living expenses in Delhi."
+      },
+      {
+        "front": "What did the Reddit user find surprising about living expenses in Delhi?",
+        "back": "The Reddit user found living expenses in Delhi to be surprisingly affordable."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 31,
+    "created_at": "2026-03-14T02:15:51.728913"
+  },
+  {
+    "article_id": 122,
+    "mcqs": [
+      {
+        "question": "What is the main topic discussed in the article?",
+        "options": [
+          "A) First option",
+          "B) Global Supply Chain Disruptions",
+          "C) Impeachment of Poll Body Chief",
+          "D) CBSE Class 10 Result 2026"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions Global Supply Chain Disruptions in the title and highlights the need for Resilient Infrastructure."
+      },
+      {
+        "question": "What is the name of the person who highlighted the need for Resilient Infrastructure?",
+        "options": [
+          "A) Karan Adani",
+          "B) Poll Body Chief",
+          "C) CBSE Chief",
+          "D) LPG Tanker Captain"
+        ],
+        "correct_answer": "A",
+        "explanation": "The article quotes Karan Adani as saying that Global Supply Chain Disruptions highlight the need for Resilient Infrastructure."
+      },
+      {
+        "question": "What is the current status of the LPG tanker stuck near the Strait of Hormuz?",
+        "options": [
+          "A) It has been released",
+          "B) It is still stuck",
+          "C) It has been seized by Iran",
+          "D) It has been diverted to a different route"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that the LPG tanker is still stuck near the Strait of Hormuz amid an Iran blockade."
+      },
+      {
+        "question": "What is the reason for the LPG tanker being stuck near the Strait of Hormuz?",
+        "options": [
+          "A) Technical issues",
+          "B) Weather conditions",
+          "C) Iran blockade",
+          "D) Lack of fuel"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article mentions that the LPG tanker is stuck near the Strait of Hormuz amid an Iran blockade."
+      },
+      {
+        "question": "What is the purpose of the article about the LPG tanker?",
+        "options": [
+          "A) To report on the CBSE Class 10 Result 2026",
+          "B) To highlight the need for Resilient Infrastructure",
+          "C) To inform about the LPG tanker stuck near the Strait of Hormuz",
+          "D) To provide tips for the JEE Main 2026 exam"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article is primarily focused on reporting the incident of the LPG tanker stuck near the Strait of Hormuz."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is LPG?",
+        "back": "LPG stands for Liquefied Petroleum Gas, a type of fuel used for cooking and heating."
+      },
+      {
+        "front": "What is the Strait of Hormuz?",
+        "back": "The Strait of Hormuz is a narrow waterway connecting the Persian Gulf to the Gulf of Oman, strategically important for international shipping and trade."
+      },
+      {
+        "front": "What is an LPG tanker?",
+        "back": "An LPG tanker is a type of ship designed to transport liquefied petroleum gas, a highly flammable and volatile fuel."
+      },
+      {
+        "front": "What is the Iran blockade?",
+        "back": "The Iran blockade refers to a naval blockade imposed by Iran on the Strait of Hormuz, restricting the passage of ships through the waterway."
+      },
+      {
+        "front": "What is CBSE?",
+        "back": "CBSE stands for Central Board of Secondary Education, a national level board of education in India responsible for conducting exams and setting academic standards."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 32,
+    "created_at": "2026-03-14T02:26:41.219827"
+  },
+  {
+    "article_id": 141,
+    "mcqs": [
+      {
+        "question": "Who is the main subject of the article?",
+        "options": [
+          "A) Lewis Hamilton",
+          "B) Oscar Piastri",
+          "C) Max Verstappen",
+          "D) Charles Leclerc"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article specifically mentions Oscar Piastri as the main subject."
+      },
+      {
+        "question": "What event is Oscar Piastri referring to?",
+        "options": [
+          "A) A recent win",
+          "B) A recent loss",
+          "C) A recent retirement",
+          "D) A recent injury"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions that Oscar Piastri is referring to 'one of the most crushing moments in his Formula 1 career', implying a loss."
+      },
+      {
+        "question": "What is Oscar Piastri's current focus?",
+        "options": [
+          "A) The past",
+          "B) The future",
+          "C) The present moment",
+          "D) His current team"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that Oscar Piastri is 'only focused on the future'."
+      },
+      {
+        "question": "What sport is being discussed?",
+        "options": [
+          "A) Football",
+          "B) Formula 1",
+          "C) Basketball",
+          "D) Tennis"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions 'Formula 1 career' and 'Formula 1' in general, indicating that the sport being discussed is Formula 1."
+      },
+      {
+        "question": "What is the tone of the article?",
+        "options": [
+          "A) Negative",
+          "B) Positive",
+          "C) Neutral",
+          "D) Sarcastic"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article presents Oscar Piastri's statement in a positive light, suggesting that he is moving forward and focusing on the future."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is Formula 1?",
+        "back": "Formula 1 is the highest class of single-seater auto racing sanctioned by the F\u00e9d\u00e9ration Internationale de l'Automobile (FIA). It is one of the most popular and prestigious forms of motorsport globally."
+      },
+      {
+        "front": "What is a crushing moment in someone's career?",
+        "back": "A crushing moment is an event or experience that is extremely disappointing or demoralizing, often resulting in a significant setback or loss."
+      },
+      {
+        "front": "What is a single-seater auto racing?",
+        "back": "Single-seater auto racing refers to a type of racing where drivers compete in cars with only one seat, typically with an open cockpit and a focus on speed and agility."
+      },
+      {
+        "front": "What is the F\u00e9d\u00e9ration Internationale de l'Automobile (FIA)?",
+        "back": "The F\u00e9d\u00e9ration Internationale de l'Automobile (FIA) is the governing body for international automobile and motorcycle racing, responsible for setting rules, regulations, and standards for various forms of motorsport."
+      },
+      {
+        "front": "What does it mean to be focused on the future?",
+        "back": "To be focused on the future means to concentrate on the present moment and the opportunities and challenges that lie ahead, rather than dwelling on past setbacks or failures."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 33,
+    "created_at": "2026-03-14T02:37:22.492353"
+  },
+  {
+    "article_id": 38,
+    "mcqs": [
+      {
+        "question": "What was Lowe's sales growth in the fourth quarter?",
+        "options": [
+          "A) Less than 5%",
+          "B) More than 10%",
+          "C) Between 5-10%",
+          "D) Less than 5%"
+        ],
+        "correct_answer": "B",
+        "explanation": "According to the article, Lowe's posted more than 10% sales growth in the fourth quarter."
+      },
+      {
+        "question": "What is the current state of housing turnover and home improvement demand?",
+        "options": [
+          "A) High demand and rapid turnover",
+          "B) Slow demand and low turnover",
+          "C) Steady demand and moderate turnover",
+          "D) Low demand and high turnover"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that housing turnover and home improvement demand are slow."
+      },
+      {
+        "question": "What is notable about Lowe's sales growth in the fourth quarter?",
+        "options": [
+          "A) It was lower than expected",
+          "B) It was higher than expected",
+          "C) It was in line with expectations",
+          "D) It was not mentioned"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article highlights that Lowe's sales growth in the fourth quarter was more than 10%, which is notable given the slow housing turnover and home improvement demand."
+      },
+      {
+        "question": "What does the article imply about Lowe's performance?",
+        "options": [
+          "A) It implies that Lowe's is struggling",
+          "B) It implies that Lowe's is performing well",
+          "C) It implies that Lowe's is average",
+          "D) It implies that Lowe's is irrelevant"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article presents Lowe's sales growth in a positive light, suggesting that the company is performing well despite the slow housing turnover and home improvement demand."
+      },
+      {
+        "question": "When did Lowe's post more than 10% sales growth?",
+        "options": [
+          "A) First quarter",
+          "B) Fourth quarter",
+          "C) Second quarter",
+          "D) Third quarter"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article specifies that Lowe's posted more than 10% sales growth in the fourth quarter."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is sales growth?",
+        "back": "An increase in the sales revenue of a company over a specific period of time, often expressed as a percentage."
+      },
+      {
+        "front": "What is housing turnover?",
+        "back": "The rate at which homes are being sold and resold in a given area, often used as an indicator of the health of the housing market."
+      },
+      {
+        "front": "What is home improvement demand?",
+        "back": "The level of interest and need for home improvement products and services, such as renovations, repairs, and maintenance."
+      },
+      {
+        "front": "What is Lowe's?",
+        "back": "A large American retail company specializing in home improvement and construction products, operating a chain of stores across the United States."
+      },
+      {
+        "front": "What is a slow housing market?",
+        "back": "A period of time when the demand for housing is low, and the rate of sales and construction is slower than usual, often resulting in reduced sales and revenue for companies like Lowe's."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 34,
+    "created_at": "2026-03-14T02:41:50.002493"
+  },
+  {
+    "article_id": 10,
+    "mcqs": [
+      {
+        "question": "What day of the week do the Games continue?",
+        "options": [
+          "A) Monday",
+          "B) Saturday",
+          "C) Sunday",
+          "D) Friday"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that the Games continue on Saturday."
+      },
+      {
+        "question": "What type of events are mentioned in the article?",
+        "options": [
+          "A) Concerts",
+          "B) Sports",
+          "C) Theater",
+          "D) Art exhibitions"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions 'various sports' as part of the matchups on deck."
+      },
+      {
+        "question": "What is the name of the event being referred to?",
+        "options": [
+          "A) The Olympics",
+          "B) The Games",
+          "C) The World Cup",
+          "D) The Super Bowl"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article refers to 'The Games' as the event being discussed."
+      },
+      {
+        "question": "What is the purpose of the matchups mentioned in the article?",
+        "options": [
+          "A) To determine the winner of a single event",
+          "B) To provide interesting competition",
+          "C) To showcase a single athlete",
+          "D) To raise funds for charity"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that there are 'interesting matchups' in various sports, implying that the purpose is to provide competitive and engaging events."
+      },
+      {
+        "question": "When do the matchups take place?",
+        "options": [
+          "A) On a specific date",
+          "B) On Saturday",
+          "C) Throughout the week",
+          "D) At an unspecified time"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that the Games continue on Saturday, implying that the matchups take place on that day."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is a matchup?",
+        "back": "A matchup refers to a competition or contest between two teams, individuals, or entities in a particular sport or game. It can also refer to the pairing of two teams or individuals with similar skills or abilities."
+      },
+      {
+        "front": "What is a sports competition?",
+        "back": "A sports competition is an event or series of events where teams or individuals participate in a particular sport or activity, often with the goal of winning a championship or achieving a specific ranking."
+      },
+      {
+        "front": "What is a sports matchup on deck?",
+        "back": "A sports matchup on deck refers to a scheduled competition or contest that is about to take place, often announced in advance to generate interest and excitement among fans and spectators."
+      },
+      {
+        "front": "What is a sports event?",
+        "back": "A sports event is a competition or contest where teams or individuals participate in a particular sport or activity, often with the goal of winning a championship, achieving a specific ranking, or showcasing their skills and abilities."
+      },
+      {
+        "front": "What is a sports championship?",
+        "back": "A sports championship is the highest honor or title awarded to a team or individual that wins a competition or contest in a particular sport or activity, often after a series of matches or events."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 35,
+    "created_at": "2026-03-14T02:41:50.348099"
+  },
+  {
+    "article_id": 145,
+    "mcqs": [
+      {
+        "question": "Who attended the press conference?",
+        "options": [
+          "A) Only the team owners",
+          "B) The mentioned F1 drivers",
+          "C) The journalists and team owners",
+          "D) Only the team owners and journalists"
+        ],
+        "correct_answer": "B",
+        "explanation": "The question mentions the names of several F1 drivers who attended the press conference."
+      },
+      {
+        "question": "What type of event was the press conference?",
+        "options": [
+          "A) A racing event",
+          "B) A press conference",
+          "C) A team meeting",
+          "D) A driver training session"
+        ],
+        "correct_answer": "B",
+        "explanation": "The question explicitly states it was a press conference."
+      },
+      {
+        "question": "How many drivers were mentioned in the article?",
+        "options": [
+          "A) 2",
+          "B) 6",
+          "C) 8",
+          "D) 10"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions the names of six F1 drivers: Pierre Gasly, Esteban Ocon, Fernando Alonso, Max Verstappen, Alex Albon, and Gabriel Bortoleto."
+      },
+      {
+        "question": "Who hosted the press conference?",
+        "options": [
+          "A) The FIA",
+          "B) The mentioned drivers",
+          "C) The journalists",
+          "D) Not mentioned"
+        ],
+        "correct_answer": "D",
+        "explanation": "The article does not mention who hosted the press conference."
+      },
+      {
+        "question": "What is the main purpose of a press conference?",
+        "options": [
+          "A) To discuss team strategies",
+          "B) To provide updates on racing events",
+          "C) To answer questions from journalists",
+          "D) To announce new team members"
+        ],
+        "correct_answer": "C",
+        "explanation": "A press conference is typically held to allow drivers and team representatives to answer questions from journalists."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is a press conference?",
+        "back": "A public meeting where a person or group answers questions from the media, often to discuss recent events or issues."
+      },
+      {
+        "front": "Who is Pierre Gasly?",
+        "back": "A French Formula One driver who competes for Scuderia AlphaTauri, known for his experience in junior open-wheel racing."
+      },
+      {
+        "front": "What is a Formula One driver?",
+        "back": "A professional racing driver who competes in the Formula One World Championship, a prestigious international auto racing series."
+      },
+      {
+        "front": "Who is Fernando Alonso?",
+        "back": "A Spanish former Formula One driver who is a two-time World Champion, known for his successful career with teams like Renault and Ferrari."
+      },
+      {
+        "front": "What is Scuderia AlphaTauri?",
+        "back": "A Formula One team that competes under the AlphaTauri brand, previously known as Toro Rosso, and is the junior team of Red Bull Racing."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 36,
+    "created_at": "2026-03-14T02:45:24.582621"
   }
 ]

@@ -590,6 +590,15 @@ function displaySummary(summary, category) {
     const outputElement = document.getElementById("output");
     const outputSection = document.getElementById("output-section");
     
+    console.log("displaySummary called", {summary, category, currentArticleId});
+    
+    // Show relationship tools in navbar
+    const navTools = document.getElementById("navbar-relationship-tools");
+    if (navTools && currentArticleId) {
+        navTools.style.display = "flex";
+        console.log("Navbar relationship tools shown");
+    }
+    
     // ---- CLEAR OLD ANALYSIS BANNER IMMEDIATELY ----
     // Each article must get its own fresh analysis, remove any previous one
     const oldBanner = document.getElementById("analysis-banner");
@@ -604,7 +613,12 @@ function displaySummary(summary, category) {
     
     if (outputSection) {
         outputSection.style.display = "block";
+        console.log("Output section made visible");
         setTimeout(() => {
+            const exploreSection = outputSection.querySelector('[style*="Explore Relationships"]');
+            if (exploreSection) {
+                console.log("Found Explore Relationships section");
+            }
             outputSection.scrollIntoView({ behavior: "smooth" });
         }, 100);
     }
@@ -1775,3 +1789,392 @@ window.addEventListener('beforeunload', function () {
 
 // Initialise TTS after the DOM is ready
 document.addEventListener('DOMContentLoaded', initTTS);
+
+// ============================================================================
+// ARTICLE RELATIONSHIP MAP - RELATED ARTICLES & GRAPH VISUALIZATION
+// ============================================================================
+
+/**
+ * Display related articles sidebar for the currently viewed article
+ * Fetches related articles from /related/<article_id> endpoint
+ * Toggles on/off when clicked
+ */
+function showRelatedArticles(articleId) {
+    const relatedPanel = document.getElementById("related-articles-panel");
+    if (!relatedPanel) {
+        console.warn("Related articles panel not found in HTML");
+        return;
+    }
+
+    // Toggle functionality
+    if (relatedPanel.classList.contains("active")) {
+        relatedPanel.classList.remove("active");
+        return;
+    }
+    
+    // Close graph panel when opening related articles
+    const graphPanel = document.getElementById("graph-panel");
+    if (graphPanel && graphPanel.classList.contains("active")) {
+        graphPanel.classList.remove("active");
+    }
+
+    relatedPanel.classList.add("active");
+    const relatedContent = document.getElementById("related-articles-content");
+    relatedContent.innerHTML = '<div class="loading-spinner">Loading related articles...</div>';
+
+    fetch(`/related/${articleId}`)
+        .then(response => {
+            if (!response.ok) throw new Error("Failed to fetch related articles");
+            return response.json();
+        })
+        .then(data => {
+            if (!data.success) {
+                relatedContent.innerHTML = `<div class="error-message">Error: ${data.error}</div>`;
+                return;
+            }
+
+            if (!data.related || data.related.length === 0) {
+                relatedContent.innerHTML = '<div class="no-results">No related articles found</div>';
+                return;
+            }
+
+            // Build HTML for related articles list
+            let html = `<div class="related-articles-header">
+                <h3>Related Articles (${data.related.length})</h3>
+                <button class="close-btn" onclick="closeRelatedArticles()">✕</button>
+            </div>
+            <div class="related-articles-list">`;
+
+            data.related.forEach(article => {
+                const score = article.relationship.score.toFixed(0);
+                const sources = (article.relationship.shared_entities || []).slice(0, 3).join(", ");
+                
+                html += `
+                <div class="related-article-card" onclick="navigateToArticle(${article.article.id})">
+                    <div class="article-match-score">
+                        <span class="score-badge" style="background-color: hsl(${Math.max(0, score - 30)}, 70%, 50%)">
+                            ${score}% Match
+                        </span>
+                    </div>
+                    <div class="article-title">${sanitizeHTML(article.article.title.substring(0, 80))}</div>
+                    <div class="article-source">${sanitizeHTML(article.article.source)}</div>
+                    <div class="article-reason"><strong>Why related:</strong> ${sanitizeHTML(article.relationship.reason)}</div>
+                    ${sources ? `<div class="shared-entities">Shared: ${sanitizeHTML(sources)}</div>` : ''}
+                </div>`;
+            });
+
+            html += '</div>';
+            relatedContent.innerHTML = html;
+        })
+        .catch(error => {
+            console.error("Error fetching related articles:", error);
+            relatedContent.innerHTML = `<div class="error-message">Failed to load related articles: ${error.message}</div>`;
+        });
+}
+
+/**
+ * Close the related articles sidebar
+ */
+function closeRelatedArticles() {
+    const relatedPanel = document.getElementById("related-articles-panel");
+    if (relatedPanel) {
+        relatedPanel.classList.remove("active");
+    }
+}
+
+/**
+ * Navigate to an article by ID
+ */
+function navigateToArticle(articleId) {
+    // Set the current article ID and trigger display
+    currentArticleId = articleId;
+    
+    // Fetch and display the article details
+    fetch(`/article/${articleId}`)
+        .then(response => response.json())
+        .then(data => {
+            if (data && data.article) {
+                // Close the related articles panel
+                closeRelatedArticles();
+                
+                // Summarize the article
+                const article = data.article;
+                const formData = new FormData();
+                formData.append("text", article.content);
+                formData.append("source", article.source);
+                formData.append("title", article.title);
+                
+                fetch("/summarize", {
+                    method: "POST",
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(summaryData => {
+                    if (summaryData.success) {
+                        currentArticleId = summaryData.article_id;
+                        currentQuizId = summaryData.quiz.quiz_id;
+                        displaySummary(summaryData.summary, summaryData.category);
+                        showToast("Article loaded!", "success");
+                    }
+                })
+                .catch(error => console.error("Error summarizing article:", error));
+            }
+        })
+        .catch(error => console.error("Error loading article:", error));
+}
+
+/**
+ * Render the full relationship graph visualization
+ * Fetches graph data from /relationship-graph endpoint and displays using canvas/SVG
+ * Toggles on/off when clicked
+ */
+function renderRelationshipGraph() {
+    const graphPanel = document.getElementById("graph-panel");
+    if (!graphPanel) {
+        console.warn("Graph panel not found in HTML");
+        return;
+    }
+
+    // Toggle functionality
+    if (graphPanel.classList.contains("active")) {
+        graphPanel.classList.remove("active");
+        return;
+    }
+    
+    // Close related articles panel when opening graph
+    const relatedPanel = document.getElementById("related-articles-panel");
+    if (relatedPanel && relatedPanel.classList.contains("active")) {
+        relatedPanel.classList.remove("active");
+    }
+
+    graphPanel.classList.add("active");
+    const graphContainer = document.getElementById("graph-visualization");
+    graphContainer.innerHTML = '<div class="loading-spinner">Loading relationship graph...</div>';
+
+    fetch('/relationship-graph')
+        .then(response => {
+            if (!response.ok) throw new Error("Failed to fetch relationship graph");
+            return response.json();
+        })
+        .then(data => {
+            if (!data.success) {
+                graphContainer.innerHTML = `<div class="error-message">Error: ${data.error}</div>`;
+                return;
+            }
+
+            // Create canvas-based force-directed graph visualization
+            const canvas = document.createElement("canvas");
+            canvas.width = graphContainer.clientWidth || 800;
+            canvas.height = graphContainer.clientHeight || 600;
+            graphContainer.innerHTML = "";
+            graphContainer.appendChild(canvas);
+
+            // Initialize graph data structures
+            const nodes = data.nodes.map(n => ({
+                id: n.id,
+                label: n.title.substring(0, 30) + (n.title.length > 30 ? "..." : ""),
+                x: Math.random() * canvas.width,
+                y: Math.random() * canvas.height,
+                vx: 0,
+                vy: 0,
+                source: n.source,
+                category: n.category,
+                published: n.published_at,
+                mass: 5
+            }));
+
+            const edges = data.edges.map(e => ({
+                source: data.nodes.findIndex(n => n.id === e.source),
+                target: data.nodes.findIndex(n => n.id === e.target),
+                weight: e.weight,
+                reason: e.reason
+            }));
+
+            // Simple force-directed layout simulation
+            let running = true;
+            let iterations = 0;
+            const maxIterations = 100;
+
+            function simulate() {
+                if (iterations++ >= maxIterations) {
+                    running = false;
+                }
+
+                // Apply repulsive forces between all nodes
+                for (let i = 0; i < nodes.length; i++) {
+                    for (let j = i + 1; j < nodes.length; j++) {
+                        const dx = nodes[j].x - nodes[i].x;
+                        const dy = nodes[j].y - nodes[i].y;
+                        const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+                        const repulsion = 50000 / (dist * dist);
+
+                        nodes[i].vx -= (dx / dist) * repulsion;
+                        nodes[i].vy -= (dy / dist) * repulsion;
+                        nodes[j].vx += (dx / dist) * repulsion;
+                        nodes[j].vy += (dy / dist) * repulsion;
+                    }
+                }
+
+                // Apply attractive forces along edges
+                edges.forEach(edge => {
+                    const source = nodes[edge.source];
+                    const target = nodes[edge.target];
+                    const dx = target.x - source.x;
+                    const dy = target.y - source.y;
+                    const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+                    const attraction = (dist - 100) * 0.1 * edge.weight;
+
+                    source.vx += (dx / dist) * attraction;
+                    source.vy += (dy / dist) * attraction;
+                    target.vx -= (dx / dist) * attraction;
+                    target.vy -= (dy / dist) * attraction;
+                });
+
+                // Apply damping and update positions
+                nodes.forEach(node => {
+                    node.vx *= 0.95;
+                    node.vy *= 0.95;
+                    node.x += node.vx;
+                    node.y += node.vy;
+
+                    // Boundary collision
+                    if (node.x < 20) node.x = 20;
+                    if (node.x > canvas.width - 20) node.x = canvas.width - 20;
+                    if (node.y < 20) node.y = 20;
+                    if (node.y > canvas.height - 20) node.y = canvas.height - 20;
+                });
+
+                draw();
+
+                if (running || iterations < maxIterations + 50) {
+                    requestAnimationFrame(simulate);
+                }
+            }
+
+            function draw() {
+                const ctx = canvas.getContext("2d");
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                // Draw edges
+                ctx.strokeStyle = "rgba(100, 150, 200, 0.3)";
+                edges.forEach(edge => {
+                    const source = nodes[edge.source];
+                    const target = nodes[edge.target];
+                    ctx.lineWidth = 1 + edge.weight * 3;
+                    ctx.beginPath();
+                    ctx.moveTo(source.x, source.y);
+                    ctx.lineTo(target.x, target.y);
+                    ctx.stroke();
+                });
+
+                // Draw nodes
+                nodes.forEach(node => {
+                    // Node circle
+                    const categoryColors = {
+                        "Technology": "#FF6B6B",
+                        "Business": "#4ECDC4",
+                        "Politics": "#FFE66D",
+                        "Science": "#95E1D3",
+                        "Entertainment": "#C7B3E5",
+                        "Sports": "#F38181",
+                        "Health": "#A8D8EA",
+                        "default": "#95A5A6"
+                    };
+                    const color = categoryColors[node.category] || categoryColors.default;
+
+                    ctx.fillStyle = color;
+                    ctx.beginPath();
+                    ctx.arc(node.x, node.y, 8, 0, Math.PI * 2);
+                    ctx.fill();
+
+                    // Node border
+                    ctx.strokeStyle = "#333";
+                    ctx.lineWidth = 2;
+                    ctx.stroke();
+
+                    // Node label
+                    ctx.fillStyle = "#000";
+                    ctx.font = "11px Arial";
+                    ctx.textAlign = "center";
+                    ctx.textBaseline = "middle";
+                    ctx.fillText(node.label, node.x, node.y + 18);
+                });
+
+                // Draw stats
+                ctx.fillStyle = "#333";
+                ctx.font = "12px Arial";
+                ctx.textAlign = "left";
+                ctx.fillText(`Nodes: ${nodes.length} | Edges: ${edges.length}`, 10, 20);
+            }
+
+            // Add mouse interaction
+            let hoveredNode = null;
+            canvas.addEventListener("mousemove", (e) => {
+                const rect = canvas.getBoundingClientRect();
+                const mouseX = e.clientX - rect.left;
+                const mouseY = e.clientY - rect.top;
+
+                hoveredNode = null;
+                nodes.forEach(node => {
+                    const dx = node.x - mouseX;
+                    const dy = node.y - mouseY;
+                    if (Math.sqrt(dx * dx + dy * dy) < 15) {
+                        hoveredNode = node;
+                        canvas.style.cursor = "pointer";
+                    }
+                });
+
+                if (!hoveredNode) {
+                    canvas.style.cursor = "default";
+                }
+            });
+
+            canvas.addEventListener("click", (e) => {
+                if (hoveredNode) {
+                    navigateToArticle(hoveredNode.id);
+                }
+            });
+
+            // Start simulation
+            simulate();
+
+            // Add info panel below graph
+            const infoPanel = document.createElement("div");
+            infoPanel.className = "graph-info";
+            infoPanel.innerHTML = `
+                <div class="graph-stats">
+                    <strong>Graph Statistics:</strong>
+                    <ul>
+                        <li>Articles (Nodes): ${data.node_count}</li>
+                        <li>Relationships (Edges): ${data.edge_count}</li>
+                        <li>Avg Connections: ${(data.edge_count / Math.max(1, data.node_count)).toFixed(1)}</li>
+                    </ul>
+                </div>
+                <p class="graph-hint">Click on a node to view the article. Hover to see preview.</p>
+            `;
+            graphContainer.appendChild(infoPanel);
+        })
+        .catch(error => {
+            console.error("Error rendering relationship graph:", error);
+            graphContainer.innerHTML = `<div class="error-message">Failed to load graph: ${error.message}</div>`;
+        });
+}
+
+/**
+ * Close the graph visualization panel
+ */
+function closeGraphPanel() {
+    const graphPanel = document.getElementById("graph-panel");
+    if (graphPanel) {
+        graphPanel.classList.remove("active");
+    }
+}
+
+/**
+ * Utility function to sanitize HTML and prevent XSS
+ */
+function sanitizeHTML(text) {
+    const div = document.createElement("div");
+    div.textContent = text;
+    return div.innerHTML;
+}
