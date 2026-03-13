@@ -1,0 +1,1752 @@
+[
+  {
+    "article_id": 2,
+    "mcqs": [
+      {
+        "question": "What is the primary function of machine learning algorithms in AI systems?",
+        "options": [
+          "A) To create physical robots",
+          "B) To process vast amounts of data",
+          "C) To design human-like androids",
+          "D) To manually program specific tasks"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that machine learning algorithms are used to process vast amounts of data, which is their core role in AI."
+      },
+      {
+        "question": "Which technology is described as powering modern AI systems in the article?",
+        "options": [
+          "A) Quantum computing",
+          "B) Genetic engineering",
+          "C) Neural networks",
+          "D) Blockchain"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article explicitly mentions that neural networks are the technology behind modern AI systems."
+      },
+      {
+        "question": "According to the article, what is the overall outlook on the future of AI?",
+        "options": [
+          "A) Uncertain and unpredictable",
+          "B) Very promising",
+          "C) Limited to research labs only",
+          "D) Declining due to ethical concerns"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article concludes by stating that the future of AI is 'very promising.'"
+      },
+      {
+        "question": "What is one of the key impacts of AI mentioned in the article?",
+        "options": [
+          "A) Replacing all human jobs",
+          "B) Transforming industries worldwide",
+          "C) Increasing global energy consumption",
+          "D) Reducing the need for data storage"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article highlights that AI is 'transforming industries worldwide' as its primary impact."
+      },
+      {
+        "question": "Which of the following is NOT mentioned as a key component of AI in the article?",
+        "options": [
+          "A) Machine learning algorithms",
+          "B) Neural networks",
+          "C) Cloud computing infrastructure",
+          "D) Data processing"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article discusses machine learning algorithms, neural networks, and data processing but does not mention cloud computing infrastructure."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is **Artificial Intelligence (AI)**?",
+        "back": "Artificial Intelligence refers to the simulation of human intelligence in machines, enabling them to perform tasks such as reasoning, learning, problem-solving, and decision-making. It is transforming industries by automating processes, enhancing efficiency, and enabling new capabilities like predictive analytics and natural language processing."
+      },
+      {
+        "front": "What are **Machine Learning Algorithms**?",
+        "back": "Machine Learning Algorithms are a subset of AI that allow systems to learn and improve from experience without being explicitly programmed. They process vast amounts of data to identify patterns, make predictions, and optimize outcomes, forming the backbone of many AI applications."
+      },
+      {
+        "front": "How do **Neural Networks** contribute to modern AI systems?",
+        "back": "Neural Networks are computational models inspired by the human brain, consisting of interconnected layers of nodes (neurons) that process and transmit data. They enable AI systems to handle complex tasks like image recognition, speech processing, and decision-making through deep learning and pattern recognition."
+      },
+      {
+        "front": "What does AI's **transformative impact on industries** mean?",
+        "back": "AI's transformative impact refers to its ability to revolutionize sectors by introducing automation, improving accuracy, and unlocking new opportunities (e.g., healthcare diagnostics, financial forecasting). It enhances productivity, reduces costs, and creates innovative solutions across fields like manufacturing, transportation, and entertainment."
+      },
+      {
+        "front": "What is **Deep Learning**?",
+        "back": "Deep Learning is a specialized form of machine learning using neural networks with multiple layers to analyze and learn from large datasets. It excels at tasks requiring high-level abstraction (e.g., facial recognition, language translation) and is a key driver behind advancements in AI, such as generative models and self-driving cars."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 1,
+    "created_at": "2026-02-22T22:18:05.648834"
+  },
+  {
+    "article_id": 3,
+    "mcqs": [
+      {
+        "question": "How many of the Rajasthan Royals' 7 home games in IPL 2026 will be played at the Sawai Man Singh (SMS) Stadium in Jaipur?",
+        "options": [
+          "A) 2 matches",
+          "B) 4 matches",
+          "C) 5 matches",
+          "D) 7 matches"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that RR agreed to play **4 of their 7 home games** at SMS Stadium in Jaipur for IPL 2026."
+      },
+      {
+        "question": "When did the Sawai Man Singh (SMS) Stadium first become the Rajasthan Royals' home venue?",
+        "options": [
+          "A) 2005",
+          "B) 2008",
+          "C) 2010",
+          "D) 2015"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions that SMS Stadium has been RR\u2019s home since the **beginning of the league in 2008**."
+      },
+      {
+        "question": "What was the primary concern raised by the Rajasthan Royals regarding the SMS Stadium in their recent dispute?",
+        "options": [
+          "A) Lack of luxury boxes",
+          "B) Fan safety issues",
+          "C) Poor lighting for night matches",
+          "D) Insufficient media facilities"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article highlights that RR raised concerns over **fan safety** in an independent audit conducted by Tata Projects."
+      },
+      {
+        "question": "Which cricket association was suspended, leading to the Rajasthan Royals' dispute over venue facilities?",
+        "options": [
+          "A) Assam Cricket Association",
+          "B) Rajasthan Cricket Association",
+          "C) Board of Control for Cricket in India",
+          "D) Indian Premier League Management"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that the **Rajasthan Cricket Association (RCA)** was suspended, contributing to RR\u2019s issues with the venue."
+      },
+      {
+        "question": "What did the Rajasthan government agree to do to address the Rajasthan Royals' concerns about playing at SMS Stadium?",
+        "options": [
+          "A) Sign an indemnity waiver",
+          "B) Initiate repair and upgrade work",
+          "C) Cancel all home matches in Jaipur",
+          "D) Relocate the team permanently to Guwahati"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article notes that the **Rajasthan State Sports Council (RSSC) has already initiated repair and upgrade work** at SMS Stadium."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the **Sawai Man Singh (SMS) Stadium**?",
+        "back": "The primary home venue of the **Rajasthan Royals (RR)** in the **IPL** since 2008, located in **Jaipur, Rajasthan**. It has faced **safety concerns** and **facility issues**, leading RR to seek alternative venues but ultimately agree to host **4 of 7 home matches** in IPL 2026 after government interventions."
+      },
+      {
+        "front": "Why did the **Rajasthan Royals (RR)** request a change of venue from SMS Stadium?",
+        "back": "RR cited **fan safety risks** and **facility problems** highlighted in an **independent audit by Tata Projects**. The **Rajasthan Cricket Association (RCA)** was also **suspended**, and RR wanted the state government to **sign an indemnity waiver** before playing at SMS Stadium."
+      },
+      {
+        "front": "What is an **indemnity waiver**?",
+        "back": "A legal agreement where a party (e.g., government) **releases another party (e.g., a cricket team) from liability** for damages or incidents occurring during an event. In this case, RR sought it to **avoid financial or legal risks** related to SMS Stadium\u2019s safety issues."
+      },
+      {
+        "front": "What is the **Barsapara Cricket Stadium**?",
+        "back": "A secondary home venue for the **Rajasthan Royals (RR)** in **Guwahati, Assam**, used for **3 of 7 home matches** in IPL 2026. It serves as an alternative after RR\u2019s disputes with the **Rajasthan Cricket Association (RCA)** and **SMS Stadium** safety concerns."
+      },
+      {
+        "front": "What is the **Board of Control for Cricket in India (BCCI)**?",
+        "back": "The **governing body of cricket in India**, responsible for overseeing major tournaments like the **IPL**. It **sided with RR** on SMS Stadium\u2019s safety issues, influenced by past incidents like the **Bengaluru stampede**, before the Rajasthan government brokered a compromise."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 2,
+    "created_at": "2026-02-22T22:19:36.192282"
+  },
+  {
+    "article_id": 3,
+    "mcqs": [
+      {
+        "question": "How many of the Rajasthan Royals' 7 home games in IPL 2026 will be played at the Sawai Man Singh (SMS) Stadium in Jaipur?",
+        "options": [
+          "A) 3",
+          "B) 4",
+          "C) 5",
+          "D) 6"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that the Rajasthan Royals agreed to play **4 of their 7 home games** at SMS Stadium in Jaipur for IPL 2026."
+      },
+      {
+        "question": "Which venue has been the Rajasthan Royals' primary home ground since the beginning of the IPL in 2008?",
+        "options": [
+          "A) Barsapara Cricket Stadium",
+          "B) Eden Gardens",
+          "C) Sawai Man Singh (SMS) Stadium",
+          "D) Wankhede Stadium"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article mentions that **SMS Stadium in Jaipur** has been RR\u2019s home since the league\u2019s inception in 2008."
+      },
+      {
+        "question": "What was the main reason behind the Rajasthan Royals' request to change their home venue?",
+        "options": [
+          "A) Lack of modern facilities",
+          "B) Issues with the **Rajasthan Cricket Association (RCA)** and fan safety concerns",
+          "C) Financial disputes with the BCCI",
+          "D) Player demand for a different location"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article highlights **RR\u2019s issues with the suspended RCA and fan safety concerns** from an independent audit by Tata Projects as the key reason."
+      },
+      {
+        "question": "Which organization conducted an independent audit that raised concerns about fan safety at SMS Stadium?",
+        "options": [
+          "A) BCCI",
+          "B) Tata Projects",
+          "C) Rajasthan State Sports Council (RSSC)",
+          "D) Assam Cricket Association"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article specifies that **Tata Projects** conducted the audit that flagged fan safety issues at SMS Stadium."
+      },
+      {
+        "question": "How many home matches did the Rajasthan Royals play in Guwahati during IPL 2025 (last year) compared to IPL 2026?",
+        "options": [
+          "A) 4 in 2025, 3 in 2026",
+          "B) 3 in 2025, 4 in 2026",
+          "C) 5 in 2025, 2 in 2026",
+          "D) 2 in 2025, 5 in 2026"
+        ],
+        "correct_answer": "A",
+        "explanation": "The article notes that RR played **4 matches in Guwahati in 2025** but will play **3 in 2026**, a reduction of one."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the **Sawai Man Singh (SMS) Stadium**?",
+        "back": "The primary home ground of the **Rajasthan Royals (RR)** in **Jaipur**, serving as their venue since the **IPL's inception in 2008**. The stadium faced **safety concerns** in 2026, leading to a temporary shift of some home games to **Guwahati** while upgrades are completed."
+      },
+      {
+        "front": "Why did the **Rajasthan Royals** request a venue change for IPL 2026?",
+        "back": "Due to **safety issues** at the **SMS Stadium**, highlighted in an **independent audit by Tata Projects**, including concerns over **fan safety** and **infrastructure standards**. The **Rajasthan Cricket Association (RCA)** was also **suspended**, complicating the franchise\u2019s operations."
+      },
+      {
+        "front": "What is an **indemnity waiver** in this context?",
+        "back": "A **legal agreement** where the **Rajasthan government** would have taken financial responsibility for any **liability or damages** (e.g., accidents, injuries) arising from matches played at the **SMS Stadium**. The **Rajasthan Royals** initially demanded this as a condition for returning to Jaipur."
+      },
+      {
+        "front": "What is the **Barsapara Cricket Stadium**?",
+        "back": "A secondary home venue for the **Rajasthan Royals** in **Guwahati, Assam**, used since recent years. The franchise will play **3 of their 7 home matches** there in **IPL 2026**, one fewer than in 2025, as part of their agreement with the **Rajasthan government**."
+      },
+      {
+        "front": "What is the **Rajasthan State Sports Council (RSSC)**?",
+        "back": "A **government body** under the **Rajasthan administration** responsible for overseeing **sports infrastructure**, including cricket stadiums. The **RSSC** disagreed with the **Rajasthan Royals\u2019 safety claims**, stating only **minor repairs** were needed, and has since initiated **upgrades at the SMS Stadium** to meet IPL standards."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 3,
+    "created_at": "2026-02-22T22:23:29.775367"
+  },
+  {
+    "article_id": 4,
+    "mcqs": [
+      {
+        "question": "What was MS Dhoni's batting position in most of his innings during IPL 2025?",
+        "options": [
+          "A) 3 to 5",
+          "B) 7 to 9",
+          "C) 1 to 3",
+          "D) 5 to 7"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states Dhoni batted at numbers 7 to 9 in 10 out of his 13 innings during IPL 2025."
+      },
+      {
+        "question": "Which player was traded to CSK as a potential long-term replacement for MS Dhoni?",
+        "options": [
+          "A) Sanju Samson",
+          "B) Ravindra Jadeja",
+          "C) Sam Curran",
+          "D) Urvil Patel"
+        ],
+        "correct_answer": "A",
+        "explanation": "The article mentions that CSK traded Sanju Samson from Rajasthan Royals (RR) before the IPL 2026 auction."
+      },
+      {
+        "question": "How many league matches is MS Dhoni expected to play in IPL 2026?",
+        "options": [
+          "A) All 14",
+          "B) None",
+          "C) 10 out of 14",
+          "D) Unlikely to play the entire season"
+        ],
+        "correct_answer": "D",
+        "explanation": "The article explicitly states that Dhoni won't play all 14 league matches for CSK in IPL 2026."
+      },
+      {
+        "question": "What was MS Dhoni's strike rate in IPL 2025?",
+        "options": [
+          "A) 135.17",
+          "B) 110.50",
+          "C) 98.75",
+          "D) 120.00"
+        ],
+        "correct_answer": "A",
+        "explanation": "The article provides Dhoni's strike rate as 135.17 in IPL 2025."
+      },
+      {
+        "question": "Which of the following players was NOT retained by CSK for IPL 2026?",
+        "options": [
+          "A) Ravindra Jadeja",
+          "B) Sanju Samson",
+          "C) Matt Henry",
+          "D) Ruturaj Gaikwad"
+        ],
+        "correct_answer": "A",
+        "explanation": "The article lists Ravindra Jadeja as part of the players sent away in the trade for Sanju Samson."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is an **impact substitute** in cricket?",
+        "back": "An impact substitute is a player brought into the game late to change the momentum, often replacing a specialist batsman or bowler. In IPL 2026, MS Dhoni may be used as an impact sub for the first time, given his limited role in 2025."
+      },
+      {
+        "front": "What was MS Dhoni's **modus operandi** in IPL 2025?",
+        "back": "Dhoni's traditional approach was to bat deep in the innings (positions 7-9) and accelerate the scoring to take the game into CSK's hands. However, in IPL 2025, he was only used in such positions in **10 out of 13 innings**, indicating a shift in strategy."
+      },
+      {
+        "front": "Why did CSK trade **Sam Curran** and **Ravindra Jadeja** for **Sanju Samson**?",
+        "back": "CSK traded these players to secure Sanju Samson as a **long-term replacement** for MS Dhoni, who struggled with fitness and performance in IPL 2025. Samson is a younger, more dynamic wicketkeeper-batter, aligning with the team's future needs."
+      },
+      {
+        "front": "What is the significance of **MA Chidambaram Stadium** in this context?",
+        "back": "MA Chidambaram Stadium is the home ground of **Chennai Super Kings (CSK)**. MS Dhoni will return there for IPL 2026 but is unlikely to play all league matches, suggesting a reduced role despite his leadership and experience."
+      },
+      {
+        "front": "What was MS Dhoni's **IPL 2025 batting record** (key stats)?",
+        "back": "In IPL 2025, Dhoni scored **196 runs in 13 innings**, with a **highest score of 30** (not out), a **batting average of 24.50**, and a **strike rate of 135.17**. His limited impact and lower average reflected his declining form, prompting CSK to explore alternative strategies for 2026."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 4,
+    "created_at": "2026-02-22T22:27:09.925929"
+  },
+  {
+    "article_id": 18,
+    "mcqs": [
+      {
+        "question": "What major changes are expected in Formula 1 for the 2026 season?",
+        "options": [
+          "A) A return to the classic 2.4L V8 engines",
+          "B) All-new regulations, an all-new team, and an all-new driver",
+          "C) A reduction in the number of race weekends from 22 to 18",
+          "D) The introduction of hybrid power units for the first time"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article explicitly states that 2026 will bring all-new regulations, an all-new team joining the grid, and even an all-new driver."
+      },
+      {
+        "question": "What is the primary focus of the article about the 2026 Formula 1 season?",
+        "options": [
+          "A) The technical specifications of the new cars",
+          "B) The financial impact of the new regulations",
+          "C) The excitement and anticipation surrounding upcoming changes",
+          "D) The retirement of existing drivers"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article highlights the enthusiasm and forward-looking aspects of the 2026 season, emphasizing what to look forward to."
+      },
+      {
+        "question": "Which of the following is NOT mentioned as a change in the 2026 Formula 1 season?",
+        "options": [
+          "A) New regulations",
+          "B) A new team joining the grid",
+          "C) A new driver",
+          "D) A switch to a fully electric power unit"
+        ],
+        "correct_answer": "D",
+        "explanation": "The article mentions new regulations, a new team, and a new driver but does not explicitly state a switch to fully electric power units."
+      },
+      {
+        "question": "What is the tone of the article regarding the 2026 Formula 1 season?",
+        "options": [
+          "A) Critical and negative",
+          "B) Excited and optimistic",
+          "C) Neutral and factual",
+          "D) Pessimistic about future changes"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article uses phrases like 'a lot to look forward to' and 'all-new,' which convey excitement and optimism."
+      },
+      {
+        "question": "According to the article, what is one of the key elements contributing to anticipation for 2026?",
+        "options": [
+          "A) The introduction of a new race format",
+          "B) The debut of an all-new team and driver",
+          "C) The elimination of all existing teams",
+          "D) The return to a single manufacturer supplying engines"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article highlights the debut of an all-new team and an all-new driver as key factors generating excitement for the 2026 season."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What are the **all-new regulations** in Formula 1 for 2026?",
+        "back": "The 2026 F1 regulations include major technical changes like a **new 1.6L V6 hybrid engine** (replacing the current 1.6L V6 turbo), **simplified aerodynamics** (e.g., no front-wing wake rakes), **standardized power units** (to reduce costs), and **sustainability-focused updates** (e.g., 100% sustainable fuel). These aim to improve competition, lower expenses, and enhance the sport\u2019s eco-friendliness."
+      },
+      {
+        "front": "What is a **hybrid engine** in Formula 1?",
+        "back": "A hybrid engine combines a **traditional internal combustion engine** with an **electric motor** powered by energy recovery systems (ERS). In F1, it uses stored kinetic energy from braking and thermal energy from exhaust to boost performance, blending efficiency with high power output\u2014key for 2026\u2019s new 1.6L V6 hybrid design."
+      },
+      {
+        "front": "What does **sustainability-focused updates** mean in F1\u2019s 2026 regulations?",
+        "back": "These updates prioritize **environmental responsibility**, such as mandating **100% sustainable fuel** (e.g., biofuels) and reducing the carbon footprint of the sport. The goal is to align F1 with broader green initiatives while maintaining performance, as seen in the shift toward hybrid power units and stricter emissions standards."
+      },
+      {
+        "front": "Why are **standardized power units** introduced in the 2026 F1 regulations?",
+        "back": "Standardized power units aim to **cut costs** by limiting teams to a single engine supplier (e.g., one manufacturer\u2019s standardized V6 hybrid). This reduces R&D expenses and levels the playing field, allowing smaller teams to compete more effectively against established ones while focusing on chassis and strategy improvements."
+      },
+      {
+        "front": "What is the **front-wing wake rake** being removed in 2026?",
+        "back": "The **front-wing wake rake** is an aerodynamic device that helps manage airflow turbulence behind the front wing, improving downforce for the rear tires. Removing it in 2026 **simplifies car designs**, reduces complexity, and promotes cleaner airflow to other cars, enhancing overtaking and making the sport more exciting."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 5,
+    "created_at": "2026-02-22T22:30:10.351176"
+  },
+  {
+    "article_id": 3,
+    "mcqs": [
+      {
+        "question": "How many of the Rajasthan Royals' 7 home games in IPL 2026 will be played at the Sawai Man Singh (SMS) Stadium in Jaipur?",
+        "options": [
+          "A) 2 matches",
+          "B) 4 matches",
+          "C) 5 matches",
+          "D) 6 matches"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that the Rajasthan Royals have agreed to play **4 of their 7 home games** at the SMS Stadium in Jaipur for IPL 2026."
+      },
+      {
+        "question": "Since when has the Sawai Man Singh (SMS) Stadium been the Rajasthan Royals' primary home venue?",
+        "options": [
+          "A) 2010",
+          "B) 2008",
+          "C) 2015",
+          "D) 2020"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions that SMS Stadium has been RR\u2019s home since the **beginning of the league in 2008**."
+      },
+      {
+        "question": "What was the primary reason behind the Rajasthan Royals' request to change their venue in Jaipur?",
+        "options": [
+          "A) Lack of infrastructure for training",
+          "B) Issues with the **Rajasthan Cricket Association (RCA) and fan safety**",
+          "C) Financial disputes with the BCCI",
+          "D) Unavailability of the stadium for other events"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article highlights that RR raised concerns over **fan safety** due to an independent audit by Tata Projects and disputes with the **RCA and an ad hoc committee** appointed by the Rajasthan government."
+      },
+      {
+        "question": "Which organization conducted an independent audit that raised concerns about fan safety at the SMS Stadium?",
+        "options": [
+          "A) BCCI",
+          "B) Tata Projects",
+          "C) Rajasthan State Sports Council (RSSC)",
+          "D) Assam Cricket Association"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article specifies that **Tata Projects** conducted the independent audit that flagged issues regarding fan safety at the SMS Stadium."
+      },
+      {
+        "question": "How many home matches will the Rajasthan Royals play in Guwahati for IPL 2026, compared to their previous agreement?",
+        "options": [
+          "A) More than last year",
+          "B) One fewer than last year",
+          "C) The same as last year",
+          "D) None, as they will not play in Guwahati"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article notes that RR will play **3 out of 7 home matches in Guwahati**, which is **one fewer** than the previous year."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the **Sawai Man Singh (SMS) Stadium**?",
+        "back": "The primary home ground of the **Rajasthan Royals (RR)** in **Jaipur**, used since the **IPL's inception in 2008**. It was recently approved for hosting **4 of RR\u2019s 7 home matches in IPL 2026** after upgrades initiated by the **Rajasthan State Sports Council (RSSC)** to address safety concerns."
+      },
+      {
+        "front": "Why did the **Rajasthan Royals (RR)** request a venue change for IPL 2026?",
+        "back": "RR faced disputes with the **suspended Rajasthan Cricket Association (RCA)** and its ad-hoc committee, citing **fan safety issues** from an independent audit by **Tata Projects**. The **BCCI** supported RR\u2019s concerns, particularly after the **Bengaluru stampede**, but the **RSSC** argued only minor repairs were needed."
+      },
+      {
+        "front": "What is an **indemnity waiver**?",
+        "back": "A legal agreement where a **government or authority** absolves a team (or franchise) of **liability for damages or accidents** during events like matches. RR sought this from Rajasthan in **IPL 2025** before playing at SMS Stadium, but the government refused, leading to a reduction in Jaipur home games."
+      },
+      {
+        "front": "What is the **Barsapara Cricket Stadium**?",
+        "back": "The **second home ground** of the **Rajasthan Royals (RR)** in **Guwahati, Assam**, where they will play **3 of their 7 home matches in IPL 2026**. RR shifted games here due to conflicts with the **RCA** and Rajasthan authorities."
+      },
+      {
+        "front": "What is the **Rajasthan State Sports Council (RSSC)**?",
+        "back": "A **government body** in Rajasthan responsible for **oversight and maintenance of sports infrastructure**, including cricket stadiums. The **RSSC** disagreed with RR\u2019s safety claims about SMS Stadium but has since **initiated repair and upgrade work** to meet IPL standards."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 6,
+    "created_at": "2026-02-22T23:07:13.457057"
+  },
+  {
+    "article_id": 31,
+    "mcqs": [],
+    "flashcards": [
+      {
+        "front": "What does **RB22** refer to in Formula 1?",
+        "back": "RB22 is the designation of **Red Bull Racing's 2026 Formula 1 car**, named after the team's branding (Red Bull) and the year (22nd season since the team's F1 debut in 2005). It represents their latest competitive vehicle, designed to meet the 2026 F1 technical regulations."
+      },
+      {
+        "front": "What is **F1 Testing**?",
+        "back": "F1 Testing refers to **pre-season evaluation sessions** where teams assess their car's performance, reliability, and handling under race conditions. These tests occur on private circuits before the official season begins and are crucial for fine-tuning aerodynamics, mechanics, and driver feedback."
+      },
+      {
+        "front": "Why did Lewis Hamilton rev his engine for as long as possible during testing?",
+        "back": "Hamilton likely **revved his engine to showcase its power and durability** to the media and team, demonstrating Red Bull's 2026 car's capabilities. This tactic also helps **highlight the car's strengths** and can be used to generate data for engine development."
+      },
+      {
+        "front": "What is the significance of the **#F1 || #F1Testing hashtags**?",
+        "back": "The hashtags **#F1** and **#F1Testing** are used to **categorize and promote Formula 1-related content** on social media. #F1Testing specifically signals pre-season testing sessions, helping fans and analysts track updates, while #F1 broadly tags all F1 news, including race weekends and technical developments."
+      },
+      {
+        "front": "What might the phrase *'textbook Lewis'* imply in F1?",
+        "back": "*'Textbook Lewis'* suggests a **classic Hamilton move**\u2014likely referring to his **mastery of media engagement** by delivering a high-energy, visually striking moment (e.g., revving the engine) to dominate headlines. It also implies **strategic performance** to reinforce his reputation as a dominant force in F1, even in testing phases."
+      }
+    ],
+    "num_questions": 0,
+    "num_flashcards": 5,
+    "id": 7,
+    "created_at": "2026-02-22T23:17:15.261601"
+  },
+  {
+    "article_id": 35,
+    "mcqs": [
+      {
+        "question": "When did Phil Spencer, former Microsoft Gaming CEO, first consider leaving the company?",
+        "options": [
+          "A) Early 2025",
+          "B) Later in 2025",
+          "C) Early 2024",
+          "D) Mid-2026"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states Phil Spencer first considered leaving 'later in 2025'."
+      },
+      {
+        "question": "What was the original reason Phil Spencer might have delayed his retirement?",
+        "options": [
+          "A) To oversee the launch of a new Xbox game",
+          "B) To delay retirement until after the next Xbox console shipped",
+          "C) To manage the company's stock market performance",
+          "D) To supervise a new Microsoft office opening"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions he may have intended to delay retirement until after the next Xbox console shipped."
+      },
+      {
+        "question": "What is the main reason cited for Phil Spencer's potential departure?",
+        "options": [
+          "A) Personal health concerns",
+          "B) A sudden shakeup due to dwindling hardware sales",
+          "C) Disagreements with Microsoft's board of directors",
+          "D) To pursue a new career in a different industry"
+        ],
+        "correct_answer": "B",
+        "explanation": "The leaker blames the sudden shakeup on 'dwindling hardware sales'."
+      },
+      {
+        "question": "What does the term 'hard' in 'dwindling hard' likely refer to?",
+        "options": [
+          "A) Hard disk drives",
+          "B) Hardware sales",
+          "C) Hard work",
+          "D) Hard currency"
+        ],
+        "correct_answer": "B",
+        "explanation": "The context suggests 'hardware sales' as the term is used in relation to Microsoft Gaming's business."
+      },
+      {
+        "question": "What is the significance of the 'next Xbox console' in Phil Spencer's potential departure?",
+        "options": [
+          "A) It is unrelated to his departure plans",
+          "B) He intended to stay until after its shipping to ensure a smooth transition",
+          "C) The console launch will be his final project before retirement",
+          "D) It will be the first console he won't be involved in"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article indicates he may have intended to delay retirement until after the next Xbox console shipped, implying it was a key factor in his decision."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Who is Phil Spencer?",
+        "back": "Phil Spencer is the former CEO of Microsoft Gaming, responsible for overseeing Xbox's development, games, and services. He was a key figure in Microsoft's gaming strategy, including partnerships, acquisitions, and console releases."
+      },
+      {
+        "front": "What was Phil Spencer's initial retirement timeline?",
+        "back": "Spencer originally planned to leave Microsoft in **late 2025**, though he may have intended to delay his departure until after the release of the **next Xbox console** to ensure a smooth transition."
+      },
+      {
+        "front": "What is a 'hard' in gaming context?",
+        "back": "'Hard' typically refers to **hardware development** or **console production challenges**, such as supply chain issues, manufacturing delays, or technical hurdles that impact a company\u2019s ability to ship new products on time."
+      },
+      {
+        "front": "Why might Phil Spencer's sudden departure be linked to 'dwindling hard'?",
+        "back": "The leaker suggests the term 'dwindling hard' implies **Microsoft Gaming's struggles with hardware production or development**, possibly due to delays, budget cuts, or shifting priorities that made Spencer's continued leadership difficult or less impactful."
+      },
+      {
+        "front": "What is Microsoft Gaming's role in Xbox's ecosystem?",
+        "back": "Microsoft Gaming is the division that **manages Xbox hardware, game publishing, and services** (like Xbox Game Pass). It handles console design, partnerships with game studios, and strategic decisions to maintain Xbox\u2019s market position."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 8,
+    "created_at": "2026-02-22T23:19:12.036588"
+  },
+  {
+    "article_id": 12,
+    "mcqs": [
+      {
+        "question": "How many gold medals did the U.S. team win in the **mixed aerials** event at the Winter Olympics?",
+        "options": [
+          "A) 9",
+          "B) 11",
+          "C) 10",
+          "D) 8"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states the U.S. team won its **record-breaking 11th gold medal** in mixed aerials."
+      },
+      {
+        "question": "Which record did the U.S. team break with its 11th gold medal in mixed aerials?",
+        "options": [
+          "A) Most gold medals in a single Winter Olympics",
+          "B) Most gold medals in a Winter Olympics event",
+          "C) Most gold medals in a Winter Olympics on home soil",
+          "D) Most gold medals in a Winter Olympics by a mixed team"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article mentions the record was set at the **last Olympics on U.S. soil**, implying it is the most gold medals in a Winter Olympics hosted by the U.S."
+      },
+      {
+        "question": "Where was the previous Winter Olympics held that set the U.S. gold medal record?",
+        "options": [
+          "A) Vancouver",
+          "B) Sochi",
+          "C) Salt Lake City",
+          "D) Pyeongchang"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article explicitly states the record was set at the **last Olympics on U.S. soil \u2014 in Salt Lake City** (2002)."
+      },
+      {
+        "question": "How many athletes made up the U.S. team that won the mixed aerials gold medal?",
+        "options": [
+          "A) 2",
+          "B) 3",
+          "C) 4",
+          "D) 5"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article names **three athletes (Kaila Kuhn, Connor Curran, and Chris Lillis)** as the winning trio."
+      },
+      {
+        "question": "What is the significance of the 11th gold medal mentioned in the article?",
+        "options": [
+          "A) It was the first gold medal in mixed aerials for the U.S.",
+          "B) It broke a previous record for gold medals in a Winter Olympics on U.S. soil.",
+          "C) It tied the record set in Salt Lake City.",
+          "D) It was the first gold medal ever won by the U.S. in aerials."
+        ],
+        "correct_answer": "B",
+        "explanation": "The article highlights that the **11th gold medal broke a record** from the last U.S.-hosted Winter Olympics in Salt Lake City."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the Winter Olympics?",
+        "back": "The Winter Olympics is an international multi-sport event held every four years for athletes who compete in winter sports, such as skiing, snowboarding, ice hockey, and figure skating. It features competitions across disciplines like alpine, Nordic, and freestyle skiing, as well as ice events like speed skating and curling."
+      },
+      {
+        "front": "What does 'mixed aerials' refer to?",
+        "back": "Mixed aerials is a ski jumping discipline in the Winter Olympics where male and female athletes compete together in pairs, performing acrobatic jumps off a ramp. The event combines teamwork and individual skill, with scores based on jump distance, style, and landing technique."
+      },
+      {
+        "front": "What is a 'record-breaking' Olympic achievement?",
+        "back": "A record-breaking Olympic achievement refers to a performance that surpasses the highest number of medals, points, or other metrics previously attained by a country or athlete in the history of the Olympics. In this case, the U.S. team's 11th gold medal at the Winter Olympics broke their own previous record."
+      },
+      {
+        "front": "Who are the athletes mentioned in the article?",
+        "back": "The athletes mentioned are Kaila Kuhn, Connor Curran, and Chris Lillis, who won the gold medal in mixed aerials for the U.S. team. They are part of the trio that achieved this historic victory."
+      },
+      {
+        "front": "Where was the last Winter Olympics held on U.S. soil?",
+        "back": "The last Winter Olympics held on U.S. soil was in **Salt Lake City, Utah**, in **2002**. This event marked the first time the Winter Olympics were hosted in the U.S. since 1980."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 9,
+    "created_at": "2026-02-22T23:26:22.638596"
+  },
+  {
+    "article_id": 47,
+    "mcqs": [
+      {
+        "question": "What is the main topic discussed in the article?",
+        "options": [
+          "A) Cricket World Cup",
+          "B) IPL 2026 Schedule",
+          "C) Ranji Trophy",
+          "D) West Indies vs India"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions that IPL 2026 is scheduled to begin on March 28 and the final is scheduled for May 31."
+      },
+      {
+        "question": "When is the IPL 2026 scheduled to begin?",
+        "options": [
+          "A) March 25",
+          "B) March 28",
+          "C) April 1",
+          "D) April 5"
+        ],
+        "correct_answer": "B",
+        "explanation": "According to the article, IPL 2026 is scheduled to begin on March 28."
+      },
+      {
+        "question": "What is the reason for the delay in announcing the IPL 2026 schedule?",
+        "options": [
+          "A) Cricket World Cup",
+          "B) Assembly elections in Assam, Tamil Nadu, and West Bengal",
+          "C) Ranji Trophy",
+          "D) West Indies vs India"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions that the delay in announcing the schedule is due to the assembly elections in Assam, Tamil Nadu, and West Bengal."
+      },
+      {
+        "question": "What is the scheduled date for the IPL 2026 final?",
+        "options": [
+          "A) April 30",
+          "B) May 31",
+          "C) June 1",
+          "D) June 15"
+        ],
+        "correct_answer": "B",
+        "explanation": "According to the article, the IPL 2026 final is scheduled for May 31."
+      },
+      {
+        "question": "What is the name of the team that won the Ranji Trophy title?",
+        "options": [
+          "A) Jammu & Kashmir",
+          "B) Royal Challengers Bengaluru",
+          "C) Punjab Kings",
+          "D) West Indies"
+        ],
+        "correct_answer": "A",
+        "explanation": "The article mentions that Jammu & Kashmir won the Ranji Trophy title."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the T20 World Cup?",
+        "back": "The T20 World Cup is an international cricket tournament where national teams compete in Twenty20 format. It is one of the most prestigious tournaments in the world of cricket."
+      },
+      {
+        "front": "What is the Ranji Trophy?",
+        "back": "The Ranji Trophy is a domestic first-class cricket tournament in India, where state teams compete against each other. It is one of the most prestigious domestic tournaments in Indian cricket."
+      },
+      {
+        "front": "What is the IPL?",
+        "back": "The Indian Premier League (IPL) is a professional Twenty20 cricket league in India, where franchise teams compete against each other. It is one of the most popular and lucrative T20 leagues in the world."
+      },
+      {
+        "front": "What is a virtual quarter-final?",
+        "back": "A virtual quarter-final is a term used in cricket to describe a match that is essentially a quarter-final, but is not officially designated as such due to scheduling or other reasons."
+      },
+      {
+        "front": "What is the Middle East conflict?",
+        "back": "The Middle East conflict refers to the ongoing tensions and conflicts in the Middle East region, which can affect international travel and events, including cricket tournaments."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 10,
+    "created_at": "2026-02-28T19:08:24.624586"
+  },
+  {
+    "article_id": 48,
+    "mcqs": [
+      {
+        "question": "What is driving the investment in AI research?",
+        "options": [
+          "A) Human curiosity",
+          "B) Major companies like Google and Microsoft",
+          "C) Government funding",
+          "D) Private investors"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that major companies like Google and Microsoft are investing billions in AI research."
+      },
+      {
+        "question": "What type of algorithms power search engines and recommendation systems?",
+        "options": [
+          "A) Machine learning algorithms",
+          "B) Neural networks",
+          "C) Natural language processing",
+          "D) Image recognition"
+        ],
+        "correct_answer": "A",
+        "explanation": "The article mentions that machine learning algorithms power search engines and recommendation systems."
+      },
+      {
+        "question": "What has achieved breakthrough results in image recognition and natural language processing?",
+        "options": [
+          "A) Machine learning algorithms",
+          "B) Neural networks",
+          "C) Search engines",
+          "D) Recommendation systems"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that neural networks have achieved breakthrough results in image recognition and natural language processing."
+      },
+      {
+        "question": "What areas are expected to see revolutionary changes due to AI?",
+        "options": [
+          "A) Finance and marketing",
+          "B) Healthcare, education, and transportation",
+          "C) Energy and environment",
+          "D) Manufacturing and logistics"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions that the future of AI promises revolutionary changes across healthcare, education, and transportation."
+      },
+      {
+        "question": "Who are the main companies investing in AI research?",
+        "options": [
+          "A) Amazon and Facebook",
+          "B) Google and Microsoft",
+          "C) Apple and IBM",
+          "D) Tesla and SpaceX"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article specifically mentions Google and Microsoft as the major companies investing in AI research."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is Artificial Intelligence (AI)?",
+        "back": "Artificial Intelligence is a technology that enables machines to perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making."
+      },
+      {
+        "front": "What is Machine Learning?",
+        "back": "Machine Learning is a subset of AI that involves training algorithms to learn from data and improve their performance over time, enabling them to make predictions or decisions without being explicitly programmed."
+      },
+      {
+        "front": "What is a Neural Network?",
+        "back": "A Neural Network is a type of machine learning algorithm inspired by the structure and function of the human brain, consisting of interconnected nodes (neurons) that process and transmit information."
+      },
+      {
+        "front": "What is Image Recognition?",
+        "back": "Image Recognition is a type of AI application that enables machines to identify and classify visual objects or patterns in images, with applications in areas such as security, healthcare, and retail."
+      },
+      {
+        "front": "What is Natural Language Processing (NLP)?",
+        "back": "Natural Language Processing is a subfield of AI that deals with the interaction between computers and humans in natural language, enabling machines to understand, interpret, and generate human language."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 11,
+    "created_at": "2026-02-28T19:08:45.613596"
+  },
+  {
+    "article_id": 54,
+    "mcqs": [
+      {
+        "question": "What is transforming the technology industry?",
+        "options": [
+          "A) Cloud Computing",
+          "B) Artificial Intelligence",
+          "C) Internet of Things",
+          "D) Cybersecurity"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that AI is transforming the technology industry."
+      },
+      {
+        "question": "Which companies are investing billions in AI research?",
+        "options": [
+          "A) Amazon and Facebook",
+          "B) Google and Microsoft",
+          "C) Apple and IBM",
+          "D) Tesla and NVIDIA"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article specifically mentions Google and Microsoft as major companies investing in AI research."
+      },
+      {
+        "question": "What type of algorithms power search engines and recommendation systems?",
+        "options": [
+          "A) Machine Learning",
+          "B) Deep Learning",
+          "C) Natural Language Processing",
+          "D) Neural Networks"
+        ],
+        "correct_answer": "A",
+        "explanation": "The article states that machine learning algorithms power search engines and recommendation systems."
+      },
+      {
+        "question": "What has achieved breakthrough results in image recognition and natural language processing?",
+        "options": [
+          "A) Machine Learning",
+          "B) Neural Networks",
+          "C) Artificial Intelligence",
+          "D) Cloud Computing"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that neural networks have achieved breakthrough results in image recognition and natural language processing."
+      },
+      {
+        "question": "What areas are expected to see revolutionary changes due to AI?",
+        "options": [
+          "A) Only Healthcare",
+          "B) Only Education",
+          "C) Only Transportation",
+          "D) Healthcare, Education, and Transportation"
+        ],
+        "correct_answer": "D",
+        "explanation": "The article states that the future of AI promises even more revolutionary changes across healthcare, education, and transportation."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is machine learning?",
+        "back": "Machine learning is a type of artificial intelligence that enables systems to learn from data and improve their performance on a task without being explicitly programmed."
+      },
+      {
+        "front": "What is neural network?",
+        "back": "A neural network is a type of machine learning algorithm inspired by the structure and function of the human brain, consisting of layers of interconnected nodes that process and transmit information."
+      },
+      {
+        "front": "What is natural language processing?",
+        "back": "Natural language processing is a subfield of artificial intelligence that deals with the interaction between computers and human language, enabling machines to understand, interpret, and generate human language."
+      },
+      {
+        "front": "What is image recognition?",
+        "back": "Image recognition is a type of machine learning application that enables computers to identify and classify images, objects, and patterns within images, often used in applications such as facial recognition and object detection."
+      },
+      {
+        "front": "What is AI research?",
+        "back": "AI research refers to the scientific study and development of artificial intelligence technologies, including machine learning, neural networks, and other related areas, with the goal of creating intelligent systems that can perform tasks that typically require human intelligence."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 12,
+    "created_at": "2026-02-28T19:10:14.545019"
+  },
+  {
+    "article_id": 52,
+    "mcqs": [
+      {
+        "question": "What is the main topic discussed in the article?",
+        "options": [
+          "A) A review of a new album",
+          "B) A song-by-song review of BLACKPINK's 'DEADLINE'",
+          "C) A discussion on K-pop trends",
+          "D) A review of a music festival"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article specifically mentions a song-by-song review of BLACKPINK's 'DEADLINE'."
+      },
+      {
+        "question": "What are the names of the two singles mentioned in the article?",
+        "options": [
+          "A) 'Champion' and 'Me and my'",
+          "B) 'GO' and 'JUMP'",
+          "C) 'Fxxxkboy' and 'Champion'",
+          "D) 'Me and my' and 'Fxxxkboy'"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions 'GO' and 'JUMP' as the two singles alongside 'DEADLINE'."
+      },
+      {
+        "question": "How many new tracks are mentioned in the article?",
+        "options": [
+          "A) 1",
+          "B) 2",
+          "C) 3",
+          "D) 4"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article mentions three new tracks: 'Fxxxkboy', 'Champion', and 'Me and my'."
+      },
+      {
+        "question": "What is the name of the album being reviewed?",
+        "options": [
+          "A) 'GO'",
+          "B) 'JUMP'",
+          "C) 'DEADLINE'",
+          "D) 'Champion'"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article specifically mentions a song-by-song review of BLACKPINK's 'DEADLINE'."
+      },
+      {
+        "question": "Which of the following is NOT a new track mentioned in the article?",
+        "options": [
+          "A) 'GO'",
+          "B) 'JUMP'",
+          "C) 'Fxxxkboy'",
+          "D) 'Me and my'"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions 'GO' and 'JUMP' as the two singles, not new tracks."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is BLACKPINK?",
+        "back": "BLACKPINK is a South Korean girl group formed by YG Entertainment, consisting of members Ros\u00e9, Jennie, Lisa, and Jisoo."
+      },
+      {
+        "front": "What is 'DEADLINE'?",
+        "back": "'DEADLINE' is the third studio album by BLACKPINK, released on July 16, 2023, featuring singles 'GO' and 'JUMP' alongside three new tracks."
+      },
+      {
+        "front": "What is 'GO'?",
+        "back": "'GO' is a single by BLACKPINK, released as part of their album 'DEADLINE', known for its energetic and addictive beat."
+      },
+      {
+        "front": "What is 'JUMP'?",
+        "back": "'JUMP' is a single by BLACKPINK, released as part of their album 'DEADLINE', featuring a strong and empowering message."
+      },
+      {
+        "front": "What is 'Fxxxkboy'?",
+        "back": "'Fxxxkboy' is a song by BLACKPINK, released as part of their album 'DEADLINE', addressing themes of toxic relationships and female empowerment."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 13,
+    "created_at": "2026-02-28T19:10:49.604115"
+  },
+  {
+    "article_id": 55,
+    "mcqs": [
+      {
+        "question": "Who launched the attack on Iran?",
+        "options": [
+          "A) Iran",
+          "B) United States and Israel",
+          "C) Gulf Arab states",
+          "D) Al Jazeera"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that a US official told Al Jazeera that the attacks were carried out as a joint military operation between Israel and the US."
+      },
+      {
+        "question": "Where did explosions occur in Iran?",
+        "options": [
+          "A) Only in Tehran",
+          "B) In Tehran and other parts of the country",
+          "C) Only in the western Ilam province",
+          "D) Only in the Hormozgan province"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article reports that explosions occurred in Tehran and other parts of the country, including the western Ilam province and the Hormozgan province."
+      },
+      {
+        "question": "What was hit by an Israeli strike in southern Iran?",
+        "options": [
+          "A) A military base",
+          "B) An elementary girl's school",
+          "C) A hospital",
+          "D) A government building"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that an Israeli strike hit an elementary girl's school in Minab, a city in the Hormozgan province of southern Iran."
+      },
+      {
+        "question": "How many people were killed in the Israeli strike on the elementary girl's school?",
+        "options": [
+          "A) At least 10 people",
+          "B) At least 40 people",
+          "C) At least 50 people",
+          "D) Over 100 people"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article states that at least 40 people were killed in the Israeli strike on the elementary girl's school, but later reports that over 50 people were killed."
+      },
+      {
+        "question": "What is the name of the news agency that reported on the attacks in Iran?",
+        "options": [
+          "A) Al Jazeera",
+          "B) Fars news agency",
+          "C) Tasnim News Agency",
+          "D) All of the above"
+        ],
+        "correct_answer": "D",
+        "explanation": "The article mentions Al Jazeera, Fars news agency, and Tasnim News Agency as sources of information on the attacks in Iran."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is a joint military operation?",
+        "back": "A coordinated attack or operation carried out by two or more countries, in this case, the US and Israel, working together to achieve a common military objective."
+      },
+      {
+        "front": "What is the Fordow nuclear facility?",
+        "back": "A secret underground nuclear facility in Iran, believed to be used for uranium enrichment and nuclear research, which has been a point of contention in international relations and potential military strikes."
+      },
+      {
+        "front": "What is a retaliatory strike?",
+        "back": "A military response or attack carried out by a country or entity in response to an initial attack or provocation, often aimed at inflicting damage or harm on the aggressor."
+      },
+      {
+        "front": "What is a semiofficial news agency?",
+        "back": "A news organization that is not officially affiliated with the government, but receives support or funding from it, often providing information and perspectives that may be aligned with the government's views."
+      },
+      {
+        "front": "What is a plume of smoke?",
+        "back": "A visible cloud of smoke or vapor that rises into the air, often resulting from an explosion, fire, or other sudden release of gases or particles."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 14,
+    "created_at": "2026-02-28T20:11:06.152980"
+  },
+  {
+    "article_id": 60,
+    "mcqs": [
+      {
+        "question": "What is the competition being discussed?",
+        "options": [
+          "A) ICC Cricket World Cup",
+          "B) T20 World Cup 2026",
+          "C) UEFA Champions League",
+          "D) FIFA World Cup"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions T20 World Cup 2026 as the competition being discussed."
+      },
+      {
+        "question": "Which two teams are facing each other?",
+        "options": [
+          "A) England vs Australia",
+          "B) England vs New Zealand",
+          "C) New Zealand vs South Africa",
+          "D) England vs India"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article specifically mentions England vs New Zealand as the teams facing each other."
+      },
+      {
+        "question": "What is at stake in this match?",
+        "options": [
+          "A) Group stage qualification",
+          "B) Semifinal qualification",
+          "C) Final match",
+          "D) Quarterfinal qualification"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions that semifinal qualification is at stake in this match."
+      },
+      {
+        "question": "What type of match is being played?",
+        "options": [
+          "A) Test match",
+          "B) ODI match",
+          "C) T20 match",
+          "D) One-day cup match"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article mentions T20 World Cup 2026, indicating that the match being played is a T20 match."
+      },
+      {
+        "question": "What is the format of the competition?",
+        "options": [
+          "A) Round-robin format",
+          "B) Knockout format",
+          "C) League format",
+          "D) Super 8 format"
+        ],
+        "correct_answer": "D",
+        "explanation": "The article mentions Super 8 as the format of the competition."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the T20 World Cup?",
+        "back": "The T20 World Cup is an international cricket tournament where national teams compete in Twenty20 format. It is a premier event in the cricket calendar, with teams competing for the championship title."
+      },
+      {
+        "front": "What is the Super 8 stage in the T20 World Cup?",
+        "back": "The Super 8 stage is a crucial round in the T20 World Cup where the top teams compete in a round-robin format. The teams that perform well in this stage have a higher chance of qualifying for the semifinals."
+      },
+      {
+        "front": "What is the significance of semifinal qualification in the T20 World Cup?",
+        "back": "Semifinal qualification is a critical milestone in the T20 World Cup, as it determines the teams that will compete for the championship title. The teams that qualify for the semifinals have a higher chance of winning the tournament."
+      },
+      {
+        "front": "What is the format of the T20 World Cup?",
+        "back": "The T20 World Cup is played in a round-robin format, followed by a knockout stage. The teams compete in a group stage, and the top teams qualify for the Super 8 stage, which is followed by the semifinals and the final."
+      },
+      {
+        "front": "What is the Twenty20 format in cricket?",
+        "back": "The Twenty20 format is a shorter version of the game, where each team faces 20 overs (120 balls). The game is played with a shorter duration, and the teams score runs and take wickets in a condensed format."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 15,
+    "created_at": "2026-02-28T20:12:33.164774"
+  },
+  {
+    "article_id": 63,
+    "mcqs": [
+      {
+        "question": "What is the new charge against influencer Gusmane Coulibaly?",
+        "options": [
+          "A) Assault",
+          "B) Obstructing government administration",
+          "C) Harassment violation",
+          "D) All of the above"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that Coulibaly now faces a misdemeanor count of obstructing government administration and a harassment violation, not assault."
+      },
+      {
+        "question": "What is the nature of the incident involving Gusmane Coulibaly?",
+        "options": [
+          "A) A physical altercation",
+          "B) A viral park incident",
+          "C) A social media controversy",
+          "D) A business dispute"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions a 'viral park incident' as the context for Coulibaly's charges."
+      },
+      {
+        "question": "What is the nature of the charge against Gusmane Coulibaly?",
+        "options": [
+          "A) Felony",
+          "B) Misdemeanor",
+          "C) Civil",
+          "D) Federal"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that Coulibaly faces a misdemeanor count of obstructing government administration and a harassment violation."
+      },
+      {
+        "question": "What is the specific charge against Gusmane Coulibaly regarding harassment?",
+        "options": [
+          "A) Harassment of a public figure",
+          "B) Harassment violation",
+          "C) Harassment of a minor",
+          "D) Harassment of a law enforcement officer"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article specifically mentions a 'harassment violation' as one of the charges against Coulibaly."
+      },
+      {
+        "question": "What is the type of violation against Gusmane Coulibaly?",
+        "options": [
+          "A) Assault charge",
+          "B) Obstruction of justice",
+          "C) Harassment violation",
+          "D) Disorderly conduct"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article states that Coulibaly faces a harassment violation, which is a type of charge."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is a misdemeanor?",
+        "back": "A lesser crime that is punishable by a fine or a short jail sentence, typically considered less serious than a felony."
+      },
+      {
+        "front": "What is obstructing government administration?",
+        "back": "The act of intentionally interfering with or hindering the performance of a government official's duties or the administration of the law."
+      },
+      {
+        "front": "What is a harassment violation?",
+        "back": "A type of offense that involves unwanted or threatening behavior towards another person, often involving verbal or physical conduct that creates a hostile or intimidating environment."
+      },
+      {
+        "front": "What is a viral incident?",
+        "back": "An event or situation that becomes widely known or publicized through social media or other online platforms, often due to its shocking or sensational nature."
+      },
+      {
+        "front": "What is a count of a charge?",
+        "back": "A formal accusation or indictment of a person with a specific crime or offense, often resulting in a trial or court proceedings."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 16,
+    "created_at": "2026-02-28T20:51:20.651891"
+  },
+  {
+    "article_id": 65,
+    "mcqs": [
+      {
+        "question": "Who said the US supports Pakistan's 'right to defend itself' against Afghan Taliban?",
+        "options": [
+          "A) US President Donald Trump",
+          "B) A State Department spokesperson",
+          "C) Pakistan's Prime Minister",
+          "D) Afghanistan's Taliban rulers"
+        ],
+        "correct_answer": "B",
+        "explanation": "A State Department spokesperson made the statement in an emailed statement."
+      },
+      {
+        "question": "What is the status of the US-Pakistan relationship according to US President Donald Trump?",
+        "options": [
+          "A) Poor",
+          "B) Very well",
+          "C) Neutral",
+          "D) Terrible"
+        ],
+        "correct_answer": "B",
+        "explanation": "US President Donald Trump stated that he gets along with Pakistan 'very well'."
+      },
+      {
+        "question": "What is the designation of the Afghan Taliban by the US?",
+        "options": [
+          "A) Friendly ally",
+          "B) Specially Designated Global Terrorist group",
+          "C) Non-NATO ally",
+          "D) Neutral"
+        ],
+        "correct_answer": "B",
+        "explanation": "The US considers the Afghan Taliban to be a 'terrorist' group."
+      },
+      {
+        "question": "What is the reason for the latest violence between Pakistan and Afghanistan?",
+        "options": [
+          "A) Border dispute",
+          "B) Trade agreement",
+          "C) Retaliation for airstrikes",
+          "D) Natural disaster"
+        ],
+        "correct_answer": "C",
+        "explanation": "The violence erupted after Pakistan's airstrikes on Afghan territory last weekend triggered Afghan retaliatory attacks along the border."
+      },
+      {
+        "question": "When did Washington withdraw from Afghanistan?",
+        "options": [
+          "A) 2020",
+          "B) 2021",
+          "C) 2022",
+          "D) 2023"
+        ],
+        "correct_answer": "B",
+        "explanation": "Washington withdrew chaotically in 2021, allowing the Taliban to return to power."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the Specially Designated Global Terrorist group?",
+        "back": "A group designated by the US government as a terrorist organization, in this case, the Afghan Taliban."
+      },
+      {
+        "front": "What is a non-NATO ally?",
+        "back": "A country that is not a member of the North Atlantic Treaty Organization (NATO) but has a close relationship with the US, receiving military and economic support."
+      },
+      {
+        "front": "What is guerrilla warfare?",
+        "back": "A type of warfare where a small group of fighters uses tactics such as ambushes and sabotage to attack a larger and more conventional enemy."
+      },
+      {
+        "front": "What is the US stance on the Afghan Taliban?",
+        "back": "The US considers the Afghan Taliban to be a terrorist group and has designated them as such."
+      },
+      {
+        "front": "What is the significance of Pakistan's nuclear-armed status?",
+        "back": "Pakistan's nuclear capabilities make it a significant military power in the region, with the ability to defend itself against potential threats."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 17,
+    "created_at": "2026-02-28T20:52:55.656329"
+  },
+  {
+    "article_id": 65,
+    "mcqs": [
+      {
+        "question": "What is the main topic discussed in the article?",
+        "options": [
+          "A) US-China relations",
+          "B) US support for Pakistan",
+          "C) Afghan Taliban's military capabilities",
+          "D) US withdrawal from Afghanistan"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article discusses the US support for Pakistan's right to defend itself against attacks from Afghanistan's Taliban rulers."
+      },
+      {
+        "question": "Who said that Pakistan is doing 'terrifically well'?",
+        "options": [
+          "A) US President Joe Biden",
+          "B) US President Donald Trump",
+          "C) Pakistani Prime Minister",
+          "D) Afghan Taliban leader"
+        ],
+        "correct_answer": "B",
+        "explanation": "US President Donald Trump made this statement in response to a question about intervening in the conflict between Pakistan and Afghanistan."
+      },
+      {
+        "question": "What is the status of the Afghan Taliban according to the US?",
+        "options": [
+          "A) A legitimate government",
+          "B) A Specially Designated Global Terrorist group",
+          "C) A non-NATO ally",
+          "D) A neutral party"
+        ],
+        "correct_answer": "B",
+        "explanation": "The US considers the Afghan Taliban to be a 'terrorist' group, as stated in the article."
+      },
+      {
+        "question": "What triggered the latest violence between Pakistan and Afghanistan?",
+        "options": [
+          "A) US withdrawal from Afghanistan",
+          "B) Pakistan's airstrikes on Afghan territory",
+          "C) Afghan retaliatory attacks along the border",
+          "D) Taliban's military capabilities"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that Pakistan's airstrikes on Afghan territory last weekend triggered Afghan retaliatory attacks along the border."
+      },
+      {
+        "question": "What is the relationship between the US and Pakistan?",
+        "options": [
+          "A) US is an enemy of Pakistan",
+          "B) US is a major non-NATO ally of Pakistan",
+          "C) US is a rival of Pakistan",
+          "D) US is neutral towards Pakistan"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that Pakistan is a major non-NATO ally of Washington, indicating a close relationship between the two countries."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the Specially Designated Global Terrorist group?",
+        "back": "A group designated by the US government as a terrorist organization, in this case, the Afghan Taliban."
+      },
+      {
+        "front": "What is a major non-NATO ally?",
+        "back": "A country that has a close relationship with the US and provides significant military and strategic support, in this case, Pakistan."
+      },
+      {
+        "front": "What is guerrilla warfare?",
+        "back": "A type of warfare where a small, mobile group of fighters uses tactics such as ambushes and sabotage to attack a larger, more conventional enemy."
+      },
+      {
+        "front": "What is a Specially Designated Global Terrorist group?",
+        "back": "A group designated by the US government as a terrorist organization, in this case, the Afghan Taliban."
+      },
+      {
+        "front": "What is the US stance on Pakistan's right to defend itself?",
+        "back": "The US supports Pakistan's right to defend itself against attacks from the Taliban, a Specially Designated Global Terrorist group."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 18,
+    "created_at": "2026-02-28T21:00:00.617637"
+  },
+  {
+    "article_id": 66,
+    "mcqs": [
+      {
+        "question": "What is the main topic discussed in the article?",
+        "options": [
+          "A) US-Iran relations",
+          "B) Israel-Iran conflict",
+          "C) Middle East news",
+          "D) Global politics"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article primarily focuses on the conflict between Israel and Iran."
+      },
+      {
+        "question": "Where did an Israeli strike hit an elementary girls' school?",
+        "options": [
+          "A) Tehran",
+          "B) Minab",
+          "C) Hormozgan province",
+          "D) Strait of Hormuz"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article specifically mentions Minab as the city where the strike occurred."
+      },
+      {
+        "question": "How many people were killed in the Israeli strike on the girls' school?",
+        "options": [
+          "A) At least 20",
+          "B) At least 53",
+          "C) At least 63",
+          "D) At least 100"
+        ],
+        "correct_answer": "B",
+        "explanation": "According to state media, at least 53 people were killed in the strike."
+      },
+      {
+        "question": "What is the location of the girls' school that was hit by the Israeli strike?",
+        "options": [
+          "A) Northern Iran",
+          "B) Southern Iran",
+          "C) Central Iran",
+          "D) Western Iran"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions that the school is located in the southern Iranian province of Hormozgan."
+      },
+      {
+        "question": "Who is responsible for the strike on the girls' school?",
+        "options": [
+          "A) Iran",
+          "B) Israel",
+          "C) US",
+          "D) Both Israel and the US"
+        ],
+        "correct_answer": "D",
+        "explanation": "The article states that the strike is part of a wave of joint US-Israeli military attacks across Iran."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the Fordow nuclear facility?",
+        "back": "The Fordow nuclear facility is a uranium enrichment plant located in Iran, which has been the subject of international concerns and sanctions due to its potential to produce nuclear weapons."
+      },
+      {
+        "front": "What is the Strait of Hormuz?",
+        "back": "The Strait of Hormuz is a strategic sea route that connects the Persian Gulf to the Gulf of Oman, and is a critical waterway for international oil trade, particularly for countries in the Middle East."
+      },
+      {
+        "front": "What is the Iran-Iraq conflict?",
+        "back": "The Iran-Iraq conflict refers to the ongoing conflict between Iran and Israel, which has escalated in recent years due to tensions over Iran's nuclear program and regional influence."
+      },
+      {
+        "front": "What is the Hormozgan province?",
+        "back": "The Hormozgan province is a southern province in Iran, which borders the Strait of Hormuz and has been a key location for Iran's oil and gas industry, as well as a major hub for international trade."
+      },
+      {
+        "front": "What is the IRNA news agency?",
+        "back": "The IRNA news agency is Iran's state-run news agency, which provides official news and information to the public, and is often cited as a source of information on official events and statements."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 19,
+    "created_at": "2026-02-28T21:01:28.986158"
+  },
+  {
+    "article_id": 67,
+    "mcqs": [
+      {
+        "question": "Where is the victim businessman from?",
+        "options": [
+          "A) Ahmedabad",
+          "B) Pune's Hinjewadi",
+          "C) Indore",
+          "D) Kolkata"
+        ],
+        "correct_answer": "B",
+        "explanation": "According to the article, the victim businessman is from Pune's Hinjewadi."
+      },
+      {
+        "question": "How much money was duped from the victim businessman?",
+        "options": [
+          "A) Rs 1 crore",
+          "B) Rs 4.97 crore",
+          "C) Rs 5 crore",
+          "D) Rs 10 crore"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that the victim businessman was duped of Rs 4.97 crore."
+      },
+      {
+        "question": "What was the promise made to the victim businessman?",
+        "options": [
+          "A) 1% return per month",
+          "B) 6% return per month",
+          "C) 10% return per year",
+          "D) 20% return per quarter"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that the accused persons promised the victim businessman a 6% return per month."
+      },
+      {
+        "question": "What sections of the law have been booked against the accused persons?",
+        "options": [
+          "A) Sections 316(2), 318(4), and 3(5) of the Bharatiya Nyaya Sanhita (BNS)",
+          "B) Sections 316(2), 318(4), and 3(5) of the Information Technology Act",
+          "C) Sections 316(2), 318(4), and 3(5) of the Indian Penal Code (IPC)",
+          "D) Sections 316(2), 318(4), and 3(5) of the Maharashtra Police Act"
+        ],
+        "correct_answer": "A",
+        "explanation": "The article states that the accused persons have been booked under Bharatiya Nyaya Sanhita (BNS) Sections 316(2), 318(4), and 3(5)."
+      },
+      {
+        "question": "When did the victim businessman first receive calls from the fraudsters?",
+        "options": [
+          "A) January 2024",
+          "B) January 2025",
+          "C) February 2025",
+          "D) March 2025"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that the victim businessman received calls from the fraudsters in January 2025."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is online investment fraud?",
+        "back": "A type of cybercrime where scammers deceive victims into investing money in a fake or non-existent investment opportunity, often promising unusually high returns."
+      },
+      {
+        "front": "What is a First Information Report (FIR)?",
+        "back": "A document filed with the police to report a crime, providing initial details of the incident, and serving as a starting point for the investigation."
+      },
+      {
+        "front": "What is Bharatiya Nyaya Sanhita (BNS)?",
+        "back": "A set of laws or regulations governing cybercrime in India, which the police may use to prosecute offenders in this case."
+      },
+      {
+        "front": "What is the Information Technology Act?",
+        "back": "A law that regulates the use of technology and the internet in India, including provisions related to cybercrime, data protection, and online transactions."
+      },
+      {
+        "front": "What is phishing?",
+        "back": "Not mentioned in the article, but a common type of cybercrime where scammers use fake names and phone numbers to deceive victims into divulging sensitive information or making financial transactions."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 20,
+    "created_at": "2026-02-28T21:33:15.013962"
+  },
+  {
+    "article_id": 73,
+    "mcqs": [
+      {
+        "question": "Where is the young boy from?",
+        "options": [
+          "A) Mumbai",
+          "B) Delhi",
+          "C) Kolkata",
+          "D) Chennai"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions that the boy is from Delhi's Prem Nagar."
+      },
+      {
+        "question": "What is the cost of the art class the boy attended?",
+        "options": [
+          "A) \u20b910",
+          "B) \u20b91",
+          "C) \u20b9100",
+          "D) \u20b91000"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions that the boy found hope in a \u20b91 art class."
+      },
+      {
+        "question": "What is the boy's profession now?",
+        "options": [
+          "A) Teacher",
+          "B) Mural artist",
+          "C) Doctor",
+          "D) Engineer"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that the boy now paints city walls across India, creating inspiring art."
+      },
+      {
+        "question": "What is the impact of the boy's art?",
+        "options": [
+          "A) It brings sadness",
+          "B) It brings hope",
+          "C) It brings anger",
+          "D) It brings fear"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article highlights the power of the boy's art, implying that it brings hope."
+      },
+      {
+        "question": "Where does the boy now paint his murals?",
+        "options": [
+          "A) Local galleries",
+          "B) City walls across India",
+          "C) Private homes",
+          "D) Schools"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that the boy now paints city walls across India."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is a mural artist?",
+        "back": "A mural artist is a person who creates large-scale paintings on walls, often using bold colors and vibrant designs to convey a message or tell a story."
+      },
+      {
+        "front": "What is the significance of a \u20b91 art class?",
+        "back": "A \u20b91 art class represents an affordable and accessible opportunity for people to learn and engage in art, regardless of their financial background."
+      },
+      {
+        "front": "What is the impact of mentorship on an artist's journey?",
+        "back": "Mentorship can provide guidance, support, and valuable feedback, helping an artist to develop their skills and achieve their full potential."
+      },
+      {
+        "front": "What is the role of art in inspiring others?",
+        "back": "Art has the power to inspire and uplift people, conveying messages of hope, resilience, and positivity, and often sparking meaningful conversations and connections."
+      },
+      {
+        "front": "What is the term for a large-scale painting on a wall?",
+        "back": "A mural is a large-scale painting on a wall, often created using a variety of techniques and materials to convey a message or tell a story."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 21,
+    "created_at": "2026-03-14T00:30:14.629508"
+  }
+]

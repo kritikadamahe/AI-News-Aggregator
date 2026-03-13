@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI News Summarizer - Study Smart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-wrapper">
+            <div class="nav-logo">
+                <span class="logo-symbol">◇</span>
+                <span class="logo-text">AI Summarizer</span>
+            </div>
+            <p class="nav-tagline">Transform Information Into Insight</p>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-wrapper">
+                <h1 class="hero-title">
+                    Intelligent News<br>
+                    <span class="text-gradient">Summarization Engine</span>
+                </h1>
+                <p class="hero-subtitle">Extract insights • Generate quizzes • Engage with AI</p>
+            </div>
+        </section>
+
+        <!-- Main Container -->
+        <div class="app-container">
+            <!-- Tab Navigation -->
+            <div class="tab-navigation">
+                <button class="tab-btn active" data-tab="paste" onclick="switchTab('paste')">
+                    <span class="tab-icon">✍</span>
+                    <span class="tab-label">Paste Text</span>
+                </button>
+                <button class="tab-btn" data-tab="fetch" onclick="switchTab('fetch')">
+                    <span class="tab-icon">◈</span>
+                    <span class="tab-label">Fetch News</span>
+                </button>
+                <button class="tab-btn" data-tab="upload" onclick="switchTab('upload')">
+                    <span class="tab-icon">⬆</span>
+                    <span class="tab-label">Upload File</span>
+                </button>
+            </div>
+
+            <!-- Content Panels -->
+            <div class="content-area">
+
+                <!-- PASTE TEXT TAB -->
+                <div id="paste-content" class="tab-panel active">
+                    <div class="panel-card">
+                        <h2 class="panel-title">Paste Your Article</h2>
+                        <p class="panel-description">Paste any news content and we'll transform it into exam-ready notes</p>
+                        
+                        <textarea 
+                            id="paste-text" 
+                            class="content-textarea"
+                            placeholder="Paste news article here..."
+                        ></textarea>
+                        
+                        <div class="action-buttons">
+                            <button class="btn btn-primary" onclick="summarizeText()">
+                                <span class="btn-icon">⚡</span>
+                                <span class="btn-text">Summarize</span>
+                            </button>
+                            <button class="btn btn-secondary" onclick="clearText()">
+                                <span class="btn-icon">✕</span>
+                                <span class="btn-text">Clear</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FETCH NEWS TAB -->
+                <div id="fetch-content" class="tab-panel">
+                    <div class="panel-card">
+                        <h2 class="panel-title">Fetch News</h2>
+                        
+                        <div class="source-selector">
+                            <label class="field-label">Select Source</label>
+                            <select id="source-type" class="form-select" onchange="updateFetchOptions()">
+                                <option value="api-headlines">Top Headlines</option>
+                                <option value="api-search">Search Articles</option>
+                                <option value="comprehensive">Comprehensive (NewsAPI + RSS)</option>
+                                <option value="url">From URL</option>
+                                <option value="youtube">YouTube Video</option>
+                            </select>
+                        </div>
+
+                        <!-- Headlines Options -->
+                        <div id="api-headlines-options" class="fetch-options visible">
+                            <div class="options-grid">
+                                <div class="form-field">
+                                    <label class="field-label">Category</label>
+                                    <select id="category" class="form-select">
+                                        <option value="">All</option>
+                                        <option value="technology">Technology</option>
+                                        <option value="business">Business</option>
+                                        <option value="sports">Sports</option>
+                                        <option value="science">Science</option>
+                                        <option value="health">Health</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-field">
+                                    <label class="field-label">Country</label>
+                                    <select id="country" class="form-select">
+                                        <option value="us">US</option>
+                                        <option value="gb">UK</option>
+                                        <option value="in">India</option>
+                                        <option value="ca">Canada</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Search Options -->
+                        <div id="api-search-options" class="fetch-options">
+                            <div class="form-field">
+                                <label class="field-label">Search Query</label>
+                                <input type="text" id="search-query" class="form-input" placeholder="Enter search term...">
+                            </div>
+                        </div>
+
+                        <!-- URL Options -->
+                        <div id="url-options" class="fetch-options">
+                            <div class="form-field">
+                                <label class="field-label">Article URL</label>
+                                <input type="url" id="article-url" class="form-input" placeholder="https://...">
+                            </div>
+                        </div>
+
+                        <!-- YouTube Options -->
+                        <div id="youtube-options" class="fetch-options">
+                            <div class="form-field">
+                                <label class="field-label">YouTube URL</label>
+                                <input type="url" id="youtube-url" class="form-input" placeholder="https://youtube.com/watch?v=...">
+                            </div>
+                        </div>
+
+                        <!-- Comprehensive Fetch Options -->
+                        <div id="comprehensive-options" class="fetch-options">
+                            <div class="form-field">
+                                <label class="field-label">Topic to Search</label>
+                                <input type="text" id="comprehensive-topic" class="form-input" placeholder="e.g., Artificial Intelligence, Climate Change..." onkeypress="if(event.key==='Enter'){fetchComprehensiveNews()}">
+                            </div>
+
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="comprehensive-use-api" class="form-checkbox" checked>
+                                    <span class="checkbox-text">🌐 Fetch from NewsAPI</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="comprehensive-use-rss" class="form-checkbox" checked>
+                                    <span class="checkbox-text">📡 Fetch from RSS Feeds</span>
+                                </label>
+                            </div>
+
+                            <p class="helper-text">
+                                <strong>Comparative Mode:</strong> Fetches the same topic from multiple Indian news sources (NewsAPI + 6 major RSS feeds) 
+                                to enable side-by-side comparison and analysis of how different outlets cover the story.
+                            </p>
+                        </div>
+
+                        <button class="btn btn-primary" onclick="
+                            const sourceType = document.getElementById('source-type').value;
+                            if (sourceType === 'comprehensive') {
+                                fetchComprehensiveNews();
+                            } else {
+                                fetchNews();
+                            }
+                        " style="width: 100%;">
+                            <span class="btn-icon">◈</span>
+                            <span class="btn-text" id="fetch-btn-text">Fetch & Summarize</span>
+                        </button>
+
+                        <!-- Articles Grid -->
+                        <div id="articles-grid" class="articles-grid"></div>
+                    </div>
+                </div>
+
+                <!-- UPLOAD FILE TAB -->
+                <div id="upload-content" class="tab-panel">
+                    <div class="panel-card">
+                        <h2 class="panel-title">Upload Document</h2>
+                        <p class="panel-description">Supported: PDF, DOCX, TXT</p>
+                        
+                        <div class="upload-area">
+                            <input 
+                                type="file" 
+                                id="document-file" 
+                                class="file-input"
+                                accept=".pdf,.docx,.txt"
+                                onchange="handleFileSelect(event)"
+                            >
+                            <label for="document-file" class="upload-label">
+                                <span class="upload-icon">�</span>
+                                <span class="upload-text">Click to upload or drag & drop</span>
+                                <span class="upload-hint">PDF, DOCX, or TXT</span>
+                            </label>
+                        </div>
+
+                        <button class="btn btn-primary" onclick="uploadFile()" style="width: 100%;">
+                            <span class="btn-icon">⬆</span>
+                            <span class="btn-text">Upload & Summarize</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div id="output-section" class="results-area" style="display: none;">
+            <!-- Summary Panel with Action Buttons -->
+            <div class="result-panel summary-panel">
+                <div class="panel-header">
+                    <h3 class="result-title">Summary</h3>
+                    <span class="result-badge">Generated</span>
+                </div>
+                <div id="output" class="result-content"></div>
+                
+                <div class="action-buttons" style="margin-top: auto; padding-top: 1.5rem; border-top: 1px solid rgba(212, 175, 55, 0.15); display: flex; gap: 0.75rem; flex-wrap: wrap;">
+                    <button class="btn btn-primary" onclick="openQuiz()" style="flex: 1; min-width: 120px;">
+                        <span class="btn-icon">❓</span>
+                        <span class="btn-text">Quiz</span>
+                    </button>
+                    <button class="btn btn-secondary" onclick="openFlashcards()" style="flex: 1; min-width: 120px;">
+                        <span class="btn-icon">♦</span>
+                        <span class="btn-text">Flashcards</span>
+                    </button>
+                    <button class="btn btn-primary" onclick="openChat()" style="flex: 1; min-width: 120px;">
+                        <span class="btn-icon">◉</span>
+                        <span class="btn-text">Ask AI</span>
+                    </button>
+                    <button id="listen-btn-panel" class="btn btn-secondary listen-btn" onclick="toggleSpeech()" style="flex: 1; min-width: 120px;" aria-label="Listen to summary" title="Listen to summary">
+                        <span class="btn-icon listen-icon">&#x1f50a;</span>
+                        <span class="btn-text listen-label">Listen</span>
+                    </button>
+                </div>
+                <!-- TTS Controls (expandable) -->
+                <div id="tts-controls-panel" class="tts-controls" style="display: none;">
+                    <div class="tts-controls-inner">
+                        <div class="tts-control-group">
+                            <label class="tts-label" for="voice-select">Voice</label>
+                            <select id="voice-select" class="tts-select" onchange="onVoiceChange()"></select>
+                        </div>
+                        <div class="tts-control-group">
+                            <label class="tts-label" for="speed-slider">Speed: <span id="speed-value">1x</span></label>
+                            <input type="range" id="speed-slider" class="tts-range" min="0.5" max="2" step="0.1" value="1" oninput="onSpeedChange(this.value)">
+                        </div>
+                        <div class="tts-control-group">
+                            <label class="tts-label" for="pitch-slider">Pitch: <span id="pitch-value">1</span></label>
+                            <input type="range" id="pitch-slider" class="tts-range" min="0.5" max="2" step="0.1" value="1" oninput="onPitchChange(this.value)">
+                        </div>
+                    </div>
+                    <div id="tts-status" class="tts-status" aria-live="polite"></div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="loading-overlay" style="display: none;">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p id="loading-text">Processing...</p>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Scripts -->
+    <script src="/static/script.js"></script>
+</body>
+</html>
+
+Example: Copy and paste any news article from the web, and click 'Summarize' to get exam-ready notes!"
+            rows="12"
+        ></textarea>
+        
+        <div class="button-group">
+            <button class="btn btn-primary" onclick="summarizeText()">
+                ✨ Summarize
+            </button>
+            <button class="btn btn-secondary" onclick="clearText()">
+                🗑️ Clear
+            </button>
+        </div>
+    </div>
+
+    <!-- FETCH NEWS TAB -->
+    <div id="fetch-content" class="tab-content">
+        
+        <!-- Source Type Selector -->
+        <div class="form-group">
+            <label for="source-type">Choose Source:</label>
+            <select id="source-type" onchange="updateFetchOptions()">
+                <option value="api-headlines">📰 Top Headlines (NewsAPI)</option>
+                <option value="api-search">🔍 Search Articles (NewsAPI)</option>
+                <option value="url">🔗 From URL</option>
+                <option value="youtube">🎥 YouTube Video</option>
+            </select>
+        </div>
+
+        <!-- API Headlines Options -->
+        <div id="api-headlines-options" class="fetch-options">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="category">Category:</label>
+                    <select id="category">
+                        <option value="">All Categories</option>
+                        <option value="technology">Technology</option>
+                        <option value="business">Business</option>
+                        <option value="sports">Sports</option>
+                        <option value="science">Science</option>
+                        <option value="health">Health</option>
+                        <option value="entertainment">Entertainment</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="country">Country:</label>
+                    <select id="country">
+                        <option value="us">United States</option>
+                        <option value="gb">United Kingdom</option>
+                        <option value="in">India</option>
+                        <option value="ca">Canada</option>
+                        <option value="au">Australia</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- API Search Options -->
+        <div id="api-search-options" class="fetch-options" style="display:none;">
+            <div class="form-group">
+                <label for="search-query">Search Keywords:</label>
+                <input 
+                    type="text" 
+                    id="search-query" 
+                    placeholder="e.g., artificial intelligence, climate change"
+                >
+            </div>
+        </div>
+
+        <!-- URL Options -->
+        <div id="url-options" class="fetch-options" style="display:none;">
+            <div class="form-group">
+                <label for="article-url">Article URL:</label>
+                <input 
+                    type="url" 
+                    id="article-url" 
+                    placeholder="https://example.com/article"
+                >
+            </div>
+        </div>
+
+        <!-- YouTube Options -->
+        <div id="youtube-options" class="fetch-options" style="display:none;">
+            <div class="form-group">
+                <label for="youtube-url">YouTube Video URL:</label>
+                <input 
+                    type="url" 
+                    id="youtube-url" 
+                    placeholder="https://www.youtube.com/watch?v=..."
+                >
+            </div>
+            <p class="hint">⚠️ Video must have captions/subtitles enabled</p>
+        </div>
+
+        <button class="btn btn-primary" onclick="fetchNews()" id="fetch-btn">
+            🚀 Fetch Articles
+        </button>
+
+        <!-- Articles Grid -->
+        <div id="articles-grid" class="articles-grid"></div>
+    </div>
+
+    <!-- UPLOAD FILE TAB -->
+    <div id="upload-content" class="tab-content">
+        <div class="upload-area" id="upload-area">
+            <input 
+                type="file" 
+                id="file-input" 
+                accept=".pdf,.docx,.txt"
+                onchange="handleFileSelect()"
+                style="display: none;"
+            >
+            <div class="upload-icon">📄</div>
+            <p class="upload-text">Drop file here or click to browse</p>
+            <p class="upload-hint">Supports PDF, DOCX, TXT (max 10MB)</p>
+            <button class="btn btn-secondary" onclick="document.getElementById('file-input').click()">
+                Choose File
+            </button>
+        </div>
+        
+        <div id="file-info" class="file-info" style="display:none;">
+            <p><strong>Selected:</strong> <span id="file-name"></span></p>
+            <button class="btn btn-primary" onclick="summarizeFile()">
+                ✨ Summarize
+            </button>
+        </div>
+    </div>
+
+    <!-- Output Section -->
+    <div id="output-section" class="output-section" style="display:none;">
+        <h2>📚 Summary</h2>
+        <div id="output" class="output-box"></div>
+        
+        <div class="action-buttons">
+            <button class="btn btn-primary" onclick="openQuiz()" style="flex: 1; min-width: 120px;">
+                <span class="btn-icon">❓</span>
+                <span class="btn-text">Quiz</span>
+            </button>
+            <button class="btn btn-secondary" onclick="openFlashcards()" style="flex: 1; min-width: 120px;">
+                <span class="btn-icon">♦</span>
+                <span class="btn-text">Flashcards</span>
+            </button>
+            <button class="btn btn-primary" onclick="openChat()" style="flex: 1; min-width: 120px;">
+                <span class="btn-icon">⚡</span>
+                <span class="btn-text">Ask AI</span>
+            </button>
+            <button id="listen-btn-alt" class="btn btn-secondary listen-btn" onclick="toggleSpeech()" style="flex: 1; min-width: 120px;" aria-label="Listen to summary" title="Listen to summary">
+                <span class="btn-icon listen-icon">&#x1f50a;</span>
+                <span class="btn-text listen-label">Listen</span>
+            </button>
+        </div>
+        <!-- TTS Controls (expandable) -->
+        <div id="tts-controls-alt" class="tts-controls" style="display: none;">
+            <div class="tts-controls-inner">
+                <div class="tts-control-group">
+                    <label class="tts-label" for="voice-select-alt">Voice</label>
+                    <select id="voice-select-alt" class="tts-select" onchange="onVoiceChange()"></select>
+                </div>
+                <div class="tts-control-group">
+                    <label class="tts-label" for="speed-slider-alt">Speed: <span id="speed-value-alt">1x</span></label>
+                    <input type="range" id="speed-slider-alt" class="tts-range" min="0.5" max="2" step="0.1" value="1" oninput="onSpeedChange(this.value)">
+                </div>
+                <div class="tts-control-group">
+                    <label class="tts-label" for="pitch-slider-alt">Pitch: <span id="pitch-value-alt">1</span></label>
+                    <input type="range" id="pitch-slider-alt" class="tts-range" min="0.5" max="2" step="0.1" value="1" oninput="onPitchChange(this.value)">
+                </div>
+            </div>
+            <div id="tts-status-alt" class="tts-status" aria-live="polite"></div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Quiz Modal -->
+<div id="quiz-modal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2>❓ Quiz Time</h2>
+            <button class="close-btn" onclick="closeQuiz()">&times;</button>
+        </div>
+        
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div id="progress-fill" class="progress-fill"></div>
+            </div>
+            <p class="question-counter">
+                Question <span id="current-q">1</span> of <span id="total-q">5</span>
+            </p>
+        </div>
+
+        <div id="quiz-content" class="quiz-content"></div>
+        
+        <div id="quiz-results" class="quiz-results" style="display:none;"></div>
+    </div>
+</div>
+
+<!-- Flashcard Modal -->
+<div id="flashcard-modal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2>♦ Flashcards</h2>
+            <button class="close-btn" onclick="closeFlashcards()">&times;</button>
+        </div>
+        
+        <p class="card-counter">
+            Card <span id="current-card">1</span> of <span id="total-cards">5</span>
+        </p>
+
+        <div class="flashcard" id="flashcard" onclick="flipCard()">
+            <div class="flashcard-inner" id="flashcard-inner">
+                <div class="flashcard-front">
+                    <p id="card-front"></p>
+                </div>
+                <div class="flashcard-back">
+                    <p id="card-back"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flashcard-controls">
+            <button class="btn btn-secondary" onclick="previousCard()" id="prev-card-btn">
+                ← Previous
+            </button>
+            <button class="btn btn-secondary" onclick="shuffleCards()">
+                🔀 Shuffle
+            </button>
+            <button class="btn btn-secondary" onclick="nextCard()" id="next-card-btn">
+                Next →
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Chat Panel -->
+<div id="chat-panel" class="chat-panel">
+    <div class="chat-header">
+        <h3>⚡ Ask Questions</h3>
+        <p class="chat-article-title" id="chat-article-title"></p>
+        <button class="close-chat-btn" onclick="closeChat()">&times;</button>
+    </div>
+
+    <div id="suggested-questions" class="suggested-questions"></div>
+
+    <div id="chat-messages" class="chat-messages">
+        <div class="chat-welcome">
+            <p>✓ Ask me anything about this article.</p>
+            <p class="chat-hint">I'll answer based only on the article content.</p>
+        </div>
+    </div>
+
+    <div class="chat-input-container">
+        <input 
+            type="text" 
+            id="chat-input" 
+            placeholder="Type your question..." 
+            onkeypress="handleChatEnter(event)"
+            maxlength="500"
+        >
+        <button class="send-btn" onclick="sendChatMessage()">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+            </svg>
+        </button>
+    </div>
+
+    <button class="clear-chat-btn" onclick="clearChatHistory()">
+        ✕ Clear Chat
+    </button>
+</div>
+
+<!-- Loading Overlay -->
+<div id="loading-overlay" class="loading-overlay" style="display:none;">
+    <div class="spinner"></div>
+    <p id="loading-text">Processing...</p>
+</div>
+
+<!-- Toast Notifications -->
+<div id="toast-container" class="toast-container"></div>
+<script src="/static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+[
+  {
+    "article_id": 4,
+    "user_message": "why dhoni  is not plaing",
+    "ai_response": "MS Dhoni is unlikely to play the entire **IPL 2026** season due to fitness and performance concerns. The article states:\n\n*\"The 44-year-old didn\u2019t look his best last year when it comes to fitness and performance... Dhoni batted at numbers 7 to 9 in 10 out of 13 innings in IPL 2025, indicating CSK and Dhoni himself don\u2019t trust him to bat long and take the game deep.\"*\n\nAdditionally, **CSK\u2019s trade of Sanju Samson** suggests they are prioritizing younger players for long-term roles.",
+    "session_id": "3844277f-87c5-4030-8d42-fcc92e37b6ab",
+    "timestamp": "2026-02-22T22:27:41.331045",
+    "id": 1,
+    "created_at": "2026-02-22T22:27:41.346126"
+  },
+  {
+    "article_id": 4,
+    "user_message": "Given Dhoni\u2019s confirmed availability for the upcoming season, will he be retained as a full-time player or transition to a more ceremonial/part-time role in IPL 2026?",
+    "ai_response": "Based on the article, **MS Dhoni will not be retained as a full-time player** in IPL 2026. The franchise has brought in **Sanju Samson** as a long-term replacement, and Dhoni\u2019s limited batting role in IPL 2025 (positions 7 to 9 in 10 innings) suggests he will be used **sparingly**, likely as an **impact substitute** rather than a regular starter.\n\n*\"Dhoni will return to the MA Chidambaram Stadium but isn\u2019t expected to play all 14 league matches for CSK... And we might just see him come on as an impact sub for the first time as well.\"*",
+    "session_id": "3844277f-87c5-4030-8d42-fcc92e37b6ab",
+    "timestamp": "2026-02-22T22:27:58.832199",
+    "id": 2,
+    "created_at": "2026-02-22T22:27:58.832208"
+  },
+  {
+    "article_id": 35,
+    "user_message": "microsoft gaming how it responded",
+    "ai_response": "This information is not mentioned in the article. The provided snippet only discusses Phil Spencer\u2019s potential retirement timing and the speculation behind it, not how Microsoft Gaming responded.",
+    "session_id": "cb9a5547-0bc2-4456-b1e2-a9ad54193040",
+    "timestamp": "2026-02-22T23:19:46.735787",
+    "id": 3,
+    "created_at": "2026-02-22T23:19:46.739834"
+  },
+  {
+    "article_id": 12,
+    "user_message": "who won the medals",
+    "ai_response": "The U.S. team won the gold medal in **mixed aerials** with the trio of **Kaila Kuhn, Connor Curran, and Chris Lillis**.\n\nThis information is not mentioned in the article:\n- The specific silver or bronze medal winners.\n- Any other medal details (e.g., individual aerials or other events).",
+    "session_id": "68a71828-8f71-4c77-9065-22639f2bf95f",
+    "timestamp": "2026-02-22T23:27:06.391438",
+    "id": 4,
+    "created_at": "2026-02-22T23:27:06.397511"
+  },
+  {
+    "article_id": 73,
+    "user_message": "What specific challenges did the artist face in his journey, and how did he overcome them?",
+    "ai_response": "The article does not specifically mention the specific challenges the artist faced in his journey. However, it does mention that he \"faced hardship\" in his early days.",
+    "session_id": "0dab8c92-8285-4d93-8911-96c553157ed6",
+    "timestamp": "2026-03-14T00:30:44.696489",
+    "id": 5,
+    "created_at": "2026-03-14T00:30:44.700121"
+  }
+]

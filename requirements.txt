@@ -1,0 +1,35 @@
+# Core Flask
+Flask==3.0.0
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Document processing
+PyPDF2==3.0.1
+python-docx==1.1.0
+
+# Web scraping
+beautifulsoup4==4.12.2
+newspaper3k==0.2.8
+lxml==4.9.4
+
+# RSS Feed Integration
+feedparser
+python-dateutil==2.8.2
+
+# News API
+newsapi-python
+
+# YouTube transcripts
+youtube-transcript-api==0.6.1
+
+# Utilities
+validators==0.22.0
+
+# NLP - POS Tagging & Chunking
+spacy>=3.7.0
+
+# NLP - Misinformation & Bias Detection
+nltk>=3.8.0
+text2emotion>=0.0.5
+
+emoji==1.7.0
