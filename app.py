@@ -753,7 +753,8 @@ def fetch_news():
                 content=article['content'],
                 source=article['source'],
                 url=article.get('url'),
-                category=article.get('category')
+                category=article.get('category'),
+                search_keyword=query
             )
             # --- Smart Classification using POS Tagging & Chunking ---
             try:
@@ -835,7 +836,8 @@ def fetch_news():
             title=transcript['title'],
             content=transcript['content'],
             source='YouTube',
-            url=transcript['url']
+            url=transcript['url'],
+            search_keyword=query if 'query' in data else None
         )
         # --- Smart Classification using POS Tagging & Chunking ---
         try:
@@ -1225,44 +1227,122 @@ def test_api():
 def get_related_articles(article_id):
     """
     Get articles related to specified article.
-    Uses entity extraction and semantic similarity.
+    Fetches from NewsAPI and RSS feeds using original search keyword
+    and keywords extracted from article summary.
     """
     try:
-        mapper = RelationshipMapper(articles_storage)
-        related = mapper.find_related_articles(article_id, min_score=60, max_results=5)
+        # Get the article
+        article = articles_storage.get_by_id(article_id)
+        if not article:
+            return jsonify({
+                'success': False,
+                'error': 'Article not found',
+                'related_count': 0,
+                'related': []
+            }), 404
         
-        # Enrich with article details
+        # Collect search keywords
+        search_keywords = []
+        
+        # Use original search keyword if available
+        if article.get('search_keyword'):
+            search_keywords.append(article['search_keyword'])
+        
+        # Extract keywords from summary or title
+        title_keywords = article.get('title', '').split()[:3]  # First 3 words from title
+        search_keywords.extend(title_keywords)
+        
+        if article.get('summary'):
+            # Extract major words from summary (words > 4 chars, exclude common words)
+            common_words = {'that', 'this', 'from', 'with', 'have', 'been', 'more', 'they', 'their', 'would', 'what', 'about', 'which', 'when', 'make', 'also', 'well', 'most', 'such', 'even'}
+            summary_words = article['summary'].split()
+            for word in summary_words[:20]:  # Check first 20 words
+                clean_word = word.lower().strip('.,!?;:')
+                if len(clean_word) > 4 and clean_word not in common_words:
+                    search_keywords.append(clean_word)
+                    if len(search_keywords) >= 5:
+                        break
+        
+        # Remove duplicates while preserving order
+        seen = set()
+        unique_keywords = []
+        for kw in search_keywords:
+            kw_lower = kw.lower()
+            if kw_lower not in seen and kw_lower.strip():
+                unique_keywords.append(kw)
+                seen.add(kw_lower)
+        
+        # Primary keyword for search
+        primary_keyword = unique_keywords[0] if unique_keywords else article.get('title', 'news')
+        
+        print(f"[Related Articles] Article {article_id}: {article.get('title', '')}")
+        print(f"[Related Articles] Keywords: {unique_keywords}")
+        print(f"[Related Articles] Searching with primary keyword: {primary_keyword}")
+        
+        # Fetch related articles from API and RSS
+        related_articles = fetch_news_comprehensive(
+            topic=primary_keyword,
+            use_rss=True,
+            use_api=True
+        )
+        
+        if not related_articles:
+            # Try with second keyword if available
+            if len(unique_keywords) > 1:
+                print(f"[Related Articles] First keyword found no results, trying second: {unique_keywords[1]}")
+                related_articles = fetch_news_comprehensive(
+                    topic=unique_keywords[1],
+                    use_rss=True,
+                    use_api=True
+                )
+        
+        # Save fetched articles and build results
         results = []
-        for rel in related:
-            article = articles_storage.get_by_id(rel['related_id'])
-            if article:
-                results.append({
-                    'relationship': {
-                        'score': rel['score'],
-                        'reason': rel['reason'],
-                        'shared_entities': rel['shared_entities'],
-                        'shared_phrases': rel['shared_phrases'][:3],  # Top 3 phrases
-                        'breakdown': rel['breakdown']
-                    },
-                    'article': {
-                        'id': article['id'],
-                        'title': article.get('title', '')[:80],
-                        'source': article.get('source', 'Unknown'),
-                        'summary': article.get('summary', '')[:200] if article.get('summary') else article.get('content', '')[:200],
-                        'published_at': article.get('published_at', ''),
-                        'category': article.get('category', 'general')
-                    }
-                })
+        for i, fetched_article in enumerate(related_articles[:10]):  # Limit to 10 related articles
+            # Skip if it's the same as current article
+            if fetched_article.get('url') == article.get('url'):
+                continue
+            
+            # Save to database
+            saved = articles_storage.add_article(
+                title=fetched_article.get('title', ''),
+                content=fetched_article.get('description', '') or fetched_article.get('content', ''),
+                source=fetched_article.get('source', 'Unknown'),
+                url=fetched_article.get('url'),
+                category=fetched_article.get('category'),
+                search_keyword=primary_keyword
+            )
+            
+            results.append({
+                'relationship': {
+                    'score': 85 - (i * 5),  # Descending relevance score based on order
+                    'reason': f'Related to: {primary_keyword}',
+                    'shared_entities': [primary_keyword],
+                    'shared_phrases': [],
+                    'breakdown': {'keyword_match': 100}
+                },
+                'article': {
+                    'id': saved['id'],
+                    'title': saved.get('title', '')[:80],
+                    'source': saved.get('source', 'Unknown'),
+                    'summary': saved.get('content', '')[:200],
+                    'published_at': saved.get('published_at', ''),
+                    'category': saved.get('category', 'general')
+                }
+            })
         
         return jsonify({
             'success': True,
             'article_id': article_id,
+            'search_keyword': primary_keyword,
             'related_count': len(results),
             'related': results
         })
     
     except Exception as e:
         print(f"[Related Articles] Error: {str(e)}")
+        import traceback
+        traceback.print_exc()
         return jsonify({
             'success': False,
             'error': str(e),

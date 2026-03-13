@@ -154,7 +154,7 @@ class ArticleStorage(HybridStorage):
     
     def add_article(self, title: str, content: str, source: str, 
                     url: str = None, category: str = None, 
-                    summary: str = None) -> Dict:
+                    summary: str = None, search_keyword: str = None) -> Dict:
         """Add article with automatic deduplication."""
         # Generate content hash for deduplication
         content_hash = hashlib.md5(content.encode()).hexdigest()
@@ -171,6 +171,7 @@ class ArticleStorage(HybridStorage):
             'url': url,
             'category': category,
             'summary': summary,
+            'search_keyword': search_keyword,
             'content_hash': content_hash,
             'word_count': len(content.split()),
             'analysis_results': None  # Misinformation/bias analysis (populated later)
