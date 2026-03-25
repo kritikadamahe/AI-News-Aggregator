@@ -27,6 +27,14 @@ from storage import (
 )
 from config import *
 
+# Import translation service (if translation is enabled)
+try:
+    from services.translator_service import translate_summary as translate_text
+    TRANSLATION_AVAILABLE = True
+except ImportError:
+    print("[WARNING] Translation service not available. Install transformers, spacy, and indic-transliteration.")
+    TRANSLATION_AVAILABLE = False
+
 # Initialize Flask app
 app = Flask(__name__)
 app.secret_key = SECRET_KEY
@@ -235,6 +243,12 @@ Generate the exam-ready notes now:
         source=source,
         summary=summary
     )
+    
+    # IMPORTANT: If article was deduplicated (returned existing), update its summary
+    if not saved_article.get('summary'):
+        articles_storage.update(saved_article['id'], {'summary': summary})
+        saved_article['summary'] = summary
+        print(f"[Summarize] Article {saved_article['id']} already existed, updated with summary")
 
     # --- Smart Classification using POS Tagging & Chunking ---
     try:
@@ -1435,6 +1449,178 @@ def get_entity_articles(entity_id):
             'entity': None,
             'article_count': 0,
             'articles': []
+        }), 500
+
+
+# ============================================================================
+# ROUTES - MULTILINGUAL TRANSLATION (Feature: Article Translation)
+# ============================================================================
+
+@app.route('/api/debug-request', methods=['POST'])
+def debug_request():
+    """Debug endpoint to see what's being sent."""
+    data = request.get_json()
+    return jsonify({
+        "received_data": data,
+        "article_id_type": type(data.get('article_id')).__name__ if data else None,
+        "target_lang_type": type(data.get('target_lang')).__name__ if data else None,
+        "article_id_value": data.get('article_id') if data else None,
+        "target_lang_value": data.get('target_lang') if data else None,
+    })
+
+@app.route('/api/test-translation', methods=['GET'])
+def test_translation_service():
+    """
+    Diagnostic endpoint to test if translation service is available.
+    Returns status of translation system components.
+    """
+    print("[Translation] Test endpoint called")
+    
+    return jsonify({
+        "success": True,
+        "translation_enabled": TRANSLATION_ENABLED,
+        "translation_available": TRANSLATION_AVAILABLE,
+        "supported_languages": list(SUPPORTED_TRANSLATION_LANGS.keys()),
+        "message": "Translation service is " + ("available" if TRANSLATION_AVAILABLE else "NOT available")
+    })
+
+@app.route('/api/translate-summary', methods=['POST'])
+def translate_article_summary():
+    """
+    Translate article summary to a target language.
+    
+    Request JSON:
+    {
+        "article_id": <int>,
+        "target_lang": "hi" | "mr" | "ta" | "te"
+    }
+    
+    Response:
+    {
+        "success": <bool>,
+        "article_id": <int>,
+        "target_lang": <str>,
+        "translated_summary": <str>,
+        "cached": <bool>,
+        "entity_count": <int>,
+        "chunks": <int>,
+        "provider": <str>,
+        "error": <str> | null
+    }
+    """
+    try:
+        # Check if translation is enabled
+        if not TRANSLATION_ENABLED:
+            print("[Translation] Translation service is disabled in config")
+            return jsonify({
+                "success": False,
+                "error": "Translation service is disabled in config"
+            }), 403
+        
+        # Check if translation service is available
+        if not TRANSLATION_AVAILABLE:
+            print("[Translation] Translation service not available")
+            return jsonify({
+                "success": False,
+                "error": "Translation service not installed. Install transformers, spacy, and indic-transliteration."
+            }), 503
+        
+        # Parse request
+        data = request.get_json()
+        print(f"[Translation] Request data: {data}")
+        
+        if not data:
+            print("[Translation] No JSON data in request")
+            return jsonify({"success": False, "error": "No JSON data provided"}), 400
+        
+        article_id = data.get('article_id')
+        target_lang = data.get('target_lang', '').lower()
+        
+        print(f"[Translation] article_id={article_id}, target_lang={target_lang}")
+        
+        # Validate article_id
+        if not article_id:
+            print("[Translation] Missing article_id")
+            return jsonify({"success": False, "error": "article_id required"}), 400
+        
+        # Validate target_lang
+        if not target_lang:
+            print("[Translation] Missing target_lang")
+            return jsonify({"success": False, "error": "target_lang required"}), 400
+        
+        if target_lang not in SUPPORTED_TRANSLATION_LANGS:
+            supported = ', '.join(SUPPORTED_TRANSLATION_LANGS.keys())
+            print(f"[Translation] Unsupported language: {target_lang}")
+            return jsonify({
+                "success": False,
+                "error": f"Unsupported language '{target_lang}'. Supported: {supported}"
+            }), 400
+        
+        # English is original language, no translation needed
+        if target_lang == 'en':
+            print("[Translation] Target language is English, no translation needed")
+            return jsonify({
+                "success": False,
+                "error": "Article is already in English. No translation needed."
+            }), 400
+        
+        # Fetch article
+        article = articles_storage.get_by_id(article_id)
+        if not article:
+            print(f"[Translation] Article {article_id} not found")
+            return jsonify({
+                "success": False,
+                "article_id": article_id,
+                "error": "Article not found"
+            }), 404
+        
+        # Check if article has summary
+        summary = article.get('summary')
+        if not summary:
+            print(f"[Translation] ERROR: Article {article_id} has no summary. Article keys: {list(article.keys())}")
+            print(f"[Translation] Article title: {article.get('title')}, Source: {article.get('source')}")
+            return jsonify({
+                "success": False,
+                "article_id": article_id,
+                "error": "Article has no summary. Please click 'Summarize' button in the Summary panel to generate a summary first."
+            }), 400
+        
+        # Translate summary
+        try:
+            print(f"[Translation] Starting translation for article {article_id} to {target_lang}")
+            result = translate_text(
+                summary_text=summary,
+                target_lang=target_lang,
+                article_id=article_id
+            )
+            
+            print(f"[Translation] Translation successful for article {article_id}")
+            return jsonify({
+                "success": True,
+                "article_id": article_id,
+                "target_lang": target_lang,
+                "translated_summary": result.get('translated_text'),
+                "cached": result.get('cached', False),
+                "entity_count": result.get('entity_count', 0),
+                "chunks": result.get('chunks', 1),
+                "provider": result.get('provider', 'm2m100'),
+                "error": None
+            }), 200
+        
+        except Exception as e:
+            print(f"[Translation] Error translating article {article_id} to {target_lang}: {str(e)}")
+            return jsonify({
+                "success": False,
+                "article_id": article_id,
+                "target_lang": target_lang,
+                "error": f"Translation failed: {str(e)}"
+            }), 500
+    
+    except Exception as e:
+        print(f"[Translation] Unexpected error in /api/translate-summary: {str(e)}")
+        return jsonify({
+            "success": False,
+            "error": f"Internal server error: {str(e)}"
         }), 500
 
 

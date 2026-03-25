@@ -31,12 +31,22 @@ from collections import Counter
 # ============================================================================
 # spaCy - Core NLP pipeline for POS tagging, dependency parsing, NER
 # ============================================================================
-import spacy
-from spacy.matcher import PhraseMatcher, Matcher
-
-# Load spaCy English model (small) - provides:
-#   - Tokenization, POS tagging, Dependency Parsing, NER
-nlp = spacy.load("en_core_web_sm")
+try:
+    import spacy
+    from spacy.matcher import PhraseMatcher, Matcher
+    SPACY_AVAILABLE = True
+    try:
+        nlp = spacy.load("en_core_web_sm")
+    except OSError:
+        print("[Misinformation] WARNING: spaCy model not found")
+        SPACY_AVAILABLE = False
+        nlp = None
+except ImportError:
+    print("[Misinformation] WARNING: spaCy not installed. Misinformation detection disabled.")
+    SPACY_AVAILABLE = False
+    nlp = None
+    PhraseMatcher = None
+    Matcher = None
 
 # ============================================================================
 # VADER Sentiment Analyzer (NLTK) - Pre-trained lexicon-based model
@@ -968,4 +978,14 @@ def analyze_article(title: str, content: str, source: str = "",
     Returns:
         Analysis result dict with scores, ratings, and warnings.
     """
+    # Return safe default if spacy not available
+    if not SPACY_AVAILABLE or nlp is None:
+        return {
+            "overall_score": -1,
+            "rating": "unavailable",
+            "breakdown": {},
+            "specific_warnings": ["Analysis unavailable (NLP library not installed)"],
+            "recommendation": "Install spacy to enable misinformation detection."
+        }
+    
     return detector.analyze(title, content, source, category)

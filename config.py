@@ -48,6 +48,45 @@ SUPPORTED_COUNTRIES = ['us', 'gb', 'in', 'ca', 'au']
 DEFAULT_MCQ_COUNT = 5
 DEFAULT_FLASHCARD_COUNT = 5
 
+# ============================================================================
+# MULTILINGUAL TRANSLATION SETTINGS
+# ============================================================================
+
+# Translation feature toggle
+TRANSLATION_ENABLED = True
+
+# Translation cache configuration
+TRANSLATION_CACHE_FILE = str(DATA_DIR / 'translation_cache.json')
+TRANSLATION_CACHE_MAX_ENTRIES = 1000
+
+# M2M100 Model configuration
+TRANSLATION_MODEL_NAME = "facebook/m2m100_418M"
+TRANSLATION_DEVICE = os.getenv("TRANSLATION_DEVICE", "cpu")
+TRANSLATION_MAX_TOKENS = 512
+
+# Source language (English)
+SOURCE_LANG = "en"
+
+# Supported translation languages with metadata
+SUPPORTED_TRANSLATION_LANGS = {
+    "hi": {"label": "Hindi", "script": "DEVANAGARI"},
+    "mr": {"label": "Marathi", "script": "DEVANAGARI"},
+    "ta": {"label": "Tamil", "script": "TAMIL"},
+    "te": {"label": "Telugu", "script": "TELUGU"}
+}
+
+# Languages that use danda (।) instead of period (.)
+DANDA_LANGS = {"hi", "mr"}
+
+# M2M100 language code mapping
+M2M100_LANG_CODES = {
+    "en": "en",
+    "hi": "hi",
+    "mr": "mr",
+    "ta": "ta",
+    "te": "te"
+}
+
 # AI Model settings
 SUMMARY_MODEL = "meta-llama/llama-3.1-8b-instruct"
 SUMMARY_TEMPERATURE = 0.25

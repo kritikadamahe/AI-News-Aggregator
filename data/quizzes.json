@@ -3038,5 +3038,435 @@
     "num_flashcards": 5,
     "id": 36,
     "created_at": "2026-03-14T02:45:24.582621"
+  },
+  {
+    "article_id": 154,
+    "mcqs": [
+      {
+        "question": "What was the main topic highlighted by Formula 1 after the first race?",
+        "options": [
+          "A) The number of drivers who retired",
+          "B) The number of overtakes",
+          "C) The new regulations",
+          "D) The weather conditions"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that Formula 1 highlighted the number of overtakes on its social media channels."
+      },
+      {
+        "question": "How many overtaking moves were there in the season opener?",
+        "options": [
+          "A) 30",
+          "B) 40",
+          "C) 120",
+          "D) 150"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article states that the season opener produced a total of 120 overtaking moves."
+      },
+      {
+        "question": "What is the comparison between the number of overtakes in the current year and the previous year?",
+        "options": [
+          "A) The same",
+          "B) Roughly two times the number",
+          "C) Roughly three times the number",
+          "D) Roughly four times the number"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article states that the number of overtakes in the current year is roughly three times the number from the year before."
+      },
+      {
+        "question": "What was the reaction of the drivers to the new regulations?",
+        "options": [
+          "A) They were pleased",
+          "B) They were disappointed",
+          "C) They were neutral",
+          "D) The article does not mention the drivers' reaction"
+        ],
+        "correct_answer": "D",
+        "explanation": "The article does not mention the drivers' reaction to the new regulations."
+      },
+      {
+        "question": "In what context were the overtaking moves highlighted by Formula 1?",
+        "options": [
+          "A) On the official Formula 1 website",
+          "B) On its social media channels",
+          "C) During a press conference",
+          "D) In a post-race interview"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that Formula 1 highlighted the number of overtakes on its social media channels."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What are the new Formula 1 regulations?",
+        "back": "Regulations that aim to increase overtaking opportunities in the sport."
+      },
+      {
+        "front": "What was the number of overtakes in the season opener?",
+        "back": "A total of 120 overtaking moves, which is roughly three times the number from the year before."
+      },
+      {
+        "front": "What was the comparison to the previous year's overtakes?",
+        "back": "There were roughly three times as many overtakes in the season opener compared to the previous year."
+      },
+      {
+        "front": "What did Formula 1 highlight after the first race?",
+        "back": "The number of overtaking moves on their social media channels."
+      },
+      {
+        "front": "What was the result of the new regulations on the first race?",
+        "back": "An increase in overtaking opportunities, with 120 overtaking moves."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 37,
+    "created_at": "2026-03-14T03:00:33.246241"
+  },
+  {
+    "article_id": 163,
+    "mcqs": [
+      {
+        "question": "Which team signed left-arm fast bowler Spencer Johnson?",
+        "options": [
+          "A) Gujarat Titans",
+          "B) Chennai Super Kings",
+          "C) Kolkata Knight Riders",
+          "D) Quetta Gladiators"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that Chennai Super Kings have signed Spencer Johnson as a replacement for the injured Nathan Ellis."
+      },
+      {
+        "question": "What was the reason for Nathan Ellis's injury?",
+        "options": [
+          "A) A recurrence of a hamstring injury",
+          "B) A head injury",
+          "C) A knee injury",
+          "D) A shoulder injury"
+        ],
+        "correct_answer": "A",
+        "explanation": "The article states that Ellis was ruled out of the entire season after suffering a recurrence of a hamstring injury."
+      },
+      {
+        "question": "What was the price at which Spencer Johnson was signed by CSK?",
+        "options": [
+          "A) INR 1 crore",
+          "B) INR 1.5 crore",
+          "C) INR 10 crore",
+          "D) INR 15 crore"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that Johnson will join CSK at a price of INR 1.5 crore."
+      },
+      {
+        "question": "How many wickets did Spencer Johnson pick up in T20Is?",
+        "options": [
+          "A) 10 wickets",
+          "B) 14 wickets",
+          "C) 20 wickets",
+          "D) 25 wickets"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that Johnson has picked up 14 wickets from eight matches in T20Is."
+      },
+      {
+        "question": "Where will CSK begin their campaign?",
+        "options": [
+          "A) Mumbai",
+          "B) Guwahati",
+          "C) Chennai",
+          "D) Delhi"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that CSK begin their campaign against Rajasthan Royals in Guwahati on March 30."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is IPL?",
+        "back": "The Indian Premier League (IPL) is a professional Twenty20 cricket league in India. It was founded in 2008 and features eight teams competing in a tournament format."
+      },
+      {
+        "front": "What is a T20I?",
+        "back": "A T20 International (T20I) is a form of limited-overs cricket played between national teams, with each team facing a maximum of 20 overs (120 balls)."
+      },
+      {
+        "front": "What is a white-ball format?",
+        "back": "In cricket, a white-ball format refers to a limited-overs match played with a white ball, as opposed to a red ball used in Test cricket. It includes formats like T20Is and ODIs."
+      },
+      {
+        "front": "What is a domestic one-day final?",
+        "back": "A domestic one-day final is a match played between teams from the same country, with the winner being crowned the champion of a domestic one-day competition."
+      },
+      {
+        "front": "What is a franchise in the IPL?",
+        "back": "In the Indian Premier League, a franchise is a team that owns and operates a squad of players, with the team competing in the league. Examples include Chennai Super Kings and Mumbai Indians."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 38,
+    "created_at": "2026-03-26T00:17:48.774224"
+  },
+  {
+    "article_id": 166,
+    "mcqs": [
+      {
+        "question": "Which team will run a Godzilla-themed livery?",
+        "options": [
+          "A) Ferrari",
+          "B) Haas",
+          "C) Mercedes",
+          "D) Red Bull"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article specifically mentions Haas running a Godzilla-themed livery."
+      },
+      {
+        "question": "At which circuit will Haas run the Godzilla-themed livery?",
+        "options": [
+          "A) Monza",
+          "B) Suzuka",
+          "C) Silverstone",
+          "D) Spa-Francorchamps"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article specifies that the Godzilla-themed livery will be run at Suzuka for round three of F1 2026."
+      },
+      {
+        "question": "In which year will Haas run the Godzilla-themed livery?",
+        "options": [
+          "A) 2025",
+          "B) 2026",
+          "C) 2027",
+          "D) 2028"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article mentions that the Godzilla-themed livery will be run for round three of F1 2026."
+      },
+      {
+        "question": "What is the theme of Haas' livery?",
+        "options": [
+          "A) Mario Kart",
+          "B) Godzilla",
+          "C) Star Wars",
+          "D) Marvel"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article specifically mentions that Haas will run a Godzilla-themed livery."
+      },
+      {
+        "question": "Which round of the F1 2026 season will Haas run the Godzilla-themed livery?",
+        "options": [
+          "A) Round 1",
+          "B) Round 3",
+          "C) Round 5",
+          "D) Round 7"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article specifies that the Godzilla-themed livery will be run at Suzuka for round three of F1 2026."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is a livery?",
+        "back": "A livery is a design or color scheme used on a vehicle, in this case, a Formula 1 car. It is a way for teams to express their brand identity and create a unique visual identity."
+      },
+      {
+        "front": "What is a Godzilla-themed livery?",
+        "back": "A Godzilla-themed livery is a special design or color scheme on a vehicle that is inspired by the popular monster Godzilla. It is a unique and creative way for a team to express their brand identity and stand out from other teams."
+      },
+      {
+        "front": "What is Suzuka?",
+        "back": "Suzuka is a racing circuit located in Japan that hosts Formula 1 events. It is a challenging and iconic track known for its high-speed corners and demanding layout."
+      },
+      {
+        "front": "What is F1 2026?",
+        "back": "F1 2026 refers to the 2026 season of the Formula 1 World Championship. It is the upcoming season of the sport, which will feature new cars, rules, and regulations."
+      },
+      {
+        "front": "What is a round in F1?",
+        "back": "A round in F1 refers to a single event or race within a season. Each round is a separate competition, and teams and drivers compete to earn points and move up the championship standings."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 39,
+    "created_at": "2026-03-26T01:02:16.397074"
+  },
+  {
+    "article_id": 173,
+    "mcqs": [
+      {
+        "question": "Who made a statement about Iran?",
+        "options": [
+          "A) Iran",
+          "B) President Trump",
+          "C) A US diplomat",
+          "D) A journalist"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that President Trump made the statement about Iran."
+      },
+      {
+        "question": "What did President Trump claim Iran offered?",
+        "options": [
+          "A) A military invasion",
+          "B) A valuable offer to reach a deal",
+          "C) A trade agreement",
+          "D) A ceasefire"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that President Trump said Iran made a valuable offer to reach a deal with the United States."
+      },
+      {
+        "question": "What did Iran deny?",
+        "options": [
+          "A) Reaching a deal with the US",
+          "B) Making a valuable offer",
+          "C) Talks with the US",
+          "D) Attacking the US"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article states that Iran has denied that talks with the US are taking place."
+      },
+      {
+        "question": "What did President Trump say about the conflict?",
+        "options": [
+          "A) It has been lost",
+          "B) It has been won",
+          "C) It is ongoing",
+          "D) It is a stalemate"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that President Trump said 'This war has been won'."
+      },
+      {
+        "question": "What is the context of the statement made by President Trump?",
+        "options": [
+          "A) A speech about the economy",
+          "B) A statement about a natural disaster",
+          "C) A comment about a trade deal",
+          "D) A statement about a conflict with Iran"
+        ],
+        "correct_answer": "D",
+        "explanation": "The article is about President Trump's statement about a conflict with Iran."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is a 'strict response'?",
+        "back": "A clear and direct response, often used to convey a sense of finality or decisiveness, as seen in President Trump's statement."
+      },
+      {
+        "front": "What is a 'valuable offer'?",
+        "back": "An offer that is considered desirable or advantageous, often resulting in a positive outcome or compromise, as mentioned by President Trump in the context of Iran's proposal."
+      },
+      {
+        "front": "What is a 'deal'?",
+        "back": "An agreement or arrangement between two or more parties, often involving concessions or compromises, as the United States and Iran are reportedly trying to negotiate."
+      },
+      {
+        "front": "What is a 'war'?",
+        "back": "A state of conflict or hostility between two or more parties, often involving military action or other forms of aggression, as President Trump suggests the conflict with Iran has been 'won'."
+      },
+      {
+        "front": "What is a 'denial'?",
+        "back": "A statement or assertion that something is not true or did not happen, as Iran has denied that talks with the United States are taking place."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 40,
+    "created_at": "2026-03-26T01:12:53.221202"
+  },
+  {
+    "article_id": 174,
+    "mcqs": [
+      {
+        "question": "What is the main topic discussed in the article?",
+        "options": [
+          "A) US-China relations",
+          "B) US-Iran tensions",
+          "C) US military deployment",
+          "D) Economic sanctions"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article specifically mentions the deployment of the 82nd Airborne Division to the Middle East."
+      },
+      {
+        "question": "Which US military unit is being deployed to the Middle East?",
+        "options": [
+          "A) 101st Airborne Division",
+          "B) 82nd Airborne Division",
+          "C) 10th Mountain Division",
+          "D) 1st Marine Division"
+        ],
+        "correct_answer": "B",
+        "explanation": "According to the article, the 82nd Airborne Division is being deployed."
+      },
+      {
+        "question": "How many soldiers are being deployed to the Middle East?",
+        "options": [
+          "A) 1,000",
+          "B) 2,000",
+          "C) 5,000",
+          "D) 10,000"
+        ],
+        "correct_answer": "B",
+        "explanation": "The article states that about 2,000 soldiers are being deployed."
+      },
+      {
+        "question": "What is the Strait of Hormuz related to in the article?",
+        "options": [
+          "A) A US military base",
+          "B) A major oil producer",
+          "C) A chokepoint in the Middle East",
+          "D) A US ally"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article mentions Iran's 'chokehold' on the Strait of Hormuz, indicating its strategic importance."
+      },
+      {
+        "question": "Why is the US deploying troops to the Middle East?",
+        "options": [
+          "A) To ease tensions with Iran",
+          "B) To support a US ally",
+          "C) To counter Iran's influence on the Strait of Hormuz",
+          "D) To withdraw from the region"
+        ],
+        "correct_answer": "C",
+        "explanation": "The article suggests that the deployment is in response to Iran's control over the Strait of Hormuz."
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "What is the Strait of Hormuz?",
+        "back": "A strategic waterway connecting the Persian Gulf to the Gulf of Oman, through which a significant portion of the world's oil supply passes."
+      },
+      {
+        "front": "What is the 82nd Airborne Division?",
+        "back": "A major infantry division of the US Army, known for its rapid deployment capabilities and parachute operations."
+      },
+      {
+        "front": "What is a chokehold?",
+        "back": "A situation where a country or entity has significant control or influence over a particular region or resource, often through military or economic means."
+      },
+      {
+        "front": "What is the Trump administration's response to Iran's actions?",
+        "back": "The deployment of 2,000 soldiers from the 82nd Airborne Division to the Middle East, as part of a broader effort to ease Iran's control over the Strait of Hormuz."
+      },
+      {
+        "front": "What is the significance of the Strait of Hormuz?",
+        "back": "The Strait of Hormuz is a critical waterway for international oil trade, with approximately 20% of the world's oil supply passing through it, making it a vital strategic location."
+      }
+    ],
+    "num_questions": 5,
+    "num_flashcards": 5,
+    "id": 41,
+    "created_at": "2026-03-26T01:20:13.054322"
   }
 ]

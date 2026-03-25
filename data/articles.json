@@ -3468,5 +3468,734 @@
     "classification_patterns": [],
     "updated_at": "2026-03-14T02:44:46.786205",
     "fetched_via": "rss"
+  },
+  {
+    "title": "Norris doubles down on F1 2026 criticism",
+    "content": "Lando Norris is backed by Fernando Alonso as he insists that the new Formula One is entirely different to what preceded it.",
+    "source": "pitpass.com",
+    "url": "https://www.pitpass.com/82213/Norris-doubles-down-on-F1-2026-criticism",
+    "category": "sports",
+    "summary": null,
+    "search_keyword": "f2",
+    "content_hash": "ced03a3a02b538479523b5b21f349dd9",
+    "word_count": 22,
+    "analysis_results": null,
+    "id": 153,
+    "created_at": "2026-03-14T03:00:02.656952",
+    "classification_confidence": 0.4,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T03:00:06.055043"
+  },
+  {
+    "title": "Verstappen shared ideas with the FIA, but is it possible to end \u2018yo-yo racing\u2019 in F1?",
+    "content": "After the first race under the new regulations, Formula 1 highlighted the number of overtakes on its social media channels. The season opener produced a total of 120 overtaking moves, roughly three times the number from the year before. The drivers, however, \u2026",
+    "source": "autosport.com",
+    "url": "https://www.autosport.com/f1/news/max-verstappen-in-talks-with-the-fia-but-is-it-possible-to-end-yo-yo-racing-in-f1/10804340/",
+    "category": "sports",
+    "summary": null,
+    "search_keyword": "f2",
+    "content_hash": "2740b0586817f81a6a905d7341fa9242",
+    "word_count": 43,
+    "analysis_results": {
+      "overall_score": 14,
+      "rating": "green",
+      "breakdown": {
+        "passive_voice": {
+          "percentage": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "unattributed_claims": {
+          "count": 0,
+          "score": 0,
+          "examples": []
+        },
+        "hedging": {
+          "density": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "emotional_language": {
+          "fear_words": 0,
+          "anger_words": 0,
+          "urgency_words": 0,
+          "superlatives": 0,
+          "score": 0
+        },
+        "loaded_language": {
+          "negative_terms": 0,
+          "positive_terms": 0,
+          "one_sided": false,
+          "examples": []
+        },
+        "sentiment": {
+          "compound": 0.382,
+          "positive": 0.08,
+          "negative": 0.0,
+          "neutral": 0.92,
+          "extreme": false,
+          "score": 31.8
+        },
+        "emotion_profile": {
+          "fear": 0.75,
+          "anger": 0.0,
+          "joy": 0.0,
+          "sadness": 0.0,
+          "surprise": 0.25,
+          "score": 75.0
+        },
+        "missing_sources": {
+          "unattributed_quotes": 0,
+          "total_quotes": 0,
+          "score": 0,
+          "examples": []
+        }
+      },
+      "specific_warnings": [
+        "Fear+anger emotion dominance (75%) - emotional manipulation pattern"
+      ],
+      "recommendation": "Article appears reliable - standard journalistic practices observed"
+    },
+    "id": 154,
+    "created_at": "2026-03-14T03:00:06.122990",
+    "classification_confidence": 0.45,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T03:00:44.740636"
+  },
+  {
+    "title": "$940 Mn Next Generation RNA Therapeutics Markets, 2026-2035 Industry Trends and Global Forecasts",
+    "content": "The next generation RNA therapeutics market presents significant growth opportunities, driven by the development of over 100 RNA therapies and vaccines, advancing research, and robust investment activity. The sector is poised for rapid expansion, notably in i\u2026",
+    "source": "GlobeNewswire",
+    "url": "https://www.globenewswire.com/news-release/2026/03/12/3254347/28124/en/940-Mn-Next-Generation-RNA-Therapeutics-Markets-2026-2035-Industry-Trends-and-Global-Forecasts.html",
+    "category": "business",
+    "summary": null,
+    "search_keyword": "f2",
+    "content_hash": "8cb6eb075bd2e571baabd4aa7c165dae",
+    "word_count": 37,
+    "analysis_results": null,
+    "id": 155,
+    "created_at": "2026-03-14T03:00:07.210868",
+    "classification_confidence": 0.3,
+    "classification_patterns": [
+      "market present growth"
+    ],
+    "updated_at": "2026-03-14T03:00:07.685093"
+  },
+  {
+    "title": "Drivers voice start safety fears",
+    "content": "Sergio Perez is one of several drivers in China to voice concern over how the current regulations endanger them at the start.",
+    "source": "pitpass.com",
+    "url": "https://www.pitpass.com/82209/Drivers-voice-start-safety-fears",
+    "category": "entertainment",
+    "summary": null,
+    "search_keyword": "f2",
+    "content_hash": "d8349bf28e77eee4ac1ac8ae229c74d0",
+    "word_count": 22,
+    "analysis_results": null,
+    "id": 156,
+    "created_at": "2026-03-14T03:00:07.734913",
+    "classification_confidence": 0.39,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T03:00:07.902568"
+  },
+  {
+    "title": "State lawmakers rush to set rounding rules for when there are no pennies",
+    "content": "States are setting new rules for cash purchases after the U.S. Mint stopped making pennies and the 1-cent coins get scarcer. Some states are considering legislation to allow, or require, businesses to round purchase totals to the nearest nickel. Indiana\u2026",
+    "source": "Associated Press",
+    "url": "https://apnews.com/article/penny-nickel-us-mint-symmetrical-rounding-51f1bf83df9a3dc4c560603a04173849",
+    "category": "business",
+    "summary": null,
+    "search_keyword": "f2",
+    "content_hash": "8ea67723a3d1064ba64ac999c4c74d7c",
+    "word_count": 40,
+    "analysis_results": null,
+    "id": 157,
+    "created_at": "2026-03-14T03:00:07.939429",
+    "classification_confidence": 0.26,
+    "classification_patterns": [],
+    "updated_at": "2026-03-14T03:00:08.323025"
+  },
+  {
+    "title": "Texas man arrested by Polk County detectives following online threats to internet personality Kaitlin Bennett",
+    "content": "Detectives from the Polk County Sheriff\u2019s Office have arrested a Texas man for comments he made via the internet to well-known internet personality Kaitlin Bennett. 29-year old Erik Michael David Ebbesen was arrested at the Relax Inn of Lakeland on Tuesday, F\u2026",
+    "source": "Freerepublic.com",
+    "url": "https://freerepublic.com/focus/f-news/4370265/posts",
+    "category": null,
+    "summary": null,
+    "search_keyword": "f2",
+    "content_hash": "bc9ce5dce2c905162e7830316da2e194",
+    "word_count": 42,
+    "analysis_results": null,
+    "id": 158,
+    "created_at": "2026-03-14T03:00:52.620117"
+  },
+  {
+    "title": "Some states are reviving a push to tax the rich",
+    "content": "PROVIDENCE, R.I. (AP) \u2014 Chuck Collins figures he won life\u2019s lottery by inheriting vast sums of money through his great-grandfather Oscar Mayer\u2019s processed meat company, but rather than fight to protect every dime Collins has helped push to hike taxes\u2026",
+    "source": "Associated Press",
+    "url": "https://apnews.com/article/millionaires-tax-states-democrats-f2562529db02531d1bd30ee2312da649",
+    "category": null,
+    "summary": null,
+    "search_keyword": "f2",
+    "content_hash": "4b9190e686ae9581f97a9193987a3153",
+    "word_count": 40,
+    "analysis_results": null,
+    "id": 159,
+    "created_at": "2026-03-14T03:00:52.645068"
+  },
+  {
+    "title": "Funleader Just Gave Leica an Iconic 28mm Lens",
+    "content": "Third-party lens makers are not shying away from reviving iconic lenses for modern cameras. Funleader, a Guangzhou-based company, has been pursuing the same goal for several years, and today, they are introducing yet another new lens for Leica M users: the Co\u2026",
+    "source": "Thephoblographer.com",
+    "url": "https://www.thephoblographer.com/2026/03/11/funleader-just-gave-leica-an-iconic-28mm-lens/",
+    "category": null,
+    "summary": null,
+    "search_keyword": "f2",
+    "content_hash": "5779ec37b45bae2696617cc67554554f",
+    "word_count": 42,
+    "analysis_results": null,
+    "id": 160,
+    "created_at": "2026-03-14T03:00:52.664426"
+  },
+  {
+    "title": "Clinical outcomes and patient-reported measures in HCV care: Insight from a longitudinal prospective study in a large Italian region",
+    "content": "Background Hepatitis C virus (HCV) infection remains a critical public health issue worldwide. Direct-acting antivirals (DAAs) have revolutionized the treatment of hepatitis C. However, real-world elimination efforts are hindered by barriers in diagnosis, tre\u2026",
+    "source": "Plos.org",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0343936",
+    "category": null,
+    "summary": null,
+    "search_keyword": "f2",
+    "content_hash": "997248e2cad868d63cb946aada8c08ff",
+    "word_count": 34,
+    "analysis_results": null,
+    "id": 161,
+    "created_at": "2026-03-14T03:00:52.706966"
+  },
+  {
+    "title": "Your RAM is slower than you think \u2014 unless you enable this setting",
+    "content": "Your RAM may be running slower than its capacity\u2014here\u2019s the simple BIOS setting that unlocks its full speed.",
+    "source": "MakeUseOf",
+    "url": "https://www.makeuseof.com/your-ram-is-slower-than-you-think-unless-you-enable-this-setting/",
+    "category": null,
+    "summary": null,
+    "search_keyword": "f2",
+    "content_hash": "9652ebaa382dca628c55a8a1ae97fa7a",
+    "word_count": 18,
+    "analysis_results": null,
+    "id": 162,
+    "created_at": "2026-03-14T03:00:52.734237"
+  },
+  {
+    "title": "CSK sign Spencer Johnson as replacement for Ellis",
+    "content": "Chennai Super Kings have signed left-arm fast bowler Spencer Johnson as a replacement for the injured Nathan Ellis ahead of IPL 2026. Johnson has featured in nine IPL matches since making his debut with Gujarat Titans, who brought him to the IPL with a winning bid of INR 10 crore in the 2024 auction. Ellis, 31, was ruled out of the entire season after suffering a recurrence of a hamstring injury during a domestic one-day final on March 11. The five-time champions have moved swiftly to bring in Johnson, who turned out for Kolkata Knight Riders last year, playing four matches. Incidentally, Johnson was announced as a direct signing by Pakistan Super League franchise Quetta Gladiators. Johnson then pulled out of the PSL citing personal reasons before the Gladiators replaced him with Alzarri Joseph early last week. Johnson has represented Australia 13 times across the two white-ball formats. In T20Is, he has picked up 14 wickets from eight matches at an economy rate of 8.96. In the IPL, he has five wickets at an average of 56.80 and an economy of 10.39. He will join CSK at a price of INR 1.5 crore. CSK begin their campaign against Rajasthan Royals in Guwahati on March 30.",
+    "source": "www.cricbuzz.com",
+    "url": "https://www.cricbuzz.com/cricket-news/138140/csk-sign-spencer-johnson-as-replacement-for-ellis-cricbuzzcom",
+    "category": "sports",
+    "summary": null,
+    "search_keyword": null,
+    "content_hash": "aed8ed935a68444e22525dc54ce822dc",
+    "word_count": 205,
+    "analysis_results": {
+      "overall_score": 28,
+      "rating": "green",
+      "breakdown": {
+        "passive_voice": {
+          "percentage": 16.7,
+          "score": 55.6,
+          "examples": [
+            "Ellis, 31, was ruled out of the entire season after suffering a recurrence of a hamstring injury during a domestic one-day final on March 11.",
+            "Incidentally, Johnson was announced as a direct signing by Pakistan Super League franchise Quetta Gladiators."
+          ]
+        },
+        "unattributed_claims": {
+          "count": 0,
+          "score": 0,
+          "examples": []
+        },
+        "hedging": {
+          "density": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "emotional_language": {
+          "fear_words": 1,
+          "anger_words": 0,
+          "urgency_words": 0,
+          "superlatives": 0,
+          "score": 0
+        },
+        "loaded_language": {
+          "negative_terms": 0,
+          "positive_terms": 0,
+          "one_sided": false,
+          "examples": []
+        },
+        "sentiment": {
+          "compound": 0.904,
+          "positive": 0.092,
+          "negative": 0.038,
+          "neutral": 0.87,
+          "extreme": true,
+          "score": 90.4
+        },
+        "emotion_profile": {
+          "fear": 0.7,
+          "anger": 0.0,
+          "joy": 0.05,
+          "sadness": 0.2,
+          "surprise": 0.05,
+          "score": 70.0
+        },
+        "missing_sources": {
+          "unattributed_quotes": 0,
+          "total_quotes": 0,
+          "score": 0,
+          "examples": []
+        }
+      },
+      "specific_warnings": [
+        "Extreme positive sentiment (score: 0.90) may indicate bias",
+        "Fear+anger emotion dominance (70%) - emotional manipulation pattern"
+      ],
+      "recommendation": "Article appears reliable - standard journalistic practices observed"
+    },
+    "id": 163,
+    "created_at": "2026-03-26T00:17:28.511343",
+    "classification_confidence": 0.47,
+    "classification_patterns": [
+      "\"chennai super\"",
+      "\"super kings\"",
+      "\"kolkata knight\"",
+      "\"knight riders\"",
+      "\"rajasthan royals\"",
+      "\"ipl 2026\"",
+      "\"fast bowler\"",
+      "\"gujarat titans\""
+    ],
+    "updated_at": "2026-03-26T00:18:11.116946"
+  },
+  {
+    "title": "Japanese Grand Prix: Preview - McLaren",
+    "content": "We knew 2026 was going to bring a lot of new challenges, and we will continue to build our understanding and our performance united as one team.",
+    "source": "pitpass.com",
+    "url": "https://www.pitpass.com/82318/Japanese-Grand-Prix-Preview-McLaren",
+    "category": "sports",
+    "summary": null,
+    "search_keyword": "suzuka",
+    "content_hash": "b5c1f09e3846c24cee5a4e4996ef68e1",
+    "word_count": 27,
+    "analysis_results": null,
+    "id": 164,
+    "created_at": "2026-03-26T01:00:28.074397",
+    "classification_confidence": 0.54,
+    "classification_patterns": [
+      "\"grand prix\""
+    ],
+    "updated_at": "2026-03-26T01:01:19.508314",
+    "fetched_via": "api"
+  },
+  {
+    "title": "How Ferrari is trying to close the gap to Mercedes in Japan",
+    "content": "Ferrari, considered the only real alternative to Mercedes in the fight at the front, has prepared for the third race of the Formula 1 season in Japan with significant work carried out back at the factory after analysing the data collected from the first two g\u2026",
+    "source": "autosport.com",
+    "url": "https://www.autosport.com/f1/news/how-ferrari-is-trying-to-close-the-gap-to-mercedes-in-japan/10807759/",
+    "category": "politics",
+    "summary": null,
+    "search_keyword": "suzuka",
+    "content_hash": "2767ecb2759ceef81d598e9211ab3e5a",
+    "word_count": 46,
+    "analysis_results": null,
+    "id": 165,
+    "created_at": "2026-03-26T01:00:30.133121",
+    "classification_confidence": 0.16,
+    "classification_patterns": [],
+    "updated_at": "2026-03-26T01:01:20.129498",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Haas launches bold Godzilla livery for F1 Japanese GP",
+    "content": "Haas will run a Godzilla-themed livery at Suzuka for round three of F1 2026",
+    "source": "Yahoo Entertainment",
+    "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_e870d450-c475-45cd-929e-0b4fcec060d1",
+    "category": "sports",
+    "summary": null,
+    "search_keyword": "suzuka",
+    "content_hash": "cb5ffe528ad006fee7681c8f97afc92f",
+    "word_count": 14,
+    "analysis_results": {
+      "overall_score": 18,
+      "rating": "green",
+      "breakdown": {
+        "passive_voice": {
+          "percentage": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "unattributed_claims": {
+          "count": 0,
+          "score": 0,
+          "examples": []
+        },
+        "hedging": {
+          "density": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "emotional_language": {
+          "fear_words": 0,
+          "anger_words": 0,
+          "urgency_words": 0,
+          "superlatives": 0,
+          "score": 0
+        },
+        "loaded_language": {
+          "negative_terms": 0,
+          "positive_terms": 0,
+          "one_sided": false,
+          "examples": []
+        },
+        "sentiment": {
+          "compound": 0.382,
+          "positive": 0.11,
+          "negative": 0.0,
+          "neutral": 0.89,
+          "extreme": false,
+          "score": 31.8
+        },
+        "emotion_profile": {
+          "fear": 1.0,
+          "anger": 0.0,
+          "joy": 0.0,
+          "sadness": 0.0,
+          "surprise": 0.0,
+          "score": 100
+        },
+        "missing_sources": {
+          "unattributed_quotes": 0,
+          "total_quotes": 0,
+          "score": 0,
+          "examples": []
+        }
+      },
+      "specific_warnings": [
+        "Fear+anger emotion dominance (100%) - emotional manipulation pattern"
+      ],
+      "recommendation": "Article appears reliable - standard journalistic practices observed"
+    },
+    "id": 166,
+    "created_at": "2026-03-26T01:00:30.994364",
+    "classification_confidence": 0.52,
+    "classification_patterns": [],
+    "updated_at": "2026-03-26T01:02:59.653134",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Japanese Grand Prix: Preview - Pirelli",
+    "content": "The forces and loads generated by the continuous changes of direction, combined with highspeed sections, make Suzuka one of the toughest for tyres, the compounds selected are therefore the three hardest in the range.",
+    "source": "pitpass.com",
+    "url": "https://www.pitpass.com/82313/Japanese-Grand-Prix-Preview-Pirelli",
+    "category": "sports",
+    "summary": null,
+    "search_keyword": "suzuka",
+    "content_hash": "e1ca44843d54a21ee06cbcae51f57462",
+    "word_count": 34,
+    "analysis_results": null,
+    "id": 167,
+    "created_at": "2026-03-26T01:00:31.486378",
+    "classification_confidence": 0.49,
+    "classification_patterns": [
+      "\"grand prix\""
+    ],
+    "updated_at": "2026-03-26T01:01:20.736774",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Japanese Grand Prix: Preview - Haas",
+    "content": "Ahead of the team's home race for title partner Toyota Gazoo Racing, Haas revealed the special livery for the Japanese Grand Prix, with the 'King of Monsters' proudly adorning the VF-26.",
+    "source": "pitpass.com",
+    "url": "https://www.pitpass.com/82312/Japanese-Grand-Prix-Preview-Haas",
+    "category": "sports",
+    "summary": null,
+    "search_keyword": null,
+    "content_hash": "f184aaaaaedf7b66a326deba7afbeb0b",
+    "word_count": 31,
+    "analysis_results": null,
+    "id": 168,
+    "created_at": "2026-03-26T01:01:20.841388",
+    "classification_confidence": 0.34,
+    "classification_patterns": [
+      "\"grand prix\""
+    ],
+    "updated_at": "2026-03-26T01:01:21.237169",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Japanese Grand Prix: Preview - Alpine",
+    "content": "The challenge is to maintain our competitiveness by continuing to understand and maximise the entire package at the track and in our hard work and efforts behind the scenes at Enstone.",
+    "source": "pitpass.com",
+    "url": "https://www.pitpass.com/82311/Japanese-Grand-Prix-Preview-Alpine",
+    "category": "sports",
+    "summary": null,
+    "search_keyword": null,
+    "content_hash": "f07ea57492023f11fadaf6e8efe143f7",
+    "word_count": 31,
+    "analysis_results": null,
+    "id": 169,
+    "created_at": "2026-03-26T01:01:21.352308",
+    "classification_confidence": 0.52,
+    "classification_patterns": [
+      "\"grand prix\""
+    ],
+    "updated_at": "2026-03-26T01:01:21.921334",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Has Newey Aston Martin team boss project failed? F1 Q&A",
+    "content": "BBC Sport F1 correspondent Andrew Benson answers your questions before the Japanese Grand Prix.",
+    "source": "BBC News",
+    "url": "https://www.bbc.com/sport/formula1/articles/c62k4g1dmz5o?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bsport%5D-%5Bbizdev%5D-%5Bisapi%5D",
+    "category": "sports",
+    "summary": null,
+    "search_keyword": null,
+    "content_hash": "97979e9edfc44709a14f4a1d888a34bd",
+    "word_count": 14,
+    "analysis_results": null,
+    "id": 170,
+    "created_at": "2026-03-26T01:01:22.026292",
+    "classification_confidence": 0.6,
+    "classification_patterns": [
+      "\"grand prix\""
+    ],
+    "updated_at": "2026-03-26T01:01:22.367340",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Crawford to drive FP1 at Suzuka",
+    "content": "Jak Crawford will take part in Free Practice 1 at the Japanese Grand Prix, taking over Fernando Alonso's AMR26.",
+    "source": "pitpass.com",
+    "url": "https://www.pitpass.com/82303/Crawford-to-drive-FP1-at-Suzuka",
+    "category": "sports",
+    "summary": null,
+    "search_keyword": null,
+    "content_hash": "6b0eafd77b7e5bbd4e2b7fb7912303bc",
+    "word_count": 19,
+    "analysis_results": null,
+    "id": 171,
+    "created_at": "2026-03-26T01:01:22.436278",
+    "classification_confidence": 0.29,
+    "classification_patterns": [
+      "\"grand prix\""
+    ],
+    "updated_at": "2026-03-26T01:01:22.834412",
+    "fetched_via": "api"
+  },
+  {
+    "title": "George Russell facing new Mercedes threat as David Coulthard issues Kimi Antonelli verdict",
+    "content": "David Coulthard believes the growing Mercedes rivalry between George Russell and Kimi Antonelli could quickly turn ruthless as both chase the 2026 Formula 1 title",
+    "source": "Motorsport.com",
+    "url": "https://www.motorsport.com/f1/news/george-russell-facing-new-mercedes-threat-as-david-coulthard-issues-kimi-antonelli-verdict/10807279/",
+    "category": "sports",
+    "summary": null,
+    "search_keyword": null,
+    "content_hash": "6152e5440311d8b85ffae2631ccb26e9",
+    "word_count": 25,
+    "analysis_results": null,
+    "id": 172,
+    "created_at": "2026-03-26T01:01:22.946667",
+    "classification_confidence": 0.15,
+    "classification_patterns": [],
+    "updated_at": "2026-03-26T01:01:23.262221",
+    "fetched_via": "api"
+  },
+  {
+    "title": "Pakistan is poised to host the U.S. and Iran for talks to end the war - NPR",
+    "content": "President Trump said on Tuesday Iran made a valuable offer to reach a deal with the United States, in talks that Iran has denied are taking place. \"We've won this. This war has been won,\" Trump said.",
+    "source": "NPR",
+    "url": "https://www.npr.org/2026/03/24/nx-s1-5759000/iran-war-talks",
+    "category": "politics",
+    "summary": "Topic:\nUS-Iran Relations: Trump's Claim of a Valuable Offer\n\nKey Points:\n1. US President Trump claims that Iran has made a valuable offer to reach a deal with the US.\n2. Iran has denied that any talks are taking place between the two countries.\n3. Trump stated that the war has been won, implying a resolution to the conflict.\n4. The nature and details of the alleged offer are not specified by Trump.\n5. The authenticity of the claim remains uncertain due to Iran's denial of any negotiations.\n\nConclusion:\nThe situation remains unclear as Iran disputes Trump's claim of a valuable offer, leaving the status of US-Iran relations uncertain. Trump's statement suggests a potential resolution, but the lack of confirmation from Iran raises questions about the validity of the claim.",
+    "search_keyword": null,
+    "content_hash": "dd886fb65a27c4fdf16cd77db6f6a045",
+    "word_count": 37,
+    "analysis_results": {
+      "overall_score": 21,
+      "rating": "green",
+      "breakdown": {
+        "passive_voice": {
+          "percentage": 50.0,
+          "score": 100,
+          "examples": [
+            "Pakistan is poised to host the U.S. and Iran for talks to end the war - NPR.",
+            "This war has been won,\" Trump said."
+          ]
+        },
+        "unattributed_claims": {
+          "count": 0,
+          "score": 0,
+          "examples": []
+        },
+        "hedging": {
+          "density": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "emotional_language": {
+          "fear_words": 0,
+          "anger_words": 0,
+          "urgency_words": 0,
+          "superlatives": 0,
+          "score": 0
+        },
+        "loaded_language": {
+          "negative_terms": 0,
+          "positive_terms": 0,
+          "one_sided": false,
+          "examples": []
+        },
+        "sentiment": {
+          "compound": 0.0,
+          "positive": 0.191,
+          "negative": 0.161,
+          "neutral": 0.648,
+          "extreme": false,
+          "score": 0.0
+        },
+        "emotion_profile": {
+          "fear": 0.38,
+          "anger": 0.0,
+          "joy": 0.0,
+          "sadness": 0.25,
+          "surprise": 0.38,
+          "score": 38.0
+        },
+        "missing_sources": {
+          "unattributed_quotes": 0,
+          "total_quotes": 1,
+          "score": 0,
+          "examples": []
+        }
+      },
+      "specific_warnings": [
+        "High passive voice (50%) hides who performed actions"
+      ],
+      "recommendation": "Article appears reliable - standard journalistic practices observed"
+    },
+    "id": 173,
+    "created_at": "2026-03-26T01:12:20.170795",
+    "classification_confidence": 0.58,
+    "classification_patterns": [],
+    "updated_at": "2026-03-26T01:19:42.238066"
+  },
+  {
+    "title": "US Set to Deploy 2,000 Troops From 82nd Airborne to Middle East - Bloomberg.com",
+    "content": "The Trump administration has ordered the 82nd Airborne Division to deploy about 2,000 soldiers to the Middle East, a person familiar with the matter said, as the White House weighs options to ease Iran\u2019s chokehold on the Strait of Hormuz.",
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-03-24/us-set-to-deploy-82nd-airborne-troops-to-mideast-journal-says",
+    "category": "politics",
+    "summary": "Topic:\nThe Trump Administration Deploys 82nd Airborne Division to the Middle East\n\nKey Points:\n1. The Trump administration has ordered the 82nd Airborne Division to deploy approximately 2,000 soldiers to the Middle East.\n2. The deployment is in response to Iran's control over the Strait of Hormuz.\n3. The White House is considering options to ease Iran's chokehold on the Strait of Hormuz.\n4. The deployment of the 82nd Airborne Division is a significant military move by the Trump administration.\n5. The exact details of the deployment, including the duration and specific mission, are not yet clear.\n\nConclusion:\nThe deployment of the 82nd Airborne Division to the Middle East is a significant escalation of the Trump administration's response to Iran's actions in the region. The move is aimed at easing Iran's control over the Strait of Hormuz, a critical waterway for global oil trade. The exact implications of this deployment remain to be seen.",
+    "search_keyword": null,
+    "content_hash": "5c1a5d0afbf5935003e49d03dd056a92",
+    "word_count": 40,
+    "analysis_results": {
+      "overall_score": 16,
+      "rating": "green",
+      "breakdown": {
+        "passive_voice": {
+          "percentage": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "unattributed_claims": {
+          "count": 0,
+          "score": 0,
+          "examples": []
+        },
+        "hedging": {
+          "density": 0.0,
+          "score": 0,
+          "examples": []
+        },
+        "emotional_language": {
+          "fear_words": 0,
+          "anger_words": 0,
+          "urgency_words": 0,
+          "superlatives": 0,
+          "score": 0
+        },
+        "loaded_language": {
+          "negative_terms": 0,
+          "positive_terms": 0,
+          "one_sided": false,
+          "examples": []
+        },
+        "sentiment": {
+          "compound": 0.382,
+          "positive": 0.067,
+          "negative": 0.0,
+          "neutral": 0.933,
+          "extreme": false,
+          "score": 31.8
+        },
+        "emotion_profile": {
+          "fear": 0.83,
+          "anger": 0.0,
+          "joy": 0.0,
+          "sadness": 0.0,
+          "surprise": 0.17,
+          "score": 83.0
+        },
+        "missing_sources": {
+          "unattributed_quotes": 0,
+          "total_quotes": 0,
+          "score": 0,
+          "examples": []
+        }
+      },
+      "specific_warnings": [
+        "Fear+anger emotion dominance (83%) - emotional manipulation pattern"
+      ],
+      "recommendation": "Article appears reliable - standard journalistic practices observed"
+    },
+    "id": 174,
+    "created_at": "2026-03-26T01:12:22.452618",
+    "classification_confidence": 0.51,
+    "classification_patterns": [
+      "\"white house\""
+    ],
+    "updated_at": "2026-03-26T01:20:21.900634"
+  },
+  {
+    "title": "Israel, Iran trade strikes as U.S. says it is pausing attacks on energy targets - The Washington Post",
+    "content": "Four Persian Gulf states reported fresh missile and drone threats from Iran, as Israel pledged to keep up its attacks in Iran and Lebanon \u201cwith full force.\u201d",
+    "source": "The Washington Post",
+    "url": "https://www.washingtonpost.com/world/2026/03/24/us-trump-iran-israel-tel-aviv-strike/",
+    "category": "politics",
+    "summary": null,
+    "search_keyword": null,
+    "content_hash": "65e645843b81e7fee33d99148930b147",
+    "word_count": 27,
+    "analysis_results": null,
+    "id": 175,
+    "created_at": "2026-03-26T01:12:22.844753",
+    "classification_confidence": 0.37,
+    "classification_patterns": [],
+    "updated_at": "2026-03-26T01:19:42.666590"
+  },
+  {
+    "title": "S&P 500 is little changed as traders take a breather after Monday's rally: Live updates - CNBC",
+    "content": "The major averages slipped on Tuesday, taking a breather from their rally in the prior session.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/03/23/stock-market-today-live-updates.html",
+    "category": "business",
+    "summary": null,
+    "search_keyword": null,
+    "content_hash": "8db9846b30f2808bb7669a2d7e1b05c9",
+    "word_count": 16,
+    "analysis_results": null,
+    "id": 176,
+    "created_at": "2026-03-26T01:12:23.226558",
+    "classification_confidence": 0.3,
+    "classification_patterns": [],
+    "updated_at": "2026-03-26T01:19:42.818729"
   }
 ]

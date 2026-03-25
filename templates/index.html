@@ -260,6 +260,45 @@
                         <span class="btn-text listen-label">Listen</span>
                     </button>
                 </div>
+
+                <!-- Translation Section -->
+                <div class="translation-section" style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(212, 175, 55, 0.15);">
+                    <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem;">
+                        <label for="translation-lang-select" style="font-weight: 600; color: #d4af37;">Language:</label>
+                        <select id="translation-lang-select" class="translation-select" onchange="handleTranslationLanguageChange(this.value)" style="padding: 0.5rem 0.75rem; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 0.5rem; background: #0a0e27; color: #d4af37; font-weight: 500; cursor: pointer;">
+                            <option value="en">English (Original)</option>
+                            <option value="hi">🇮🇳 Hindi (हिंदी)</option>
+                            <option value="mr">🇮🇳 Marathi (मराठी)</option>
+                            <option value="ta">🇮🇳 Tamil (தமிழ்)</option>
+                            <option value="te">🇮🇳 Telugu (తెలుగు)</option>
+                        </select>
+                        
+                        <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; font-weight: 500; color: #d4af37; margin-left: auto;">
+                            <input type="checkbox" id="translation-compare-toggle" onchange="handleComparisonToggle(this.checked)" style="width: 18px; height: 18px; cursor: pointer;">
+                            <span>Side-by-side</span>
+                        </label>
+                    </div>
+
+                    <!-- Loading indicator for translation -->
+                    <div id="translation-loading" style="display: none; text-align: center; color: #d4af37; margin: 1rem 0;">
+                        <span style="display: inline-block; animation: spin 1s linear infinite;">⟳</span> Translating...
+                    </div>
+
+                    <!-- Translated summary display -->
+                    <div id="translated-result" style="display: none;">
+                        <div id="translation-display-mode" class="translation-display"></div>
+                    </div>
+
+                    <!-- Translation info -->
+                    <div id="translation-info" style="display: none; font-size: 0.85rem; color: #a0a0a0; margin-top: 0.75rem; line-height: 1.4;">
+                        <p style="margin: 0;"><strong>✓ Translation Info:</strong> <span id="translation-info-text"></span></p>
+                    </div>
+
+                    <p style="font-size: 0.85rem; color: #808080; margin-top: 0.75rem; line-height: 1.4;">
+                        <strong>💡 Note:</strong> Names and entities are protected via transliteration and placeholder mapping to ensure accuracy.
+                    </p>
+                </div>
+
                 <!-- TTS Controls (expandable) -->
                 <div id="tts-controls-panel" class="tts-controls" style="display: none;">
                     <div class="tts-controls-inner">

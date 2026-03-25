@@ -687,6 +687,128 @@ body {
 }
 
 /* ============================================================================
+   Translation Section
+   ============================================================================ */
+
+.translation-section {
+    animation: fadeInUp 0.6s var(--transition-smooth);
+}
+
+.translation-select {
+    flex: 1;
+    min-width: 200px;
+    padding: 0.6rem 0.75rem;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    border-radius: 0.5rem;
+    background: #0a0e27;
+    color: #d4af37;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: all var(--transition-fast);
+}
+
+.translation-select:hover {
+    border-color: rgba(212, 175, 55, 0.5);
+    background: #0f1333;
+}
+
+.translation-select:focus {
+    outline: none;
+    border-color: #d4af37;
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.2);
+}
+
+.translation-select option {
+    background: #0a0e27;
+    color: #d4af37;
+}
+
+.translation-display {
+    display: grid;
+    gap: 1.5rem;
+    margin: 1rem 0;
+}
+
+.translation-display.side-by-side {
+    grid-template-columns: 1fr 1fr;
+    min-height: 300px;
+}
+
+.translation-pane {
+    padding: 1.25rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    border-radius: 8px;
+    line-height: 1.8;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.translation-pane::-webkit-scrollbar {
+    width: 6px;
+}
+
+.translation-pane::-webkit-scrollbar-track {
+    background: rgba(42, 42, 42, 0.3);
+}
+
+.translation-pane::-webkit-scrollbar-thumb {
+    background: rgba(212, 175, 55, 0.5);
+    border-radius: 10px;
+}
+
+.translation-pane-label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #d4af37;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.translation-pane-content {
+    color: #c0c0c0;
+    font-size: 0.95rem;
+    line-height: 1.8;
+}
+
+.translation-pane-original {
+    border-left: 3px solid rgba(212, 175, 55, 0.4);
+    padding-left: 1rem;
+}
+
+.translation-pane-translated {
+    border-left: 3px solid rgba(155, 89, 182, 0.4);
+    padding-left: 1rem;
+}
+
+.translation-single {
+    padding: 1.25rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    border-radius: 8px;
+    color: #c0c0c0;
+    line-height: 1.8;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.translation-single::-webkit-scrollbar {
+    width: 6px;
+}
+
+.translation-single::-webkit-scrollbar-track {
+    background: rgba(42, 42, 42, 0.3);
+}
+
+.translation-single::-webkit-scrollbar-thumb {
+    background: rgba(212, 175, 55, 0.5);
+    border-radius: 10px;
+}
+
+/* ============================================================================
    Loading Overlay
    ============================================================================ */
 
@@ -1945,33 +2067,34 @@ body {
 
 .toast-container {
     position: fixed;
-    top: 20px;
+    bottom: 20px;
     right: 20px;
     z-index: 2001;
 }
 
 .toast {
-    background: white;
+    background: #1a1a1a;
     padding: 15px 20px;
     border-radius: 6px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     margin-bottom: 10px;
     animation: slideIn 0.3s ease;
+    color: #ffffff;
 }
 
 .toast.success {
-    border-left: 4px solid var(--success);
-    color: var(--success);
+    border-left: 4px solid #4caf50;
+    color: #4caf50;
 }
 
 .toast.error {
-    border-left: 4px solid var(--danger);
-    color: var(--danger);
+    border-left: 4px solid #ff6b6b;
+    color: #ff6b6b;
 }
 
 .toast.info {
-    border-left: 4px solid var(--info);
-    color: var(--info);
+    border-left: 4px solid #2196f3;
+    color: #2196f3;
 }
 
 /* ============================================================================

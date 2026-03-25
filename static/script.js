@@ -614,6 +614,17 @@ function displaySummary(summary, category) {
     if (outputSection) {
         outputSection.style.display = "block";
         console.log("Output section made visible");
+        
+        // Load saved translation preference
+        loadSavedTranslationPreference();
+        
+        // Reset translation UI
+        document.getElementById("translation-lang-select").value = "en";
+        document.getElementById("translation-compare-toggle").checked = false;
+        document.getElementById("translation-display-mode").innerHTML = "";
+        document.getElementById("translated-result").style.display = "none";
+        document.getElementById("translation-info").style.display = "none";
+        
         setTimeout(() => {
             const exploreSection = outputSection.querySelector('[style*="Explore Relationships"]');
             if (exploreSection) {
@@ -2177,4 +2188,217 @@ function sanitizeHTML(text) {
     const div = document.createElement("div");
     div.textContent = text;
     return div.innerHTML;
+}
+
+// ============================================================================
+// MULTILINGUAL TRANSLATION SYSTEM
+// ============================================================================
+
+/**
+ * Handle language selection change and trigger translation
+ */
+function handleTranslationLanguageChange(targetLang) {
+    console.log("[Translation] Language changed to:", targetLang, "currentArticleId:", currentArticleId, "type:", typeof currentArticleId);
+    
+    if (!currentArticleId || currentArticleId === null || currentArticleId === undefined) {
+        console.warn("[Translation] No currentArticleId set. Value:", currentArticleId);
+        showToast("No article selected. Please summarize an article first.", "error");
+        return;
+    }
+    
+    // If English selected, show original summary
+    if (targetLang === "en") {
+        const translateDisplay = document.getElementById("translation-display-mode");
+        const translationInfo = document.getElementById("translation-info");
+        const translatedResult = document.getElementById("translated-result");
+        
+        if (translateDisplay) translateDisplay.innerHTML = "";
+        if (translatedResult) translatedResult.style.display = "none";
+        if (translationInfo) translationInfo.style.display = "none";
+        
+        // Reset checkbox
+        const toggle = document.getElementById("translation-compare-toggle");
+        if (toggle) toggle.checked = false;
+        
+        showToast("Showing original English summary", "success");
+        return;
+    }
+    
+    // Validate target language
+    if (!targetLang || targetLang.trim() === "") {
+        console.error("[Translation] Invalid target_lang:", targetLang);
+        showToast("Invalid language selection", "error");
+        return;
+    }
+    
+    // Translate to selected language
+    const isCompare = document.getElementById("translation-compare-toggle").checked;
+    console.log("[Translation] Triggering translation", {
+        articleId: currentArticleId,
+        targetLang: targetLang,
+        isCompare: isCompare
+    });
+    translateSummary(currentArticleId, targetLang, isCompare);
+}
+
+/**
+ * Handle side-by-side comparison toggle
+ */
+function handleComparisonToggle(isChecked) {
+    const targetLang = document.getElementById("translation-lang-select").value;
+    
+    if (targetLang === "en") {
+        showToast("Select a translation language first", "info");
+        return;
+    }
+    
+    if (!currentArticleId) {
+        showToast("No article selected", "error");
+        return;
+    }
+    
+    translateSummary(currentArticleId, targetLang, isChecked);
+}
+
+/**
+ * Translate article summary via API
+ */
+function translateSummary(articleId, targetLang, showComparison = false) {
+    console.log("[Translation] translateSummary called", {articleId, targetLang, showComparison, articleIdType: typeof articleId});
+    
+    // Validate inputs
+    if (!articleId || articleId === null || articleId === 0 || articleId === undefined) {
+        console.error("[Translation] Invalid articleId:", articleId);
+        showToast("Error: Invalid article ID", "error");
+        return;
+    }
+    
+    if (!targetLang || targetLang.trim() === "") {
+        console.error("[Translation] Invalid targetLang:", targetLang);
+        showToast("Error: Invalid language", "error");
+        return;
+    }
+    
+    // Show loading indicator
+    const loadingElem = document.getElementById("translation-loading");
+    const resultElem = document.getElementById("translated-result");
+    const infoElem = document.getElementById("translation-info");
+    
+    if (loadingElem) loadingElem.style.display = "block";
+    if (resultElem) resultElem.style.display = "none";
+    if (infoElem) infoElem.style.display = "none";
+    
+    const requestPayload = {
+        article_id: parseInt(articleId),
+        target_lang: targetLang.toLowerCase().trim()
+    };
+    
+    console.log("[Translation] Final request payload:", requestPayload);
+    
+    fetch("/api/translate-summary", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(requestPayload)
+    })
+    .then(response => {
+        console.log("[Translation] Response status:", response.status);
+        if (loadingElem) loadingElem.style.display = "none";
+        
+        if (!response.ok) {
+            console.log("[Translation] Response not OK, parsing error...");
+            return response.json().then(errData => {
+                console.error("[Translation] Error response:", errData);
+                throw new Error(errData.error || `HTTP ${response.status}`);
+            });
+        }
+        
+        return response.json();
+    })
+    .then(data => {
+        console.log("[Translation] Success response:", data);
+        
+        if (!data.success) {
+            throw new Error(data.error || "Translation failed");
+        }
+        
+        // Store language preference in localStorage
+        localStorage.setItem("preferred_translation_lang", targetLang);
+        
+        // Display translation
+        displayTranslation(data, showComparison);
+    })
+    .catch(error => {
+        if (loadingElem) loadingElem.style.display = "none";
+        console.error("[Translation] Full error:", error);
+        showToast(`Translation failed: ${error.message}`, "error");
+    });
+}
+
+/**
+ * Display translated summary on the page
+ */
+function displayTranslation(result, showComparison = false) {
+    const translatedResult = document.getElementById("translated-result");
+    const translateDisplay = document.getElementById("translation-display-mode");
+    const translationInfo = document.getElementById("translation-info");
+    const translationInfoText = document.getElementById("translation-info-text");
+    
+    if (!translateDisplay) return;
+    
+    const translationText = result.translated_summary || "";
+    const origSummary = document.getElementById("output")?.textContent || "";
+    
+    // Get language name from config
+    const langNames = {
+        hi: "Hindi (हिंदी)",
+        mr: "Marathi (मराठी)",
+        ta: "Tamil (தமிழ்)",
+        te: "Telugu (తెలుగు)"
+    };
+    
+    const langName = langNames[result.target_lang] || result.target_lang;
+    
+    // Build info text
+    const infoText = `${result.entity_count} entities protected • ${result.chunks} chunk${result.chunks > 1 ? "s" : ""} • ${result.cached ? "✓ Cached" : "Freshly translated"}`;
+    translationInfoText.textContent = infoText;
+    
+    if (showComparison) {
+        // Side-by-side display
+        translateDisplay.className = "translation-display side-by-side";
+        translateDisplay.innerHTML = `
+            <div class="translation-pane translation-pane-original">
+                <label class="translation-pane-label">English (Original)</label>
+                <div class="translation-pane-content">${sanitizeHTML(origSummary)}</div>
+            </div>
+            <div class="translation-pane translation-pane-translated">
+                <label class="translation-pane-label">${langName}</label>
+                <div class="translation-pane-content">${sanitizeHTML(translationText)}</div>
+            </div>
+        `;
+    } else {
+        // Full-width display
+        translateDisplay.className = "translation-display";
+        translateDisplay.innerHTML = `
+            <div class="translation-single">
+                <div class="translation-pane-content">${sanitizeHTML(translationText)}</div>
+            </div>
+        `;
+    }
+    
+    translatedResult.style.display = "block";
+    translationInfo.style.display = "block";
+    
+    showToast(`Translation to ${langName} complete${result.cached ? " (from cache)" : ""}`);
+}
+
+/**
+ * Load saved language preference on page load
+ */
+function loadSavedTranslationPreference() {
+    const savedLang = localStorage.getItem("preferred_translation_lang");
+    if (savedLang && document.getElementById("translation-lang-select")) {
+        document.getElementById("translation-lang-select").value = savedLang;
+    }
 }

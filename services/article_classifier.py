@@ -23,22 +23,25 @@ NLP Concepts Used:
                      against every NOUN/PROPN/ADJ token for broad coverage.
 """
 
-import spacy
 import re
 from typing import List, Dict, Tuple, Optional, Set
 from collections import Counter
 
-
-# ---------------------------------------------------------------------------
-# 1.  Load the spaCy model once at module level (fast subsequent calls)
-# ---------------------------------------------------------------------------
+# Try to load spacy, but don't fail if it's not available
 try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:
-    raise RuntimeError(
-        "spaCy model 'en_core_web_sm' not found. "
-        "Install it with: python -m spacy download en_core_web_sm"
-    )
+    import spacy
+    SPACY_AVAILABLE = True
+    nlp = None
+    try:
+        nlp = spacy.load("en_core_web_sm")
+    except OSError:
+        print("[Classifier] WARNING: spaCy model 'en_core_web_sm' not found. "
+              "Install with: python -m spacy download en_core_web_sm")
+        SPACY_AVAILABLE = False
+except ImportError:
+    print("[Classifier] WARNING: spaCy not installed. Article classification disabled.")
+    SPACY_AVAILABLE = False
+    nlp = None
 
 
 # ---------------------------------------------------------------------------
@@ -940,6 +943,15 @@ def classify_article(title: str, content: str) -> Dict:
         "confidence"       : float – 0.0 … 1.0
         "patterns_matched" : list  – human-readable SVO / bigram patterns
     """
+    # Fallback if spacy is not available
+    if not SPACY_AVAILABLE or nlp is None:
+        print("[Classifier] spaCy not available, returning default classification")
+        return {
+            "category": "general",
+            "confidence": 0.0,
+            "patterns_matched": [],
+        }
+    
     text = f"{title}. {title}. {content}"
 
     MAX_CHARS = 15_000

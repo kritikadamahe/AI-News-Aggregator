@@ -397,3 +397,87 @@ class ChatSessionManager:
                 del self.sessions[sid]
             
             return len(to_remove)
+
+
+class TranslationCacheStorage(HybridStorage):
+    """
+    Cache storage for translated summaries with LRU-like eviction.
+    Tracks access patterns and evicts oldest entries when max size exceeded.
+    """
+    
+    def get_by_key(self, key: str) -> Optional[Dict]:
+        """Get cache entry by key, updating last_accessed_at."""
+        data = self.read_all()
+        
+        for entry in data:
+            if entry.get('key') == key:
+                # Update last_accessed_at
+                entry['last_accessed_at'] = datetime.now().isoformat()
+                self.write_all(data)
+                return entry
+        
+        return None
+    
+    def put(self, entry: Dict) -> Dict:
+        """
+        Add or update entry in cache with LRU eviction.
+        If key exists, update it. Otherwise add new.
+        If max entries exceeded, evict oldest by last_accessed_at.
+        """
+        from config import TRANSLATION_CACHE_MAX_ENTRIES
+        
+        data = self.read_all()
+        
+        # Check if key already exists
+        key_exists = False
+        for i, existing_entry in enumerate(data):
+            if existing_entry.get('key') == entry.get('key'):
+                # Update existing entry
+                data[i]['translated_text'] = entry.get('translated_text')
+                data[i]['last_accessed_at'] = datetime.now().isoformat()
+                key_exists = True
+                break
+        
+        if not key_exists:
+            # Add new entry with timestamps
+            entry['created_at'] = datetime.now().isoformat()
+            entry['last_accessed_at'] = datetime.now().isoformat()
+            entry['id'] = max([e.get('id', 0) for e in data], default=0) + 1
+            data.append(entry)
+        
+        # Enforce max entries with LRU eviction
+        if len(data) > TRANSLATION_CACHE_MAX_ENTRIES:
+            # Sort by last_accessed_at (oldest first)
+            data.sort(key=lambda x: x.get('last_accessed_at', x.get('created_at', '')))
+            # Keep only max entries
+            data = data[-TRANSLATION_CACHE_MAX_ENTRIES:]
+        
+        self.write_all(data)
+        
+        # Return the entry (newly added or updated)
+        if not key_exists:
+            return entry
+        else:
+            return next((e for e in data if e.get('key') == entry.get('key')), entry)
+    
+    def get_cache_stats(self) -> Dict:
+        """Get cache statistics."""
+        data = self.read_all()
+        
+        return {
+            'total_entries': len(data),
+            'languages': len(set(e.get('target_lang') for e in data)),
+            'articles': len(set(e.get('article_id') for e in data)),
+            'cache_size_bytes': os.path.getsize(self.filename) if os.path.exists(self.filename) else 0
+        }
+    
+    def clear_by_article(self, article_id: int) -> int:
+        """Clear all cache entries for an article."""
+        data = self.read_all()
+        original_count = len(data)
+        data = [e for e in data if e.get('article_id') != article_id]
+        
+        if len(data) < original_count:
+            self.write_all(data)
+        
+        return original_count - len(data)

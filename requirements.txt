@@ -33,3 +33,10 @@ nltk>=3.8.0
 text2emotion>=0.0.5
 
 emoji==1.7.0
+
+# Multilingual Translation
+transformers>=4.30.0
+torch>=2.0.0
+sentencepiece>=0.1.99
+sacremoses>=0.0.53
+indic-transliteration>=2.1.0
